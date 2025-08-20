@@ -1,0 +1,363 @@
+{
+    "umugore utwite":[
+        "abagore batwite",
+        "gutwita ku mugore",
+        "umugore watwise",
+        "abagore batwise",
+        "umugore atwite"
+
+    ],
+  "ibimenyetso byo gutwita": [
+    "ibimenyetso by’itangira",
+    "ibigaragaza ko utwite",
+    "signes de grossesse",
+    "ibyagaragaza ko ntwite",
+    "nabwirwa niki ko ntwite",
+    "pregnancy signs"
+  ],
+  "kumenya ko utwite": [
+    "wamenya ute ko utwite",
+    "wabwirwa n'iki ko utwite",
+    "wabwirwa n’iki ko utwite",
+    "umenya gute ko utwite",
+    "utwite wabimenya ute"
+  ],
+  "wamenya ute ko utwite": [
+    "kumenya ko utwite",
+    "ibimenyetso byo gutwita",
+    "wabwirwa n'iki ko utwite",
+    "wabwirwa n’iki ko utwite"
+  ],
+  "wabwirwa n'iki ko utwite": [
+    "kumenya ko utwite",
+    "wamenya ute ko utwite",
+    "ibimenyetso byo gutwita"
+  ],
+
+  "ibizamini byo gutwita": [
+    "kwipimisha inda",
+    "pregnancy test",
+    "ikizamini cy’inkari",
+    "ikizamini cy'inkari",
+    "urine test",
+    "ikizamini cy’amaraso",
+    "ikizamini cy'amaraso",
+    "hcg",
+    "kwemeza ko utwite"
+  ],
+  "kwipimisha mu gihe utwite": [
+    "ibizamini byo gutwita",
+    "pregnancy test",
+    "kwipimisha inda",
+    "ikizamini cyo mu rugo"
+  ],
+  "ikizamini cyo mu rugo": [
+    "pregnancy test",
+    "urine test",
+    "test yo mu rugo"
+  ],
+
+  "kujya kwa muganga mu ntangiriro (anc)": [
+    "anc",
+    "antenatal care",
+    "prenatal",
+    "kujyana inda kwa muganga kare",
+    "gukurikiranwa hakiri kare",
+    "rendez-vous yo mu ntangiriro",
+    "first trimester visit"
+  ],
+
+  "imirire y’umugore utwite": [
+    "indyo y’umugore utwite",
+    "ibyo kurya ku mugore utwite",
+    "ibiribwa byiza ku mugore utwite",
+    "imirire myiza y’umugore utwite",
+    "indyo ikwiye ku mugore utwite",
+    "indyo yuzuye ku mugore utwite"
+  ],
+  "indyo ikwiye ku mugore utwite": [
+    "indyo yuzuye ku mugore utwite",
+    "imirire myiza y’umugore utwite",
+    "ibyo kurya byiza ku mugore utwite",
+    "ibiryo byiza bigenewe umugore utwite",
+    "ibyo kurya wagaburira umugore utwite",
+    "ibyo kurya umugore utwite yafata",
+    "ibiryo umugore utwite yemerewe gufata",
+    "ibifungurwa umugore utwite yemerewe kurya",
+    "amafunguro umugore utwite yafata",
+    "ibyo wagburira umugore utwite",
+   "amafunguro abagore batwite bagomba gufata",
+   "amafunguro abagore batwite bashobora gufata",
+    "ibiryo umugore utwite yemerewe kurya",
+    "amafunguro umugore utwite yemerewe kurya",
+    "ibiribwa byiza umugore utwite yemerewe kurya",
+    "ibiribwa umugore utwite yafata"
+   
+
+  ],
+  "indyo yuzuye ku mugore utwite": [
+    "indyo ikwiye ku mugore utwite",
+    "imirire myiza y’umugore utwite",
+    "ibiribwa byiza ku mugore utwite",
+     "ibiryo umugore utwite yarya"
+  ],
+
+  "inyunganiramirire ku mugore utwite": [
+    "supplements ku mugore utwite",
+    "vitamini ku mugore utwite",
+    "ifas",
+    "aside folike",
+    "fer",
+    "icyuma"
+  ],
+  "aside folike": [
+    "folate",
+    "folic acid"
+  ],
+  "fer": [
+    "icyuma",
+    "iron"
+  ],
+  "ifas": [
+    "iron folic acid",
+    "inyunganiramirire ifas"
+  ],
+
+  "ibiribwa bitemewe ku mugore utwite": [
+    "ibyo kwirinda ku mugore utwite",
+    "ibibujijwe ku mugore utwite",
+    "imirire itemewe ku mugore utwite",
+    "ibiryo bitemewe mugihe utwite",
+    "ibyo utarya utwite"
+  ],
+  "ibyo kwirinda ku mugore utwite": [
+    "ibibujijwe ku mugore utwite",
+    "bitemewe ku mugore utwite",
+    "ntibyemewe ku mugore utwite",
+    "ntibyiza ku mugore utwite"
+  ],
+  "imirire itemewe ku mugore utwite": [
+    "ibyo kwirinda ku mugore utwite",
+    "ibiribwa bitemewe ku mugore utwite",
+    "ibibujijwe ku mugore utwite",
+    "imirire itemewe ku mugore utwite",
+    "imirire itemewe ku mugore utwite",
+    "ibyo utarya utwite",
+    "ibyo kwirinda utwite"
+  ],
+
+  "ikawa": [
+    "coffee",
+    "caffeine",
+    "kafeine",
+    "icyayi gifite kafeine"
+  ],
+  "inzoga": [
+    "ibisindisha",
+    "alcohol",
+    "kwanywa inzoga",
+    "ibinyobwa bisindisha"
+  ],
+  "itabi": [
+    "sigara",
+    "tobacco",
+    "umwotsi w’itabi",
+    "umwotsi w’abandi",
+    "second-hand smoke"
+  ],
+  "ibiyobyabwenge": [
+    "drogue",
+    "drugs"
+  ],
+
+  "isuku y’ibiryo": [
+    "ibiribwa byanduye",
+    "byataye igihe",
+    "gutekera neza",
+    "bidahiye neza",
+    "inyama zidahiye",
+    "amagi atabize"
+  ],
+  "ibyokunywa by’amasukari": [
+    "imitobe y’isukari nyinshi",
+    "ibinyobwa bya energy",
+    "energy drink",
+    "soda"
+  ],
+
+  "imirire y’umugore wonsa": [
+    "indyo y’umugore wonsa",
+    "ibyo kurya ku mugore wonsa",
+    "ibiribwa byiza ku wonsa"
+  ],
+  "ibiribwa bitemewe ku mugore wonsa": [
+    "ibyo kwirinda ku mugore wonsa",
+    "imirire itemewe ku wonsa"
+  ],
+
+
+    "Ibibazo biterwa no gutwita": [
+    "ibibazo byo gutwita",
+    "ingaruka zo gutwita",
+    "ibimenyetso mpuruza utwite",
+    "impuruza mu gihe utwite",
+    "emergency utwite",
+    "kuva utwite",
+    "kuribwa umutwe bikabije",
+    "kuribwa mu kiziba cy’inda",
+    "gucika intege cyane",
+    "malariya utwite",
+    "inzitiramibu",
+    "umuhangayiko utwite",
+    "stress utwite"
+  ],
+  "kuryamira urubavu": [
+    "kuryama ku rubavu",
+    "kuryama uryamiye urubavu",
+    "kuryama neza utwite",
+    "ntukaryame bubitse inda",
+    "ntukaryame ugaramye"
+  ],
+
+  "uruhare rw’umugabo mugihe umugore we atwite": [
+    "uruhare rw’umugabo utwite",
+    "umugabo afasha gute?",
+    "gushyigikira umugore utwite",
+    "guherekeza kwisuzumisha",
+    "guherekeza ANC",
+    "kuganiriza umwana akiri munda",
+    "kumuririmbira",
+    "gukuyakuya inda"
+  ],
+
+  "Kwitegura kubyara": [
+    "gutegura kubyara",
+    "ibikoresho byo kubyara",
+    "uko witegura kubyara",
+    "preparation yo kubyara"
+  ],
+  "Ibyiza byo kubyarira kwa muganga": [
+    "kubyara kwa muganga",
+    "impamvu ujya kubyarira kwa muganga",
+    "ibyiza bya maternity/facility delivery",
+    "kwirinda indwara yo kujojoba",
+    "kwirinda kuva cyane",
+    "kwirinda ingorane zo kubyara"
+  ],
+  "wamenya ute ko ugiye kubyara": [
+    "ibimenyetso byo kubyara",
+    "nabwirwa niki ko ngiye kubyara",
+    "icyakubwira ko ugiye kubyara",
+    "ibimenyetso biranga umubyeyi ugiye kwibaruka",
+    "wabwirwa niki ko umugore agiye kwibaruka",
+    "ibise by’inda",
+    "ibise",
+    "contractions",
+    "labour",
+    "travail",
+    "kwifora kw’inda",
+    "igihe cyo kubyara kigeze"
+  ],
+    "uruhare rw’umugabo mugihe umugore we abyara": [
+    "uruhare rw'umugabo umugore we abyara",
+    "umugabo afasha gute umugore we ugiye kubyara",
+    "gushyigikira umugore umugore urimo kubyara"
+  
+  ],
+
+  "Uruhinja rukimara kuvuka": [
+    "mu isaha ya mbere",
+    "gutangira konsa kare",
+    "kushira ku gituza",
+    "skin to skin",
+    "komatana n’umubyeyi"
+  ],
+  "Kwita ku mubyeyi n’uruhinja nyuma yo kubyara": [
+    "gusuzumwa nyuma yo kubyara",
+    "postnatal",
+    "PNC",
+    "insuzuma 3 nyuma yo kubyara",
+    "ku munsi wa 3",
+    "ku munsi wa 42",
+    "inkingo z’umwana",
+    "gusurwa n’umujyanama w’ubuzima"
+  ],
+
+  "Imiririre y’umugore wonsa": [
+    "indyo y’umugore wonsa",
+    "ibyo kurya ku mugore wonsa",
+    "imirire myiza ku mugore wonsa",
+    "ibiribwa byiza ku wonsa"
+  ],
+  "Imirire y’abangavu bonsa": [
+    "indyo y’abangavu bonsa",
+    "ababyeyi b’abangavu bonsa",
+    "imirire y’abangavu"
+  ],
+
+  "gutangira konsa": [
+    "konsa mu isaha ya mbere",
+    "gutangira konsa kare"
+  ],
+  "incuro umubyeyi agomba konsa": [
+    "kangahe konsa",
+    "buri masaha atatu",
+    "kangahe umwana akwiye konsa",
+    "konsa ku manywa na nijoro"
+  ],
+  "Amashereka / Umumaro wo konsa": [
+    "akamaro k’amashereka",
+    "inyungu zo konsa",
+    "benefits of breastfeeding",
+    "amashereka y’umuhondo"
+  ],
+  "ibyo wakwitondera mugihe wonsa": [
+    "ibyo kwirinda wonsa",
+    "ibibazo byo konsa",
+    "kubabara imoko",
+    "gutarirana kw’ibere",
+    "udusebe ku ibere"
+  ],
+  "Konsa gusa umwana nta kindi umuhaye": [
+    "konsa yonyine amezi 6",
+    "exclusive breastfeeding",
+    "EBF",
+    "nta mazi kugeza ku mezi 6"
+  ],
+  "Uburyo bwo konsa umwana neza": [
+    "position yo konsa",
+    "latch",
+    "gufungura umunwa bihagije",
+    "uko wafata umwana mu konsa"
+  ],
+
+  "Guha abana imfashabere": [
+    "imfashabere",
+    "complementary feeding",
+    "ibiryo byunganira ibere",
+    "gutangira imfashabere ku mezi 6",
+    "ifu ya Ongera",
+    "Ongera-intungamubiri"
+  ],
+  "kugaburira umwana muto": [
+    "igaburo ry’umwana muto",
+    "kugaburira umwana",
+    "uko wagaburira umwana",
+    "ikigage",
+    "igikoma",
+    "inombe",
+    "isuku mu kugaburira"
+  ],
+  "Kugaburira abana bigiye hejuru": [
+    "abana banini gato",
+    "toddlers",
+    "igaburo ry’umwana uri hejuru y’amezi 6",
+    "indyo y’uruhinja rukuze"
+  ],
+  "uko wakwita ku ruhinja/umwana muto":[
+"uko twakwita ku mwana muto",
+"uko ababyeyi bakwita ku ruhinja",
+"umubyeyi yakwita ku mwana we muto",
+"uko nakwita ku mwana muto"
+  ]
+}
