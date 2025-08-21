@@ -1,87 +1,102 @@
+# src/chatbot.py
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import argparse, json, pickle, re
+
+import os, json, pickle, re
 from pathlib import Path
+from typing import Tuple, List, Dict
+
 import numpy as np
 import torch, tiktoken
 from sklearn.metrics.pairwise import cosine_similarity
-from gpt_model import GPTConfig, GPTLanguageModel
+
+# IMPORTANT: relative import — gpt_model.py must be in src/
+from .gpt_model import GPTConfig, GPTLanguageModel
 
 FALLBACK = "nta makuru ahagije nari nagira"
-
 INSTRUCTIONS = (
     "Subiza mu nteruro nkeya GUKORESHA gusa amakuru ari muri CONTEXT.\n"
     "NIBA CONTEXT idafite igisubizo, andika: 'nta makuru ahagije nari nagira'."
 )
 
 SENT_SPLIT_RE = re.compile(r"(?<=[\.\?\!…])\s+|\n+")
+ALLOW_SINGLE_WORD = {"ikawa", "inzoga", "itabi", "ibiyobyabwenge"}
 
-def first_sentence(txt: str) -> str:
-    return re.split(r"(?<=[\.\?\!])\s", txt.strip(), maxsplit=1)[0].strip()
+# ---------- lazy globals (loaded once) ----------
+_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+_enc = None
+_model = None
+_cfg = None
+_idx = None
+_sections_map: Dict[str, Dict[str, str]] = {}
+_synonyms: Dict[str, List[str]] = {}
 
-def split_sentences(text: str):
-    return [s.strip() for s in SENT_SPLIT_RE.split(text) if s and s.strip()]
+# thresholds & knobs (env-overridable)
+_HI = float(os.getenv("HI", "0.40"))
+_MID = float(os.getenv("MID", "0.28"))
+_CONTEXT_TOPK = int(os.getenv("CONTEXT_TOPK", "2"))
+_TITLE_BOOST = float(os.getenv("TITLE_BOOST", "1.25"))
+_HIGH_MODE = os.getenv("HIGH_MODE", "section_sentences")  # sentence|section|section_sentences
+_N_SENTENCES = int(os.getenv("N_SENTENCES", "0"))  # 0=all
+_MAX_NEW_TOKENS = int(os.getenv("MAX_NEW_TOKENS", "60"))
+_TEMPERATURE = float(os.getenv("TEMPERATURE", "0.2"))
+_TOP_K = int(os.getenv("TOP_K", "1"))
+_TOP_P = float(os.getenv("TOP_P", "1.0"))
+_REPEAT_PENALTY = float(os.getenv("REPEAT_PENALTY", "1.03"))
+_FREQ_PENALTY = float(os.getenv("FREQ_PENALTY", "0.3"))
 
-def load_model(ckpt, cfg_path, device):
-    cfg = GPTConfig(**json.loads(Path(cfg_path).read_text(encoding="utf-8")))
-    model = GPTLanguageModel(cfg).to(device)
-    model.load_state_dict(torch.load(ckpt, map_location=device))
-    model.eval()
-    return model, cfg
+def _first_sentence(txt: str) -> str:
+    return re.split(r"(?<=[\.\?\!])\s", (txt or "").strip(), maxsplit=1)[0].strip() if txt else ""
 
-def load_index(path: Path):
-    data = pickle.load(open(path, "rb"))
-    for k in ("vectorizer","X","items"):
+def _split_sentences(text: str):
+    return [s.strip() for s in SENT_SPLIT_RE.split(text or "") if s and s.strip()]
+
+def _load_index(path: Path):
+    with open(path, "rb") as f:
+        data = pickle.load(f)
+    for k in ("vectorizer", "X", "items"):
         if k not in data:
             raise ValueError("Bad index file; rebuild with build_index_sentences.py")
     return data
 
-def load_sections_map(path: Path):
+def _load_sections_map(path: Path):
     if not path.exists(): return {}
     arr = json.loads(path.read_text(encoding="utf-8"))
-    return {str(s.get("id","")).strip(): {"title": s.get("title","").strip(),
-                                          "content": s.get("content","").strip()}
-            for s in arr}
+    return {
+        str(s.get("id", "")).strip(): {
+            "title": (s.get("title") or "").strip(),
+            "content": (s.get("content") or "").strip()
+        }
+        for s in arr
+    }
 
-def load_synonyms(path: Path|None) -> dict[str, list[str]]:
+def _load_synonyms(path: Path|None) -> Dict[str, List[str]]:
     if not path or not path.exists(): return {}
     raw = json.loads(path.read_text(encoding="utf-8"))
-    out = {}
+    out: Dict[str, List[str]] = {}
     for k, v in raw.items():
         key = str(k).lower().strip()
         out[key] = [str(x).lower().strip() for x in (v or []) if str(x).strip()]
     return out
 
-ALLOW_SINGLE_WORD = {"ikawa", "inzoga", "itabi", "ibiyobyabwenge"}  # useful 1-word anchors
-
-def expand_query(q: str, synonyms: dict[str, list[str]]):
-    """
-    If user's question mentions any synonym key (or its variants), append those
-    variants into the query string to help the vectorizer. Returns (expanded_q, matched_keys).
-    We avoid extremely broad keys by requiring multi-word keys OR whitelisted single words.
-    """
-    q_low = q.lower()
-    matched = []
-    addon_terms = []
+def _expand_query(q: str, synonyms: Dict[str, List[str]]):
+    q_low = (q or "").lower()
+    matched, addon_terms = [], []
     for key, vars_ in synonyms.items():
         is_phrase = (" " in key) or ("’" in key) or ("'" in key)
         is_allowed_single = key in ALLOW_SINGLE_WORD or len(key) >= 6
-        if (is_phrase or is_allowed_single):
-            # if key or any variant is present in query -> expand
+        if is_phrase or is_allowed_single:
             if key in q_low or any(v in q_low for v in vars_):
                 matched.append(key)
                 addon_terms.extend([key] + vars_)
+    expanded = (q or "")
     if addon_terms:
-        expanded = q + " || " + " ".join(sorted(set(addon_terms)))
-    else:
-        expanded = q
+        expanded += " || " + " ".join(sorted(set(addon_terms)))
     return expanded, matched
 
-def retrieve(expanded_q, idx, matched_keys, synonyms, title_boost=1.25, topk=3):
+def _retrieve(expanded_q, idx, matched_keys, synonyms, title_boost=1.25, topk=3):
     vec, X, items = idx["vectorizer"], idx["X"], idx["items"]
     sims = cosine_similarity(vec.transform([expanded_q]), X)[0]
-
-    # Light title boost: if a matched concept also appears in the item's title, upweight it.
     if matched_keys:
         sims = sims.copy()
         for i, it in enumerate(items):
@@ -93,12 +108,11 @@ def retrieve(expanded_q, idx, matched_keys, synonyms, title_boost=1.25, topk=3):
                     hits += 1
             if hits > 0:
                 sims[i] *= (title_boost ** hits)
-
-    order = np.argsort(sims)[::-1][:topk]
+    order = np.argsort(sims)[::-1][:max(1, topk)]
     picks = [{"score": float(sims[i]), **items[i]} for i in order]
     return picks
 
-def build_context(picks):
+def _build_context(picks):
     lines = []
     for p in picks:
         sec = p.get("section_id","?")
@@ -107,105 +121,112 @@ def build_context(picks):
         lines.append(f"- [{sec}] {ttl}: {sent}")
     return "\n".join(lines)
 
-def main():
-    ap = argparse.ArgumentParser(description="Hybrid extractive + strict RAG inference (synonym-expanded queries).")
-    ap.add_argument("--ckpt", default="../model/checkpoint/model.pt")
-    ap.add_argument("--cfg",  default="../model/checkpoint/config.json")
-    ap.add_argument("--index", default="../data/tfidf_sent.pkl")
-    ap.add_argument("--sections", default="../data/sections.json", help="sections.json to show full section content")
-    ap.add_argument("--synonyms", default="../config/synonyms.json", help="synonyms for query expansion")
-    ap.add_argument("--hi", type=float, default=0.40, help="high-confidence threshold (extractive)")
-    ap.add_argument("--mid", type=float, default=0.28, help="mid-confidence threshold (RAG gen)")
-    ap.add_argument("--context_topk", type=int, default=2)
-    ap.add_argument("--title_boost", type=float, default=1.25)
-    ap.add_argument("--high_mode", choices=["sentence","section","section_sentences"], default="section_sentences")
-    ap.add_argument("--n_sentences", type=int, default=0, help="If section_sentences, 0=all")
-    ap.add_argument("--max_new_tokens", type=int, default=60)
-    ap.add_argument("--temperature", type=float, default=0.2)
-    ap.add_argument("--top_k", type=int, default=1)
-    ap.add_argument("--top_p", type=float, default=1.0)
-    ap.add_argument("--repeat_penalty", type=float, default=1.03)
-    ap.add_argument("--freq_penalty", type=float, default=0.3)
-    ap.add_argument("--show_source", action="store_true")
-    args = ap.parse_args()
+def _ensure_loaded():
+    global _enc, _model, _cfg, _idx, _sections_map, _synonyms
+    if _model is not None and _idx is not None and _enc is not None:
+        return
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    enc = tiktoken.get_encoding("gpt2")
-    model, cfg = load_model(args.ckpt, args.cfg, device)
-    idx = load_index(Path(args.index))
-    sections_map = load_sections_map(Path(args.sections))
-    synonyms = load_synonyms(Path(args.synonyms))
+    # Resolve paths relative to repo root (src/..)
+    here = Path(__file__).resolve().parent
+    repo_root = here.parent
 
-    print(f"🔎 Using sentence index: {args.index}")
-    print("Type your question (Ctrl+C to quit).")
-    while True:
-        q = input("You: ").strip()
-        if q.lower() == "exit":
-          break
-        if not q:
-            print(FALLBACK); continue
+    ckpt = Path(os.getenv("CKPT", repo_root / "model/checkpoint/model.pt"))
+    cfgp = Path(os.getenv("CFG",  repo_root / "model/checkpoint/config.json"))
+    idxp = Path(os.getenv("INDEX", repo_root / "data/tfidf_sent.pkl"))
+    secp = Path(os.getenv("SECTIONS", repo_root / "data/sections.json"))
+    synp = Path(os.getenv("SYNONYMS", repo_root / "config/synonyms.json"))
 
-        expanded_q, matched_keys = expand_query(q, synonyms)
-        picks = retrieve(expanded_q, idx, matched_keys, synonyms,
-                         title_boost=args.title_boost, topk=max(1, args.context_topk))
-        if not picks:
-            print(FALLBACK); continue
+    # Tokenizer
+    _enc = tiktoken.get_encoding("gpt2")
 
-        best = picks[0]
-        score = best["score"]
-        sec = best.get("section_id","?")
-        ttl = (best.get("title") or "").strip()
-        sent = (best.get("sentence") or "").strip()
+    # Model
+    cfg = GPTConfig(**json.loads(Path(cfgp).read_text(encoding="utf-8")))
+    model = GPTLanguageModel(cfg).to(_DEVICE)
+    model.load_state_dict(torch.load(ckpt, map_location=_DEVICE))
+    model.eval()
 
-        if args.show_source:
-            print(f"📌 score={score:.3f}  section={sec}  title={ttl}")
+    # Index + aux
+    idx = _load_index(Path(idxp))
+    sections_map = _load_sections_map(Path(secp))
+    synonyms = _load_synonyms(Path(synp))
 
-        # 1) High confidence → extractive
-        if score >= args.hi:
-            if args.high_mode == "sentence":
-                print("Bot:", sent)
-            elif args.high_mode == "section":
-                sec_data = sections_map.get(str(sec))
-                if sec_data and sec_data.get("content"):
-                    print("Bot:", f"{sec_data['title']}\n{sec_data['content']}")
-                else:
-                    print("Bot:", sent)
-            else:  # section_sentences
-                sec_data = sections_map.get(str(sec))
-                if sec_data and sec_data.get("content"):
-                    sents = split_sentences(sec_data["content"])
-                    if args.n_sentences > 0:
-                        sents = sents[:args.n_sentences]
-                    print("Bot:", " ".join(sents))
-                else:
-                    print("Bot:", sent)
-            continue
+    _cfg = cfg
+    _model = model
+    _idx = idx
+    _sections_map = sections_map
+    _synonyms = synonyms
 
-        # 2) Medium confidence → strict RAG (short, from CONTEXT only)
-        if score >= args.mid:
-            ctx = build_context(picks)
-            prompt = f"{INSTRUCTIONS}\n\nQ: {q}\nCONTEXT:\n{ctx}\nA:"
-            ids = enc.encode(prompt) or enc.encode(" ")
-            x = torch.tensor([ids], dtype=torch.long, device=device)
-            if x.size(1) > cfg.block_size: x = x[:, -cfg.block_size:]
+def get_response(q: str, show_source: bool = False) -> str:
+    """
+    Returns a short answer strictly from CONTEXT; falls back if low confidence.
+    """
+    _ensure_loaded()
+    if not q or not q.strip():
+        return FALLBACK
 
-            with torch.no_grad():
-                out = model.generate(
-                    x,
-                    max_new_tokens=args.max_new_tokens,
-                    temperature=args.temperature,
-                    top_k=args.top_k,
-                    top_p=args.top_p,
-                    repeat_penalty=args.repeat_penalty,
-                    freq_penalty=args.freq_penalty,
-                )
-            text = enc.decode(out[0].tolist())
-            ans = text.split("A:", 1)[-1].strip()
-            print("Bot:", first_sentence(ans) or FALLBACK)
-            continue
+    expanded_q, matched_keys = _expand_query(q, _synonyms)
+    picks = _retrieve(expanded_q, _idx, matched_keys, _synonyms,
+                      title_boost=_TITLE_BOOST, topk=_CONTEXT_TOPK)
+    if not picks:
+        return FALLBACK
 
-        # 3) Low confidence → refuse
-        print(FALLBACK)
+    best = picks[0]
+    score = best["score"]
+    sec = best.get("section_id","?")
+    ttl = (best.get("title") or "").strip()
+    sent = (best.get("sentence") or "").strip()
 
+    # High confidence → extractive
+    if score >= _HI:
+        if _HIGH_MODE == "sentence":
+            return sent or FALLBACK
+        elif _HIGH_MODE == "section":
+            sec_data = _sections_map.get(str(sec))
+            if sec_data and sec_data.get("content"):
+                return f"{sec_data['title']}\n{sec_data['content']}".strip() or FALLBACK
+            return sent or FALLBACK
+        else:  # section_sentences
+            sec_data = _sections_map.get(str(sec))
+            if sec_data and sec_data.get("content"):
+                sents = _split_sentences(sec_data["content"])
+                if _N_SENTENCES > 0:
+                    sents = sents[:_N_SENTENCES]
+                return (" ".join(sents)).strip() or FALLBACK
+            return sent or FALLBACK
+
+    # Medium confidence → strict RAG (generate from CONTEXT only)
+    if score >= _MID:
+        ctx = _build_context(picks)
+        prompt = f"{INSTRUCTIONS}\n\nQ: {q}\nCONTEXT:\n{ctx}\nA:"
+        ids = _enc.encode(prompt) or _enc.encode(" ")
+        x = torch.tensor([ids], dtype=torch.long, device=_DEVICE)
+        if x.size(1) > _cfg.block_size:
+            x = x[:, -_cfg.block_size:]
+        with torch.no_grad():
+            out = _model.generate(
+                x,
+                max_new_tokens=_MAX_NEW_TOKENS,
+                temperature=_TEMPERATURE,
+                top_k=_TOP_K,
+                top_p=_TOP_P,
+                repeat_penalty=_REPEAT_PENALTY,
+                freq_penalty=_FREQ_PENALTY,
+            )
+        text = _enc.decode(out[0].tolist())
+        ans = _first_sentence(text.split("A:", 1)[-1].strip()) or FALLBACK
+        return ans
+
+    # Low confidence → refuse
+    return FALLBACK
+
+# Optional: local CLI for quick testing
 if __name__ == "__main__":
-    main()
+    print("Type your question (Ctrl+C to quit).")
+    try:
+        while True:
+            q = input("You: ").strip()
+            if q.lower() == "exit":
+                break
+            print("Bot:", get_response(q))
+    except KeyboardInterrupt:
+        pass
