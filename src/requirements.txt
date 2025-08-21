@@ -5,3 +5,7 @@ fastapi
 uvicorn
 torch
 PyMuPDF
+numpy
+scikit-learn
+tiktoken
+torch
