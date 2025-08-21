@@ -1,5 +1,6 @@
-# Core deps your script imports
 numpy==1.26.4
 scikit-learn==1.4.2
 tiktoken==0.7.0
 torch==2.2.2
+fastapi==0.110.0
+uvicorn==0.29.0
