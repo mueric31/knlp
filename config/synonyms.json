@@ -359,5 +359,457 @@
 "uko ababyeyi bakwita ku ruhinja",
 "umubyeyi yakwita ku mwana we muto",
 "uko nakwita ku mwana muto"
+  ],
+    "uko wakwita ku ruhinja/umwana muto":[
+"uko twakwita ku mwana muto",
+"uko ababyeyi bakwita ku ruhinja",
+"umubyeyi yakwita ku mwana we muto",
+"uko nakwita ku mwana muto"
+  ],
+
+  "uburere buboneye ni iki":[
+"uburere buboneye ni iki",
+"uburere ni iki",
+"uburere bw'umwana ",
+"uburere bwiza"
+
+  ],
+    "Uko watoza umwana wawe uburere buboneye ":[
+"kurera abana ",
+"uko narera abana banjye",
+"uko narera umwana",
+"uko waha umubyeyi uburere bwiza",
+"kurera umwana ufite ikinyabupfura",
+"kurera neza",
+"uko watoza umwana uburere buboneye",
+"gutoza umwana uburere",
+"uko natoza umwana wanjye"
+
+  ],
+
+"uko umubyeyi yashyikirana n’umwana":[
+"gushyikirana n'abana ",
+"uko ababyeyi basykirana n'umwana wabo",
+"uko umubyeyi yashyikirana n'umwana",
+"uburyo bwiza bwo gutuma umwana akwishyikiraho",
+"ibyo wakora kugirango umwana akwishyikireho",
+"gusabana numwana",
+"uko wasabana n'abana",
+"uko nasabana n'umwana wanajye"
+
+  ],
+
+  "uko warinda umwana wawe ihohoterwa":[
+"kurinda abana ",
+"uko ababyeyi bakwirinda guhohotera umwana",
+"uko warinda abana ihohoterwa"
+  ],
+
+  
+  "ingaruka zo kuba umwana yarahohotewe ":[
+"ingaruka zo guhohotera umwana ",
+"ni ibiki bishobora kuba ku mwana wahohotewe",
+"ingaruka zigera ku mwana wahohotewe"
+  ],
+
+    
+  " uko wahana umwana wawe":[
+"guhana umwana ",
+"guha umwana igihano",
+"uko wakosora umwana",
+"gukosora umwana",
+"uko ababyeyi bahana bana",
+"uko nakosora umwana",
+"uko twahana abana",
+"gutanga igihano",
+"gutanga ibihano"
+  ],
+
+      
+  " Ese wumva guha umwana ibihano bibabaza umubiri n’iteshagaciro bifasha ababyeyi mu kurera? ":[
+"ibihano bibabaza",
+"gukubita umwana"
+  ],
+        
+  "mpamvu zitera umwana kurira":[
+"kuki abana bakunda kurira",
+"umwana ukunda kurira",
+"umwana wiriza",
+"abana biriza",
+"umwana urira",
+"abana barira",
+"kuki abana barira",
+"kuki abana biriza"
+  ],
+  "icyo wakora mugihe umwana ari kurira":[
+    "umubyeyi yakora iki mugihe umwana arira cyane",
+    "wafasha ute umwana uri kurira",
+    "ni iyihe myifatire wagira umwana ari kurira",
+    "wakora iki mugihe umwna ari kurira",
+    "wabyifatamo ute mugihe ufite umwna ukunda kwiriza",
+    "wakora iki mugihe umwna yiriza"
+  ],
+    "impamvu zitera abana gukubagana":[
+    "kuki abana bakubagana",
+    "abana banjye barakubagana",
+    "igitera bana gukubagana",
+    "gukubagana"
+   
+  ],
+  
+      "Gufasha abana bakubagana":[
+    "wakora iki mugihe ufite abana bakubagana",
+    "uko wafasha abana bakubagana",
+    "kurera umwana ukubagana",
+    "umubyeyi yakwitwara ate mugihe afite umwana ukubagana"
+   
+  ],
+      "uburyo bwo gufata uruhinja":[
+    "gufata uruhinja",
+    "guterura uruhinja",
+    "uko waterura uruhinja",
+    "uburyo bwiza bwo guterura uruhinja"
+   
+  ],
+    "Uburyo bwo guhoza umwana": [
+    "uko wahoza umwana",
+    "uburyo bwo guhumuriza umwana",
+    "gufasha umwana kurira akaruhuka",
+    "ingamba zo guhoza uruhinja",
+    "uko nahoza umwana uri kurira",
+    "uko ababyeyi bahoza umwana",
+    "guhoza umwana",
+    "uko twahohza abana",
+    "uko naguyaguya umwana"
+
+  ],
+  "Uko wafasha umwana gusura": [
+    "uburyo bwo gusura umwana",
+    "gufasha umwana gusura",
+    "gusura umwana nyuma yo kurya",
+    "ingamba zo gufasha uruhinja gusura"
+  ],
+  "Gusinzira ufite uruhinja": [
+    "uburyo bwo gusinzira n’uruhinja",
+    "gusinzira neza ufite uruhinja",
+    "kuryama hamwe n’uruhinja",
+    "kwita ku mutekano w’uruhinja igihe usinziriye"
+  ],
+  "Uburyo bwo kuryama hirindwa SIDS": [
+    "kurinda uruhinja urupfu rutunguranye",
+    "uburyo bwo kuryamisha uruhinja neza",
+    "SIDS mu bana bato",
+    "ingamba zo kurinda impinja gupfa batunguranye"
+  ],
+  "Guha umwana inkingo": [
+    "urukingo rw’umwana",
+    "inkingo z’uruhinja",
+    "uburyo bwo gukingira umwana",
+    "inkingo z’ingenzi ku mwana",
+    "inkingo zigenewe ku mwana"
+  ],
+  "Ibimenyetso by’indwara z’abana": [
+    "ibimenyetso by’uko umwana arwaye",
+    "indwara z’abana n’ibimenyetso byazo",
+    "ibigaragaza ko umwana atameze neza",
+    "ibimenyetso by’uburwayi bw’uruhinja",
+    "nabwirwa n'iki ko umwana arwaye",
+    "namenya nte ko umwana wanjye yarwaye"
+  ],
+  "Ibimenyetso byo kwitabwaho igihe umwana arwaye": [
+    "ibimenyetso bikomeye by’uburwayi bw’umwana",
+    "ibimenyetso byo gushaka kwihutira kwa muganga",
+    "ibimenyetso by’amakuba ku mwana",
+    "ibigaragaza ko umwana akwiye kwitabwaho vuba"
+  ],
+  "Uburyo bwo gushyira umwana mu gituza": [
+    "gushyira uruhinja mu gituza",
+    "kangaroo care",
+    "uburyo bwo kwegeranya umwana n’umubyeyi",
+    "kwita ku ruhinja mu gituza cya mama"
+  ],
+  "Uko wakwita ku mwana igihe utwite": [
+    "kwita ku mwana uri mu nda",
+    "gufasha umwana utaravuka",
+    "kwitaho umwana utwite",
+    "kwerekana urukundo ku mwana mu nda"
+  ],
+  "Icyo wakora mu gihe uruhinja rukivuka": [
+    "kwita ku mwana ukivuka",
+    "ibikorwa bya mbere nyuma yo kubyara",
+    "kwita ku ruhinja rugikivuka",
+    "ibyo gukora ku mwana ahita avuka"
+  ],
+  "Gufasha umugore utwite": [
+    "kwitaho umugore utwite",
+    "uburyo bwo gufasha umubyeyi utwite",
+    "kwita ku mugore mu gihe cy’inda",
+    "inkunga ku mugore utwite"
+  ],
+  "Imibonano mpuzabitsina mu gihe utwite": [
+    "imibonano mu gihe cy’inda",
+    "imibonano mpuzabitsina ku mugore utwite",
+    "ibijyanye n’imibonano igihe utwite",
+    "ibyiza n’ibibi by’imibonano mu gihe cy’inda"
+  ],
+  "Kwita ku mubyeyi mbere yo kubyara": [
+    "kwita ku mugore utwite mbere yo kubyara",
+    "ibikorwa byo kwita ku mubyeyi mbere yo kubyara",
+    "kwitaho ubuzima bw’umubyeyi utwite",
+    "kwita ku mubyeyi mu gihe cy’inda"
+  ],
+  "Kwipimisha inda kwa muganga": [
+    "gusuzumisha inda",
+    "kujya kwa muganga mu gihe utwite",
+    "ibipimo byo gusuzuma inda",
+    "kwipimisha igihe utwite"
+  ],
+  "Urukingo rwa tetanusi ku mugore utwite": [
+    "gukingira tetanusi igihe utwite",
+    "urukingo rwa tetanusi ku mugore",
+    "urukingo rwa tetanusi ku mubyeyi n’umwana",
+    "tetanus vaccine ku mugore utwite"
+  ],
+  "Ubufasha ku mugore utwite ufite agakoko gatera SIDA": [
+    "kwita ku mugore utwite ufite VIH",
+    "ubufasha ku mubyeyi utwite wanduye SIDA",
+    "uburyo bwo gufasha ababyeyi bafite agakoko gatera SIDA",
+    "inkunga ku mugore utwite ufite ubwandu bwa VIH"
+  ],
+    "Ubutabazi bw’ibanze ku mwana ufite umuriro": [
+    "ubutabazi ku mwana ufite umuriro mwinshi",
+    "uko wafasha umwana ufite umuriro",
+    "gufasha uruhinja rufite umuriro",
+    "icyo wakora igihe umwana afite umuriro"
+  ],
+  "Umwana urwaye impiswi": [
+    "ubutabazi bwihutirwa ku mwana ufite impiswi",
+    "gufasha umwana urwaye impiswi",
+    "umwana urwaye impiswi no kuruka",
+    "uburyo bwo kwirinda impiswi ku bana"
+  ],
+  "Umwana unizwe n’ikintu": [
+    "gufasha uruhinja runizwe",
+    "umwana unizwe n’ikintu",
+    "icyo gukora igihe umwana anizwe",
+    "ubutabazi bwihuse ku mwana unizwe"
+  ],
+  "Umwana urumwe n’inyamaswa": [
+    "gufasha umwana urumwe n’imbwa cyangwa injangwe",
+    "ubutabazi ku mwana warumwe n’inyamaswa",
+    "umwana wakomeretse kubera inyamaswa",
+    "icyo wakora igihe umwana arumwe n’itungo"
+  ],
+  "Umwana ukomeretse": [
+    "ubutabazi ku mwana wakomeretse",
+    "icyo wakora igihe umwana akomeretse",
+    "gufasha umwana ufite igikomere",
+    "ubutabazi ku mwana uri kuva"
+  ],
+  "Umwana uri kuva imyuna": [
+    "ubutabazi ku mwana uri kuva amaraso mu mazuru",
+    "gufasha umwana uri kuva imyuna",
+    "umwana uri kuva ku zuru",
+    "icyo gukora igihe umwana ava imyuna"
+  ],
+  "Umwana uhiye": [
+    "ubutabazi ku mwana uhiye",
+    "icyo wakora igihe uruhinja rwiheye",
+    "umwana uhiye cyane",
+    "ubutabazi bw’ibanze ku mwana uhiye"
+  ],
+  "Umwana wakomeretse mu mutwe": [
+    "ubutabazi ku mwana wakomeretse umutwe",
+    "icyo wakora igihe umwana agize ikibazo mu mutwe",
+    "umwana wagonganye n’ikintu",
+    "ubufasha ku mwana wakubiswe umutwe"
+  ],
+  "Umwana uvunitse igufwa": [
+    "ubutabazi ku mwana uvunitse",
+    "icyo wakora igihe umwana yavunitse igufwa",
+    "gufasha umwana wavunitse ukuguru cyangwa ukuboko",
+    "ubufasha bw’ibanze ku mwana uvunitse"
+  ],
+  "Umwana utaye ubwenge cyangwa urwaye igicuri": [
+    "ubutabazi ku mwana utaye ubwenge",
+    "icyo wakora igihe umwana agize igicuri",
+    "gufasha uruhinja rwaguye rutitiza",
+    "ubufasha bw’ibanze ku mwana wanyuzwe n’igicuri"
+  ],
+  "Umwana ushyize ikintu mu kanwa, muzuru cyangwa amatwi": [
+    "umwana washyize ikintu mu kanwa",
+    "icyo gukora igihe umwana yashyize ikintu mu mazuru",
+    "ubutabazi ku mwana washyize ikintu mu matwi",
+    "ibibazo by’umwana ushyira ibintu mu mubiri"
+  ],
+  "Kurinda umwana gushyira ibintu mu kanwa": [
+    "kwirinda ko umwana ashyira ibintu mu kanwa",
+    "kurinda umwana gushyira ibintu mu mazuru",
+    "uburyo bwo kwirinda impanuka mu bana bato",
+    "ibyo gukora kugira ngo umwana atinjize ibintu mu kanwa"
+  ],
+    "Umumaro w’isuku ku mubiri": [
+    "akamaro k’isuku ku mubiri",
+    "inyungu z’isuku ku mubiri",
+    "isuku ku mubiri w’umwana n’ababyeyi",
+    "ibijyanye n’isuku y’umubiri"
+  ],
+  "Umumaro wo gukaraba intoki": [
+    "akamaro ko gukaraba intoki",
+    "inyungu zo gukaraba intoki",
+    "impamvu tugomba gukaraba intoki",
+    "gukaraba intoki neza"
+  ],
+  "Igihe tugomba gukaraba intoki": [
+    "igihe cyo gukaraba intoki",
+    "ibihe byo gukaraba intoki",
+    "ni ryari tugomba gukaraba intoki",
+    "ibihe by’ingenzi byo gukaraba intoki"
+  ],
+  "Kunywa amazi meza": [
+    "akamaro ko kunywa amazi meza",
+    "isuku y’amazi yo kunywa",
+    "gukoresha amazi meza",
+    "uko twakwita ku mazi yo kunywa"
+  ],
+  "Isuku y’ibyo kurya": [
+    "isuku y’ibiryo",
+    "uburyo bwo gusukura ibiryo",
+    "akamaro ko kugira isuku mu biryo",
+    "kwita ku isuku y’ibyo kurya"
+  ],
+  "Isuku y’umusarane": [
+    "uburyo bwo gusukura umusarane",
+    "akamaro k’umusarane usukuye",
+    "isuku mu bwiherero",
+    "gukoresha neza umusarane"
+  ],
+  "Gusukura imbuga y’urugo n’aharukikije": [
+    "isuku y’imbuga y’urugo",
+    "gusukura aho dutuye",
+    "isuku y’inkengero z’urugo",
+    "gukora isuku mu rugo no hanze"
+  ],
+  "Akamaro ko kugira isuku mu rugo": [
+    "inyungu z’isuku mu rugo",
+    "akamaro ko kugira urugo rusukuye",
+    "isuku mu rugo n’umuryango",
+    "gukomeza isuku mu rugo"
+  ],
+    "Akamaro k’ikoranabuhanga rikoresha murandasi": [
+    "inyungu z’ikoranabuhanga rikoresha murandasi",
+    "akamaro ka interineti ku bana",
+    "ibyiza byo gukoresha ikoranabuhanga",
+    "ibikorwa byiza ikoranabuhanga rifasha abana"
+  ],
+  "Uko ikoranabuhanga rishobora gukoreshwa nabi": [
+    "ingaruka mbi z’ikoranabuhanga",
+    "ibibi byo gukoresha murandasi nabi",
+    "uburyo abana bashobora kwangizwa n’ikoranabuhanga",
+    "ikoreshwa ribi ry’ikoranabuhanga"
+  ],
+  "Uko umubyeyi yafasha abana gukoresha ikoranabuhanga": [
+    "uburyo umubyeyi yafasha abana gukoresha interineti",
+    "ingamba z’ababyeyi mu gukoresha ikoranabuhanga",
+    "gufasha abana gukoresha ikoranabuhanga neza",
+    "uburyo bwo kurinda abana ingaruka z’ikoranabuhanga"
+  ],
+  "Uko umubyeyi yafasha umwana kudatwarwa n’ikoranabuhanga": [
+    "uburyo bwo kurinda abana ikoranabuhanga",
+    "ingamba zo kurinda abana kwiyongera ku ikoranabuhanga",
+    "gufasha abana kudahinduka imbata ya murandasi",
+    "uburyo bwo kurinda abana gukoresha ikoranabuhanga cyane"
+  ],
+  
+  "Ubumuga ni iki": [
+    "ubusobanuro bw’ubumuga",
+    "ubumuga bisobanura iki",
+    "icyo ubumuga ari cyo",
+    "umuntu ufite ubumuga bivuze iki"
+  ],
+  "Impamvu zitera ubumuga": [
+    "ibitera ubumuga",
+    "impamvu zituma abantu bavukana ubumuga",
+    "ibyatera ubumuga mu bana",
+    "ibishobora gutuma umuntu agira ubumuga"
+  ],
+  "Uko ababyeyi barinda abana ubumuga": [
+    "uburyo bwo kurinda abana ubumuga",
+    "ingamba zo kwirinda ubumuga mu bana",
+    "uburyo ababyeyi bashobora kwirinda ubumuga bw’abana",
+    "ibikorwa byo kurinda abana kuba abafite ubumuga"
+  ],
+  "Uko kwita ku mwana ufite ubumuga": [
+    "kwita ku mwana ufite ubumuga",
+    "uburyo bwo gufasha umwana ufite ubumuga",
+    "uburyo bwo kwigisha abana bafite ubumuga",
+    "kwigisha no gushyigikira abana bafite ubumuga"
+  ],
+    "Umumaro wo gukina": [
+    "akamaro ko gukina",
+    "inyungu zo gukina ku mwana",
+    "ibyiza byo gukina ku bana",
+    "impamvu abana bagomba gukina"
+  ],
+  "Inshingano z’ababyeyi mugihe umwana ari gukina": [
+    "uburyo ababyeyi bakwita ku bana bakinira",
+    "ibyo ababyeyi bagomba gukora igihe abana bakinira",
+    "ingamba z’ababyeyi mu gihe abana bakinira",
+    "inshingano z’ababyeyi mu mikino y’abana"
+  ],
+  "Ubwonko bw’umwana mbere y’imyaka 6": [
+    "uburyo ubwonko bw’umwana bukura mbere y’imyaka 6",
+    "icyo wamenya ku bwonko bw’umwana ukiri muto",
+    "iterambere ry’ubwonko bw’abana bato",
+    "ubwonko bw’umwana mu myaka ya mbere"
+  ],
+  "Kwigisha umwana gusoma hakiri kare": [
+    "kwigisha gusoma abana bato",
+    "gufasha abana kumenya ururimi kare",
+    "kwigisha abana gusoma no kumenya amagambo",
+    "uburyo bwo kwigisha gusoma hakiri kare"
+  ],
+  "Icyo umubyeyi yakora kugira ngo umwana amenye gusoma hakiri kare": [
+    "ibyo umubyeyi akora ngo umwana yigire gusoma",
+    "ingamba z’ababyeyi mu kwigisha gusoma hakiri kare",
+    "uburyo bwo gufasha abana kumenya gusoma",
+    "ibikorwa by’ababyeyi mu kwigisha abana gusoma"
+  ],
+  "Uko wakwikorera ibikinisho": [
+    "gukora ibikinisho mu rugo",
+    "kubaka ibikinisho by’abana",
+    "ibikinisho bikozwe n’ababyeyi",
+    "ibikinisho byakorewe mu bikoresho bisanzwe"
+  ],
+  "Umumaro wo gusomera abana inkuru": [
+    "akamaro ko gusomera abana inkuru",
+    "inyungu zo kubacira imigani",
+    "gusomera abana bibafasha iki",
+    "uburyo bwo gusomera abana inkuru"
+  ],
+  "Ibyo ababyeyi bagomba kuzirikana kugira ngo umwana akure afite ubwenge": [
+    "ibyo ababyeyi bakwiye kwibuka mu mikurire y’umwana",
+    "ibyo kwitaho kugira ngo umwana akure neza",
+    "ingingo z’ingenzi ku mikurire y’ubwenge bw’umwana",
+    "uburyo bwo gufasha umwana kugira ubwenge"
+  ],
+  "Kwita ku byo umwana akeneye": [
+    "gufasha umwana mu byo akeneye",
+    "kwitaho ibikenerwa by’umwana",
+    "kwitwararika ku byo umwana akenera",
+    "uburyo bwo gukemura ibyo umwana akeneye"
+  ],
+  "Uruhare rw’umubyeyi w’umugabo mu kurera": [
+    "akamaro k’umubyeyi w’umugabo mu kurera",
+    "uruhare rw’abagabo mu kurera abana",
+    "uburyo se yitabira kurera abana",
+    "kwita ku mwana nk’umubyeyi w’umugabo"
   ]
+  
+
+
+
+
+
 }
+
