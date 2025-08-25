@@ -833,7 +833,8 @@ urihinja mu gituza bikwiye gukomeza, ntabwo ari igihe umwana akibuka gusa, uruhi
 gushyirwa mu gituza cya nyina cyangwa se noneho ibindi bice bitari gukora ku mubiri w’umubyeyi
 bikoroswa n’ikigoma/akaringiti cyangwa ikindi, Ibi mujye mubikomeza uko mushoboye
 Ibikorwa byafasha umugore utwite n’ibitamugwa neza
-Gufasha umugore utwite
+
+7.22 Gufasha umugore utwite
 • Umugore utwite akenera kuruhuka bihagije. Mu gihembwe cya mbere cyo gutwita, habaho impinduka
 mu mikorere y’imisemburo zituma akenshi umugore yumva ananiwe cyane.
 • Imirimo ivunanye nko guterura cyangwa kwikorera ibintu biremeye bigomba kwirindwa.
@@ -844,7 +845,8 @@ babigufasha ? Ese ujya usaba umugabo wawe kugufasha ?
 • Mu gihembwe cya kabiri cyo gutwita, abagore batwite bagomba kwirinda kuryama bubitse inda
 cyangwa bagaramye. Kuryama wubitse inda utwite ni bibi kuko bishobora gutuma utsikamira umwana.
 Kuryama ugaramye kandi utwite bihagarika gutem bera kw’amaraso yawe n’umwana.
-Imibonano mpuzabitsina mu gihe utwite
+
+7.23 Imibonano mpuzabitsina mu gihe utwite
 Mutekereza iki ku bijyanye n’imibonano mpuzabitsina mu gihe umugore atwite? Abashakanye
 bashobora kutiyumva kimwe kuri iyi ngingo ariko ni ngombwa kuganira bakabyumvikanaho.
 • Muri rusange gukora imibonano mpuzabitsina nta cyo bitwaye ku mugore utwite; ariko bigomba kwir
@@ -861,7 +863,8 @@ bw’umugore utwite n’umwana atwite Kwivuza no gukingirwa k’umugore utwite I
 Kujya gusuzumisha inda kwa muganga Kugabanyirizwa kw’umubyeyi kujya kwisuzumisha kuko aba
 yamaze gusobanukirwa ibijyanye n’inda atwite Guhitamo kujya kwipimisha umubyeyi ajyanye
 n’umugabo we cyangwa undi muntu bafitanye isano.
-kujya kwipimisha inda kwa muganga
+
+7.24 kujya kwipimisha inda kwa muganga
 Kujya kwipimisha inda kwa muganga Kubera iki kwipisha inda ari ngombwa ku mugore utwite? Ni ryari
 umubyeyi akwiriye kujya kwipimisha?
 Igihe cyo gutwita kigabanyijemo ibihembwe bitatu. Hari ibyumweru 0-12, 13-26,28-40. Umugore utwite
@@ -886,7 +889,8 @@ zabanjirije iyingiyi ndetse n’ uburyo wabyayemo.
 • Umubyaza akubaza ndetse akagufasha gusobanukirwa aho umwana aherereye mu nda ndetse
 n’ingano ye. Kuva mu byumweru 20 azakubaza niba wumva umwana yinyagambura mu nda, iki gihe
 kandi azumva uko umutima w’umwana utera.
-Ikurikinanwa n’isuzuma bihoraho by’ubuzima bw’umwana uri mu nda
+
+7.25 Ikurikinanwa n’isuzuma bihoraho by’ubuzima bw’umwana uri mu nda
 Gupima amaraso: bashobora gupima niba ufite amaraso make, urwaye Marariya cyangwa niba ufite
 agakoko gatera SIDA ndetse n’ibindi. Baza muganga ibisubizo by’ibipimo byafashwe ndetse niba nta
 n’ikibazo babonyemo kugirango umenye ingamba zigomba gufatwa niba hari ikibazo. Guca mu cyuma
@@ -895,7 +899,8 @@ guca mu cyuma mbere y’ibyumweru 24 kugira ngo bemeze igihe nyakuri inda ifite,
 kugirango barebe niba hari ikibazo cyangwa ubumuga umwana uri munda yaba afite; niba utwite
 impanga cyangwa abana barenze 2, Ibyuma bifite ubu bushobozi ntibiboneka hose ariko muganga igihe
 abona ko ari ngombwa akohereza ku bitaro/ivuriro ribifitiye ubushobozi.
-Kwikingiza no kwivuza ku mugore utwite.
+
+7.26 Kwikingiza no kwivuza ku mugore utwite.
 Urukingo rwa tetanusi:
 • Uru rukingo ruhabwa umubyeyi utwite rukana habwa umwana nyuma yo kuvuka
 • Umugore yandura tetanusi mu gihe agakoko kay itera kinjiye muri nyababyeyi cyangwa mu gitsina. Ku
@@ -905,7 +910,8 @@ hari umwanda cyangwa umwanda witumwe n’amatungo ugera ku rureri rw’umwana
 uzahabwa ibinini by’ inzoka unywera icyarimwe (ushobora no kubihabwa mu gihembwe cya 3) kuko
 inzoka zituma umugore abura amaraso, zigatuma atarya uko bikwi ye bityo bikagira ingaruka kuri wowe
 no ku mwana utwite.
-Ubufasha bwihariye ku mugore utwite kandi afite agakoko gatera SIDA.
+
+7.27 Ubufasha bwihariye ku mugore utwite kandi afite agakoko gatera SIDA.
 • Hamwe n’uwo mwashakanye, mupimwa agakoko gatera SIDA mu gihembwe cya mbere. Ku bagore
 bafite ubwandu bw’agakoko gatera SIDA, ari aba busanganywe cyangwa se abakibwandura, bahabwa
 • ubufasha buhagije mu guhumurizwa no guhabwa imiti igabanya ubukana. Mu gihe cyo kubyara umugore
@@ -918,15 +924,8 @@ nya kwipimisha SIDA kugirango udasanga wanduye? Kubera iki?
 ngo hagabanuke ubwandu bwa SIDA ndetse no kugi rango haboneke imiti igabanya ubukana kandi
 • ifashe abafite agakoko kugira ubuzima bwiza hagabanywa ubukana bw’agakoko ndetse hagabanywa
 ikwirakwira ry’agakoko nko kuba umubyeyi yakwanduza amubyaza cyangwa na nyuma yaho.
-Ibibazo biterwa no gutwita
-Igihe umugore utwite akenera kwitabwaho by’umwihariko. Ibimenyetso by’uburwayi bukenera
-ubufasha bwa muganga ku mugore utwite
-Shaka ubufasha bwa muganga mugihe utwite. Kwirinda ubwandu (infection) ubwaribwo bwose Kuryama
-mu nzitiramibu
-Ibibazo ku mugore utwite IKiganiro kiyobowe
-- Ibimenyetso mpuruza ku mugore utwite Ni ibihe bimenyetso mpuruza ku mugore utwite ?
-Muganire ku bimenyetso mpuruza byose byavuzwe munsi niba bishoboka
-- Ibimenyetso mpuruza ku mugore utwite
+
+7.28 Ibimenyetso mpuruza ku mugore utwite
 Ni ibihe bimenyetso mpuruza ku mugore utwite ?
 Umugore utwite agomba guhita ajya kwa muganga mu gihe cyose abonye ibimenyetso mpuruza nk’ibi +-
 bikurikira :
@@ -941,20 +940,22 @@ ingaruka zikomeye zirimo no kugwa igicuri, kubura umwuka, kubura ubwenge n’ibi
 ugize ikibazo nk’iki, ubufasha bwa muganga buba bukenewe by ihuse.
 • Uburyaryate, uhereye mu biganza, mu birenge no gukomeza ku bindi bice by’umubiri kandi budatera
 ubuheri.
-• Iyo ubonye amazi atunguranye mu gitsina, bashob ora gusobanura ko isuha yamenetse kandi igihe cyo
+• Iyo ubonye amazi atunguranye mu gitsina, bishobora gusobanura ko isuha yamenetse kandi igihe cyo
 kuvuka kitaragera, ibi bivuze ko ari ikibazo gikomeye cy’ubwandu (infection) buri muri nyababyeyi.
-• Igihe wumva ko gukina munda k’uruhinja kugen da kugabanuka cg se kwarahagaze mu minsi mike
+• Igihe wumva ko gukina munda k’uruhinja kugenda kugabanuka cg se kwarahagaze mu minsi mike
 ishize.
 • Kubyimba amaguru ndetse n’ uburibwe cyangwa se ukabona igice kimwe gitukura
 • Gutitira no kugira umuriro bishobora kuba ibimenyet so bya Marariya ndetse n’ izindi ndwara zandura.
-Kwirinda ubwandu / indwara zandura
+
+7.29 Kwirinda ubwandu / indwara zandura
 • Horana isuku, karaba intoki n’isabune n’amazi meza buri gihe.
 • Ryama mu nzitiramibu mu kwirinda kurumwa n’agakoko gatera malaria.
 • Umugore utwite agomba kwirinda gukorako ra intama, injangwe n’umwanda wazo kuko aya matungo
 akunze gukwirakwiza indwara zibangamira ubuzima bw’umwana uri mu nda. Karaba neza intoki nyuma
 yo gukora imirimo ig usaba gukora mu bitaka cyangwa wakoze hasi.
 Kwiyakira no kumenya uko witwara utwite
-Impinduka mu byiyumvo by’umugore utwite Ibimenyetso by’agahinda gakabije
+
+7.30 Impinduka mu byiyumvo by’umugore utwite Ibimenyetso by’agahinda gakabije
 Impinduka mu byiyumvo by’umugore utwite Saba ubufasha mu gihe wumva ufite agahinda Guhangana
 n’ibibazo bahura nabyo mu gihe batwite (abangavu) Kuganiriza abana babo hagamijwe kabategurira
 kwakira umwana uzavuka. Gushaka uzita ku bandi bana ku munsi wo kujya kubyara
@@ -963,13 +964,15 @@ cyangwa umujinya n’ibintu bibaho cya ne ku mubyeyi utwite. Ibyo byiyumvo nk’
 ingenzi kubiganiraho n’umuntu wiyumvamo. • Ku bagore bamwe na bamwe bakiri bato gut wita
 bibatera umunezero, n’ibyo kwishimira, ku bandi bo bishobora kuba byarabatunguye kandi bikabatera
 ubwoba.
-Ibimenyetso by’agahinda gakabije
+
+7.31 Ibimenyetso by’agahinda gakabije
 Ibimenyetso by’agahinda gakabije. Ni ibihe bimenyetso biranga umuntu ufite agahinda gakabije, umuntu
 wumva ko ibye byarangiye?
 • Kubura ubushake bwo kurya no kunanirwa kurya ibyo usanzwe umenyereye
 • Kubura ibitotsi no kugira umunaniro ukabije
 • Kumva udashishikajwe n’umwana utwite
-• Kumva wihebye • Ibitekerezo byo kwigirira nabi
+• Kumva wihebye
+• Ibitekerezo byo kwigirira nabi
 • Ibitekerezo byo kugirira nabi umwana utwite
 • Kwiyumvamo ubwoba bukabije bwo kuba ububyeyi gito
 • Agahinda gakabije ni ikibazo gikomeye aba gore benshi bahura na cyo mugihe batwite na nyuma yo
@@ -978,34 +981,36 @@ wumva ufite agahinda gakabije cyangwa igihe wumva wihebye.
 • Ababyeyi bakiri bato nimwe mukunze kugi ra agahinda gakabije iyo mutwite. Mu gihe wumva
 utishimye cyangwa wumva watakaje ikizere, shaka ubufasha cyangwa ubiganirize inshuti yawe cyangwa
 uwo mufitanye isano wizera.
-Gutegura abandi bana kwakira undi mwana muzabyara (Cyangwa abangavu-Guhangana n’impinduka
-mu gihe batwite)
+
+7.32 Gutegura abandi bana kwakira undi mwana muzabyara (Cyangwa abangavu-Guhangana
+n’impinduka mu gihe batwite)
 Gutegura abandi bana kwakira undi mwana muzabyara Waba waraganirije undi mwana/abandi bana
-mufite mwen da kubyara undi mwana? Saba umubyeyi wifuza gusangiza abandi uko yabiganirije abana
-be. Gutegura abandi bana kwakira undi umwana muzabyara Mu gihe utwite, ni ngombwa gushaka
-umwanya wo kuganiriza abana banyu ku mwana wenda kuvuka kugira ngo batangire bagaragaze uko
-bazamwakira niba hari n’abataby ishimiye utangire ubibakundishe. Guteganya umuntu uzabafasha kwita
-ku bandi bana ku munsi wo kubyara. Teganya byibuze umuntu umwe uzasigara mu rugo yita ku bandi
-bana igihe muzaba mwagihe kwa muganga ugiye kubyara. Reka abana batangire bamenyerane n’uwo
-muntu
+mufite mwen da kubyara undi mwana? Gutegura abandi bana kwakira undi umwana muzabyara Mu gihe
+utwite, ni ngombwa gushaka umwanya wo kuganiriza abana banyu ku mwana wenda kuvuka kugira ngo
+batangire bagaragaze uko bazamwakira niba hari n’abataby ishimiye utangire ubibakundishe. Guteganya
+umuntu uzabafasha kwita ku bandi bana ku munsi wo kubyara. Teganya byibuze umuntu umwe uzasigara
+mu rugo yita ku bandi bana igihe muzaba mwagihe kwa muganga ugiye kubyara. Reka abana batangire
+bamenyerane n’uwo muntu
 Ku bangavu
-Ibibabazo biterwa no gutwita imburagihe. Ni ibihe bibazo muri guhura nabyo mu rugo bitewe no kuba
-utwite? Uri kwiyumva gute? (Urugero: Kubura ubufasha, Amikoro make murugo, imibereho mibi mu
-muryango, kubura amikoro yo kujya ku ishuri, kure ka ishuri, kubura akazi n’ibindi, kandi ibi bishobora
-guhangayikisha.) Bafashe gukemura ibi bibazo ndetse unabagire inama yo kujya babiganiraho n’umuntu
-bizera, bishobotse bakabiganiraho n’umuganga/umujyanama w’ubuzima kugirango babashe guhabwa
-ubufasha bakeneye. Kubijyanye no kuva mu ishuri, bamenyeshe amabw iriza/gahunda y’igihugu ku
-burezi igamije gushishikarizaabana gusubira mu ishuri
-Umumaro wo kubyarira kwa muganga
-Kubyarira kwa muganga Ni izihe nyungu zo kubyarira kwa muganga ? Ibyiza byo kubyarira kwa muganga
-harimo :
+
+7.33 Ibibazo biterwa no gutwita imburagihe
+Ibibabazo biterwa no gutwita imburagihe? (Urugero: Kubura ubufasha, Amikoro make murugo,
+imibereho mibi mu muryango, kubura amikoro yo kujya ku ishuri, kure ka ishuri, kubura akazi n’ibindi,
+kandi ibi bishobora guhangayikisha.) Bafashe gukemura ibi bibazo ndetse unabagire inama yo kujya
+babiganiraho n’umuntu bizera, bishobotse bakabiganiraho n’umuganga/umujyanama w’ubuzima
+kugirango babashe guhabwa ubufasha bakeneye. Kubijyanye no kuva mu ishuri, bamenyeshe amabw
+iriza/gahunda y’igihugu ku burezi igamije gushishikarizaabana gusubira mu ishuri
+
+7.34 Umumaro wo kubyarira kwa muganga
+Ibyiza byo kubyarira kwa muganga harimo :
 • Kubyarira kwa muganga ukabyazwa n’umuganga wabyigiye ufite ubumenyi mu buryo bwemewe
 n’amategeko
 • Umwana ahita yandikwa mu bitabo by’irangamimerere akivuka
 • Iyo uri kwa muganga bamenya neza ubufasha ukeneye kugirango ubyare neza, cyane nk’iyo
 wakurikiranwaga by’umwihariko/ufite uburwayi bakuvuye ubwo wabaga wisuzumisha utwite.
 • Iyo uri kwa muganga biroroha kwitabwaho igihe ukeneye ubutabazi byihuse ngo ubyare
-Ibyo wamenya ku ndwara yo Kujojoba
+
+7.35 Ibyo wamenya ku ndwara yo Kujojoba
 Kujojoba ni indwara ikomeye iterwa n’umwenge ucika hagati y’inda ibyara n’impera y’urura runini
 cyangwa uruhago, kubera ko inzira umwana acamo iba ari nto cyane, imeze nk’ifunganye umubyeyi
 agategereza umwanya munini atarabyara.
@@ -1014,7 +1019,8 @@ bigatuma hagati y’inda ibyara n’impera y’urura runini cyangwa uruhago hatu
 zo kujojoba ni uko ari ubumuga umuntu ashobora kugira ubuzima bwose, aho inkari cyangwa umwanda
 wagombye guca mu kibuno bica muri wa mwenge kandi bikaza utabishatse. Ni indwara itera ipfunwe no
 kwiheza k’uyirwaye, ndetse no guhezwa n’abandi.
-Ubufasha bw’uwaherekeje umubyeyi kubyara.
+
+7.35 Ubufasha bw’uwaherekeje umubyeyi kubyara.
 Uherekeje umugore utwite ashobora gutanga ubufasha butangaje bashobora gutuma umubyeyi yumva
 aruhutse ku mutima bityo bigatuma abyara neza :
 • Kubana nawe no kugufasha mu gihe uri kubise
@@ -1022,33 +1028,26 @@ aruhutse ku mutima bityo bigatuma abyara neza :
 • Kugufasha mu byo ushobora gukenera gukora kubw’ibyemezo wafashe.
 • Kumenyekanisha icyo ucyeneye kubashinzwe ku kwitaho.
 • Kukubwira ibirimo kuba
-Gusinzira k’uruhinja cyangwa gusinziriza uruhinja
+
+7.36 Gusinzira k’uruhinja cyangwa gusinziriza uruhinja
 • Impinja zisinzira mu buryo butandukanye kandi birahindagurika. Mu byumweru bya mbere nyuma yo
 kuvuka, bisa nkaho bahora basinziriye usibye mu bihe byo konka. Bamwe babasha kwikangura. Nk’uko
 biba ku bantu bakuru, impinja nazo zigira ibihe byazo bikagera ubwo nawe nk’umubyeyi/ umurezi
 ubisobanukirwa.
-• Ni byiza cyane ko umubyeyi atangira kumenyere za uruhinja kugira igihe gihoraho cyo gusinzira.
+• Ni byiza cyane ko umubyeyi atangira kumenyereza uruhinja kugira igihe gihoraho cyo gusinzira.
 Urugero nk’igihe cyo kumukarabya/kumwuhagira, igihe cyo konsa umwana mu masaha adahinduka mu
 gihe cya nijoro no kugira uburyo bwo ku musinziriza.
-Gusinzira k’uruhinja Baza ababyeyi ibyo bazi ku buryo bwo gusinziriza imp inja n’aho baziryamisha n’uko
-bazorosa. Muganire ku migirire myiza n’imibi mu gihe cyo gusinziriza umwana cyangwa se mu gihe
-umwana asinziriye.
 Bwira ababyeyi ko uhantu hambere hatekanye um wana akwiye kuryamishwa mu mezi atandatu ye ya
 mbere ni mu akamoyize cyangwa mu gatanda kage newe abana ariko kakaba kari mucyumba ababyeyi
-bararamo. Niba ababyeyi bavuze ku bijyanye no kuryama ku buriri bumwe n’uruhinja, bamenyeshe ko
-atari byiza noneho ubusangize amabwiriza aboneka mu mfasha nyigisho ya 27.
-Wifashishije igipupe, erekana uko umubyeyi/ uwita ku mwana aryamisha akanorosa uruhinja mu rwego
-rwo kwirinda urupfu rutunguranye (Sudden Infant Death Syndrome) nk’uko byasobanuwe mu
-mfashanyigisho ya 28. Umusozo w’inyigisho
-Gukomeza kwita kubana bato
-Umumaro wo gukingiza abana Impinduka ku nkari n’umusarane uruhinja rwituma Utuntu tuza ku ruhu
-rw’uruhinja ariko tudakanganye Uko urureri ruhuguta n’uko barugenya.
+bararamo.
+
+7.39 Gukomeza kwita kubana bato
 Ni ngombwa gukingiza abana Gusobanukirwa n’indwara z’abana no kubajyana kwa muganga Gusukura
 ibigoma n’ibyo babindisha umwana Kunanura uruhu rw’umwana umusiga amavuta aho biri ngombwa
 Kugenzura urureri rw’umwana Gushyira umwana mu gituza, cyane uwavutse atagejeje igihe
 n’uwavukanye ibiro bidashyitse
 Kuvuza umwana vuba na bwangu igihe agaragaza ibimenyetso by’uburwayi
-• Abana bakunda kurwara iyo bakiri munsi y’umwa ka umwe kubera ko umubiri wabo uba utaragira
+• Abana bakunda kurwara iyo bakiri munsi y’umwaka umwe kubera ko umubiri wabo uba utaragira
 ubudahangarwa, nubwo amashereka n’inkingo bibongerera ubwirinzi cyane.
 • Indwara zisanzwe zishobora kurembya abana cya ne bitunguranye
 • Ugomba kwigengesera ku buzima bw’umwana wawe kandi ukihutira kumuvuza igihe agaragaza
