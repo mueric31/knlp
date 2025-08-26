@@ -1,672 +1,477 @@
 [
   {
+    "id": "1.0",
+    "title": "Gutwita bisobanura iki?",
+    "content": "Gutwita bisobanura igihe umugore aba atwite umwana mu nda, kuva intanga n’urusoro\nbyahuye kugeza igihe cyo kubyara. Ni urugendo rw’amezi hafi icyenda aho umwana akura,\nkandi umugore agahinduka mu mubiri no mu buzima bwe."
+  },
+  {
     "id": "1.1",
-    "title": "Ibimenyetso bigaragaza ko utwite(umugore utwite)",
-    "content": "Kumenya ko utwite n’ibimenyetso by’itangira\nGutinda imihango ni ikimenyetso gikunze kubanza kugaragara.\nIsesemi no kuruka by’umunsi birashobora kuboneka mu byumweru bya mbere.\nAmabere ashobora kubyimba cyangwa akaribwa.\nUmunaniro ukabije ushobora kwiyongera mu ntangiriro z’inda.\nHari abahinduka mu marangamutima bitewe n’impinduka z’imisemburo.\nKujya ku bwiherero kenshi bishobora kwiyongera.\nImpumuro z’ibiryo zishobora kukurushya mu ntangiriro.\nAmashereka make ashobora kuboneka, ariko amashereka menshi si ibisanzwe.\nWumva ububabare bukabije? Jya kwa muganga ako kanya.\nIkimenyetso kimwe gishobora kutahagije; reba uko byinshi bihurirana."
+    "title": "Ibimenyetso bigaragaza ko utwite (umugore utwite)",
+    "content": "Kumenya ko utwite ntibishingira ku kimenyetso kimwe gusa. Iyo hari byinshi byihurijeho,\nbitanga gihamya ikomeye ko umugore ashobora kuba atwite.\nGutinda kw’imihango\nUbusanzwe umugore aba afite gahunda y’imihango ye. Iyo imihango itinzeho iminsi irenga\nirindwi, kandi nta mpamvu izwi yabiteye (nko stress cyangwa indwara), kenshi bishobora kuba\nikimenyetso cya mbere cy’uko ashobora kuba atwite.\nIsesemi no kuruka\nMu byumweru bya mbere, umugore ashobora gutangira kumva asesemewe cyangwa akajya\nakaruka, cyane cyane mu gitondo (babita morning sickness), ariko bishobora no kuba ku masaha\natandukanye y’umunsi.\nImpinduka ku mabere\nAmabere ashobora:\n\nKubabara cyangwa kubyimba,\n\nKugaragara aremereye kurenza ibisanzwe,\n\nGuhindura imvange y’ibimenyetso: rimwe akaryoha, rimwe akaribwa, rimwe akarushaho\nkuba menshi cyangwa akazana ubushyuhe.\nUmunaniro ukabije\nUmugore atangira kumva ananiwe cyane, nubwo ntacyo yakoze kiremereye. Akunda gusinzira\ncyane, cyangwa akumva nta mbaraga zo gukora imirimo asanzwe akora.\nImpinduka mu marangamutima\nImisemburo irahinduka cyane. Umugore ashobora:\n\nGuhinduranya amarangamutima mu kanya gato,\n\nKubabara byoroshye cyangwa kurakarira utuntu duto,\n\nAriko nanone mu gihe gito agahinduka akishima cyane.\nKujya ku bwiherero kenshi\nMu ntangiriro z’inda, impinduka mu mikorere y’umubiri zituma umugore ajya kunyara inshuro\nnyinshi kurusha ibisanzwe.\nImpinduka ku biryo cyangwa ku mpumuro\n\nIbintu yakundaga kurya ashobora kubyanga.\n\nImpumuro zimwe (nk’iza amavuta cyangwa umunyu) ziramubangamira cyane.\n\nIbi byose biterwa n’impinduka mu misemburo.\nAmashereka make agaragara\nHari abagore mu ntangiriro z’inda bagaragaza utuntu duto tw’amashereka (colostrum) ku\nibere, nubwo biba ari duke kandi atari ibintu bihoraho.\nUbubabare bukabije cyangwa amaraso atari mu buryo busanzwe\n\nHari abagore bashobora kugaragaza ububabare bukomeye mu nda.\n\nHari n’ababona amaraso mu buryo butari busanzwe.\nIbi bishobora kwerekana ko hari ikibazo gikomeye mu nda gikeneye kwitabwaho\nbyihuse.\nIcyo wakora iyo ufite ikimenyetso kimwe gusa\n• Tegura umunsi wanyuma w’imihango yawe kandi wandike itariki neza.\n• Niba imihango yatindie iminsi irenga 7, kora ikizamini cy’inda (pregnancy test) mu gitondo\nukoresheje inkari za mbere.\n• Niba test yagaragaje ko utwite: tangira kwipimisha (ANC) mu byumweru bitarenze 12, kandi\nutangire gufata acide folique buri munsi nk’uko muganga abigutegeka.\n• Niba test yagaragaje ko atari inda, ariko ikimenyetso gikomeza cyangwa kibangamye, ongera\nukore test nyuma y’iminsi 2–3 kandi usabe inama kwa muganga.\n• Mbere yo kugira gihamya, irinde inzoga, itabi n’imiti itandikiwe n’umuganga.\nIcyo wakora iyo ibimenyetso birenze kimwe\n• Kora ikizamini cy’inda nonaha, cyangwa ujye ku kigo nderabuzima usabe isuzuma.\n• Niba byemejwe ko utwite: andikisha inda yawe (ANC), utegure gahunda z’isuzuma za buri\ngihe, kandi ukurikize inama z’imirire n’isuku.\n• Niba test ari negatif ariko ibimenyetso bikomeje, jya kwa muganga basuzume izindi mpamvu."
+  },
+  {
+    "id": "1.2",
+    "title": "Icyo wakora mugihe imihango yatinze",
+    "content": "Icyo wakora ako kanya:\n• Niba iminsi irenga 7 itaragera ku mihango isanzwe, kora ikizamini cy’inda mu gitondo.\n• Irinde inzoga n’itabi; wirinde imiti utandikiwe n’umuganga.\nIbyiza ukora mu minsi ya vuba:\n• Niba test ari pozitivu, andikisha inda yawe (ANC) hakiri kare.\n• Niba test ari negatifu, ongera ukore test nyuma y’iminsi 2–3. Niba bikomeje, saba inama kwa\nmuganga.\nJya kwa muganga ako kanya niba:\n• Ufite kuribwa bikomeye mu nda cyangwa kuva bidasanzwe.\n• Ufite ihungabana rikabije n’umutwe ukabije uherekejwe no kuribwa mu nda."
+  },
+  {
+    "id": "1.3",
+    "title": "Icyo wakora mugihe ufite Isesemi no kuruka",
+    "content": "Icyo wakora ako kanya:\n• Rya ibiryo bito-bito kenshi; irinde amavuta menshi n’ibiryo bifite impumuro ikaze.\n• Fata amazi gahoro gahoro kenshi; gerageza icyayi cya tangawizi (ginger) niba kiboneka.\nIbyiza ukora mu minsi ya vuba:\n• Kora urutonde rw’ibiryo bigutera isesemi ubirinde; hitamo ibiryo byoroshye nk’imyumbati,\numuceli, imboga.\n• Genzura ko urimo kurya indyo yuzuye; saba inama ku mirire nibikugora.\nJya kwa muganga ako kanya niba:\n• Uri kuruka cyane ku buryo ntacyo ushobora gufata mu masaha 24.\n• Ugaragaza ibimenyetso by’umwuma (akanwa kuma, inkari nke cyane, umutwe uhindagurika)."
+  },
+  {
+    "id": "1.3",
+    "title": "icyo wakora mugihe ugize impinduka ku mabere (kubyimba/kubabara)",
+    "content": "Icyo wakora ako kanya:\n• Koresha amasutiya yoroheje ashyigikira neza, atagukanda.\n• Irinde gukanda cyangwa gukama amabere udafite impamvu ya muganga.\nIbyiza ukora mu minsi ya vuba:\n• Komeza isuku y’umubiri; niba hari utuntu tw’umukororo (colostrum) kenera agapira ko\nkubyitwaramo.\n• Saba inama niba ububabare buterwa n’ahantu humwe ku ibere rimwe.\nJya kwa muganga ako kanya niba:\n• Hari udusebe, uruhu rwatukura cyane, umuriro cyangwa isohoka ridasanzwe (gusa n’amaraso\ncyangwa ipus).\n• Hari akabyimba kamwe gafatika mu ibere kagenda kiyongera."
+  },
+  {
+    "id": "1.4",
+    "title": "icyo wakora mugihe ugira Umunaniro ukabije",
+    "content": "Icyo wakora ako kanya:\n• Ruhuka; teganya amasaha 8–9 yo gusinzira nijoro.\n• Igabanya imirimo iremereye kandi unywe amazi ahagije.\nIbyiza ukora mu minsi ya vuba:\n• Rya indyo yuzuye (imboga, imbuto, ibinyampeke, ibinyamavuta byiza n’ibikomoka ku\nmatungo).\n• Vuga n’umuganga ku nyunganiramirire (iron/fer na acide folique).\nJya kwa muganga ako kanya niba:\n• Uhumeka nabi, umutima wihuta cyane, cyangwa umunaniro urenze ibisanzwe nubwo uruhutse.\n• Urasarara, udatya cyangwa ugira isereri kenshi."
+  },
+  {
+    "id": "1.5",
+    "title": "icyo wakora mugihe ugira impinduka mu marangamutima",
+    "content": "Icyo wakora ako kanya:\n• Ganira n’umugabo wawe cyangwa inshuti; fata umwanya wo kuruhuka.\n• Kora imyitozo yoroshye yo guhumeka no kurambura umubiri.\nIbyiza ukora mu minsi ya vuba:\n• Shaka itsinda ry’ababyeyi cyangwa umujyanama; tegura gahunda yo kwisuzuma mu gihe\nukomeza kumva utameze neza.\n• Itegure ibikorwa bikunezeza: gusenga, gusoma, kumva umuziki.\nJya kwa muganga ako kanya niba:\n• Agahinda gakomeye kumara ibyumweru birenze bibiri.\n• Ibitekerezo byo kwiyahura cyangwa kwishora mu byago—shaka ubufasha bwihuse."
+  },
+  {
+    "id": "1.6",
+    "title": "icyo wakora mugihe wumva ushaka kujya ku bwiherero kenshi",
+    "content": "Icyo wakora ako kanya:\n• Nyunyuza amazi ahagije umunsi wose; irinde ikawa/caffeine n’inzoga.\n• Ntukihambirize ku nkari igihe kirekire.\nIbyiza ukora mu minsi ya vuba:\n• Komeza isuku y’igitsina imbere (utagikoresheje ibitera ubusharire).\n• Niba bikomeza, saba isuzuma ry’inkari (UTI) ku ivuriro.\nJya kwa muganga ako kanya niba:\n• Ujyanishije no kubabara mu nda y’epfo, inkari zishyushya cyangwa zirimo amaraso, umuriro\nmwinshi.\n• Umutwe ukabije no kubabara mu mugongo munsi."
+  },
+  {
+    "id": "1.7",
+    "title": "icyo wakora mugihe watangiye kwanga impumuro cyangwa ibiryo bimwe",
+    "content": "Icyo wakora ako kanya:\n• Irinde impumuro/ibiryo bikubangamira; funguza inzu cyangwa ukorete umwuka mwiza mu\ngikoni.\n• Hitamo ibindi byasimbura ukabona intungamubiri (urugero: niba wanze inyama, ushobora\ngufata ibishyimbo, amagi, amata).\nIbyiza ukora mu minsi ya vuba:\n• Komeza gufata inyunganiramirire za mbere y’inda/zo mu nda nk’uko muganga abiteganya.\n• Saba inama z’imirire niba uri gutakaza ibiro.\nJya kwa muganga ako kanya niba:\n• Watakaje ibiro byinshi mu gihe gito cyangwa utabasha gufata indyo yuzuye.\n• Ufite isesemi rikomeye rikumara igihe kinini."
+  },
+  {
+    "id": "1.8",
+    "title": "icyo wakora mugihe utangiye kubona amashereka make agaragara kare",
+    "content": "Icyo wakora ako kanya:\n• Ntugahangayike; bishobora kubaho. Koresha agapira ko kubyitwaramo niba bikubangamiye.\n• Irinde gukanda ibere kenshi cyangwa kugikama udasabwe n’umuganga.\nIbyiza ukora mu minsi ya vuba:\n• Komeza isuku y’amabere; hamagara umuganga niba bitera uburibwe.\n• Genzura niba atari isohoka ridasanzwe.\nJya kwa muganga ako kanya niba:\n• Amashereka ari menshi cyane, arimo amaraso, cyangwa uherekejwe n’umuriro/uburibwe\nbukabije."
+  },
+  {
+    "id": "1.9",
+    "title": "icyo wakora mugihe wumva ububabare bukabije cyangwa kuva bidasanzwe",
+    "content": "Icyo wakora ako kanya:\n• Hagarika imirimo; shyira agapira mu myenda ukurikire umubare w’amaraso asohoka (ntukinjize\nikintu mu gitsina).\n• Tegura ibyangombwa byawe (ikarita y’ubwisungane, andi makuru) maze ujye ku ivuriro ryo\nhafi.\nIbyiza ukora mu minsi ya vuba:\n• Vugisha umuganga n’iyo byagabanutse kugira ngo amenye ibyabaye.\n• Andika igihe byatangiye, uko byiyongera n’ibindi bimenyetso bikurikirana.\nJya kwa muganga ako kanya niba:\n• Uva amaraso menshi, ufite ibise bikomeye, isereri cyangwa gutitira.\n• Utekereza ko waba usama nabi (inda iri hanze y’umura) cyangwa wigeze kubigiraho ikibazo\nmbere."
+  },
+  {
+    "id": "1.10",
+    "title": "Ibimenyetso by’Ibibazo Bikomeye mugihe utwite—Jya kwa Muganga Ako Kanya",
+    "content": "• Kuva menshi cyangwa kumara igihe kirekire, nko gusimbuza amapira menshi mu masaha make.\n• Kubabara bikabije mu nda y’epfo, umuriro mwinshi, cyangwa umutwe ukabije uherekejwe\nn’ijoro rirerire.\n• Kuruka bituma ntacyo ubasha gufata mu masaha 24 no kumva ufite umwuma.\n• Inkari zirimo amaraso cyangwa zishyushya cyane.\n• Guhumeka nabi, umutima wihuta cyangwa isereri ikabije."
+  },
+  {
+    "id": "1.11",
+    "title": "Muri make: icyo wakora mugihe umwnye ko utwite Icyitonderwa n’Inama Rusange",
+    "content": "• Tangira kwipimisha (ANC) kare, ukurikize gahunda zose z’isuzuma.\n• Fata acide folique na fer/iron nk’uko muganga abigutegeka; irinde inzoga n’itabi.\n• Kurya indyo yuzuye no kunywa amazi ahagije; kora imyitozo yoroshye kandi wirinde imirimo\niremereye.\n• Iyi nyandiko ntiyabisimbura kwa muganga; niba ushidikanya, jya ku ivuriro ryo hafi cyangwa\nikigo nderabuzima kikwegereye."
   },
   {
     "id": "2.1",
     "title": "Imirire myiza y’umugore utwite",
-    "content": "Indyo yuzuye ikubiyemo ibikomoka ku matungo, imboga, imbuto, ibinyamavuta meza, ibinyamafufu,\nibinyamisogwe n’ibinyampeke.\nIbikomoka ku matungo birimo amagi, amafi ateguye neza n’inyama zidafite amavuta menshi.\nIbinyamisogwe nk’ibishyimbo n’amashaza byongera poroteyine.\nIbinyampeke nk’umuceri, kawunga, amasaka n’uburo bitanga ingufu.\nImboga z’icyatsi zikungahaye kuri folate n’imyunyu ngugu.\nImbuto zifite vitamin C zifasha kumira icyuma.\nCalcium iva mu mata na yogati ifasha amagufa y’umwana.\nKunywa amazi meza kenshi bifasha igogora.\nKurya duke kenshi bigabanya isesemi.\nHinduranya ibyiciro by’ibiribwa buri munsi kugira ngo indyo ibe yuzuye."
+    "content": "Imirire myiza ku mugore utwite bisobanura gufata ibiribwa bitandukanye kandi byuzuye\nintungamubiri, kugira ngo umubyeyi abone imbaraga zo gukomeza kubungabunga ubuzima bwe\nno gutunga umwana uri mu nda.\nIbyo biribwa bigomba kuba byuzuye:\n\nPoroteyine (amagi, amafi, inyama, ibishyimbo) – zifasha umwana gukura neza.\n\nIbiribwa bitanga ingufu (umuceri, kawunga, uburo) – bituma umubyeyi akora imirimo\nidahutaza ubuzima.\n\nVitamini n’imyunyu (imboga, imbuto) – birinda indwara kandi bigafasha amaraso\nn’imitsi y’umwana gukura.\n\nCalcium (amata, yogati, fromaji) – ikomeza amagufa n’amenyo y’umwana.\n\nAmazi meza – afasha igogora no kwirinda umwuma.\nMuri make, imirire myiza ku mugore utwite ni ugutegura indyo yuzuye buri munsi, igizwe\nn’ibi byiciro byose, kugira ngo umubyeyi n’umwana babe bazima kandi barindwe ibibazo\nby’imirire mibi."
+  },
+  {
+    "id": "2.2",
+    "title": "Muri make: imirire myiza ku mugore utwite",
+    "content": "Muri make, imirire myiza ku mugore utwite ni ugutegura indyo yuzuye buri munsi, igizwe\nn’ibi byiciro byose, kugira ngo umubyeyi n’umwana babe bazima kandi barindwe ibibazo\nby’imirire mibi."
+  },
+  {
+    "id": "2.3",
+    "title": "Ibikomoka ku matungo umugore utwite yafata",
+    "content": "Ingero:\n• Amagi, amafi ateguye neza, inyama zidafite amavuta menshi.\nAkamaro:\n• Bitanga poroteyine nziza ikenerwa mu gukura kw’umwana no gusana umubiri.\nIcyo wakora:\n• Rya amagi atetse neza, amafi yokeje cyangwa atetse, inyama zidafite amavuta. Irinde inyama\nzidashegeshejwe neza."
+  },
+  {
+    "id": "2.4",
+    "title": "Ibinyamisogwe umugore utwite ashobora gufata",
+    "content": "Ingero:\n• Ibishyimbo, amashaza, soya.\nAkamaro:\n• Bitanga poroteyine kandi bikungahaye ku fiber.\nIcyo wakora:\n• Tegura ibishyimbo neza kandi ubishyire mu ifunguro rya buri munsi."
+  },
+  {
+    "id": "2.5",
+    "title": "Ibinyampeke umugore utwite ashobora gufata",
+    "content": "Ingero:\n• Umuceri, kawunga, amasaka, uburo.\nAkamaro:\n• Bitanga ingufu zo gukora imirimo y’umunsi ku munsi.\nIcyo wakora:\n• Hinduranya ibinyampeke; ntukomeze ku biribwa bimwe gusa."
+  },
+  {
+    "id": "2.6",
+    "title": "Imboga z’icyatsi umugore utwite ashobora gufata",
+    "content": "Ingero:\n• Isombe, dodo, epinari, amashu y’icyatsi.\nAkamaro:\n• Zikungahaye kuri folate n’imyunyu ngugu ikenerwa mu gukura kw’ingingo z’umwana.\nIcyo wakora:\n• Rya imboga buri munsi, byibura ikiyiko kinini ku ifunguro."
+  },
+  {
+    "id": "2.7",
+    "title": "Imbuto umugore utwite ashobora gufata",
+    "content": "Ingero:\n• Amacunga, inanasi, watermelon, ibinyomoro.\nAkamaro:\n• Zikungahaye kuri vitamin C ifasha umubiri kumira icyuma.\nIcyo wakora:\n• Rya imbuto zitandukanye buri munsi, nibura kabiri ku munsi."
+  },
+  {
+    "id": "2.8",
+    "title": "Ibikomoka ku mata umugore utwite ashobora gufata",
+    "content": "Ingero:\n• Amata, yogati, fromaji.\nAkamaro:\n• Bitanga calcium ifasha amagufa n’amenyo y’umwana gukomera.\nIcyo wakora:\n• Nywa amata cyangwa yogati nibura igikombe kimwe ku munsi."
+  },
+  {
+    "id": "2.9",
+    "title": "Kunywa amazi ku mugore utwite",
+    "content": "Ingero:\n• Amazi meza kandi atetse cyangwa apfundikiwe.\nAkamaro:\n• Afasha mu igogora no gukwirakwiza intungamubiri mu mubiri.\nIcyo wakora:\n• Nywa ibikombe 6–8 ku munsi. Irinde inzoga n’ibinyobwa birimo cafeine."
+  },
+  {
+    "id": "2.10",
+    "title": "Uburyo bwo kurya mugihe utwite",
+    "content": "Ingero:\n• Kurya duke kenshi.\n• Hinduranya ibyiciro by’ibiribwa buri munsi.\nAkamaro:\n• Bigabanya isesemi, bikarinda kubura intungamubiri zimwe.\nIcyo wakora:\n• Tegura gahunda y’indyo inyuranye buri munsi."
   },
   {
     "id": "3.1",
     "title": "Ibiribwa bitemewe mu gihe utwite",
-    "content": "Irinde ibiryo byanduye cyangwa byataye igihe.\nIrinde inyama n’amagi bidahiye neza.\nIrinde imitobe y’isukari nyinshi n’ibinyobwa bya energy.\nGabanya umunyu n’amavuta menshi atatunganyijwe cyane.\nIbyo kwirinda: ikawa, ibisindisha, itabi n’ibiyobyabwenge(umugore utwite)\nIkawa nyinshi na caffeine nyinshi si byiza.\nSimbuza amazi cyangwa icyayi kitagira kafeine.\nInzoga zose zirabujijwe kuko zangiza umwana.\nItabi rirabujijwe kandi umwotsi wo ku bandi nawo urabangamye.\nIbiyobyabwenge byose birabujijwe.\nNiba bigoranye kureka kafeine, itabi cyangwa inzoga, saba ubufasha kwa muganga."
+    "content": "Umugore utwite agomba kwitwararika ku biribwa n’ibinyobwa afata, kuko hari ibyo bishobora\nguteza ibibazo ku buzima bwe cyangwa ku mwana atwite. Iyi nyandiko isobanura ibyo kwirinda\nn’icyo wakora.\nIbiryo byanduye cyangwa byataye igihe\nIbyo kwirinda:\n• Irinde ibiryo byanduye, bidafunze neza cyangwa byataye igihe.\nImpamvu:\n• Bitera indwara z’igifu n’udukoko twangiza umwana.\nIcyo wakora:\n• Rya ibiryo bishya kandi byateguwe neza; reba itariki y’ifunguro riboze.\nInyama n’amagi bidahiye neza\nIbyo kwirinda:\n• Inyama zidahiye neza, amagi atari atetse neza.\nImpamvu:\n• Bishobora kuba bifite udukoko twatera indwara z’inda.\nIcyo wakora:\n• Teka inyama kugeza zihindutse neza; teka amagi kugeza umutobe w’imbere wumutse.\nImitobe y’isukari nyinshi n’ibinyobwa bya energy\nIbyo kwirinda:\n• Imitobe irimo isukari nyinshi, ibinyobwa byongera imbaraga (energy drinks).\nImpamvu:\n• Bitera isukari nyinshi mu maraso, bikongera ibyago byo kubyibuha no kurwara diyabete y’inda.\nIcyo wakora:\n• Simbuza imbuto nzima cyangwa imitobe yateguwe mu rugo idafite isukari nyinshi.\nUmunyu n’amavuta menshi atatunganyijwe\nIbyo kwirinda:\n• Umunyu mwinshi, amavuta y’ikirungo atunganyijwe cyane.\nImpamvu:\n• Byongera ibyago by’umuvuduko w’amaraso (hypertension) n’indwara z’umutima.\nIcyo wakora:\n• Gabanya umunyu n’amavuta; hitamo amavuta meza nk’ay’inyanya, amacunga cyangwa avoka."
+  },
+  {
+    "id": "3.1",
+    "title": "Ibiribwa bitemewe mu gihe utwite",
+    "content": "Umugore utwite agomba kwitwararika ku biribwa n’ibinyobwa afata, kuko hari ibyo bishobora\nguteza ibibazo ku buzima bwe cyangwa ku mwana atwite. Iyi nyandiko isobanura ibyo kwirinda\nn’icyo wakora.\nIbiryo byanduye cyangwa byataye igihe\nIbyo kwirinda:\n• Irinde ibiryo byanduye, bidafunze neza cyangwa byataye igihe.\nImpamvu:\n• Bitera indwara z’igifu n’udukoko twangiza umwana.\nIcyo wakora:\n• Rya ibiryo bishya kandi byateguwe neza; reba itariki y’ifunguro riboze.\nInyama n’amagi bidahiye neza\nIbyo kwirinda:\n• Inyama zidahiye neza, amagi atari atetse neza.\nImpamvu:\n• Bishobora kuba bifite udukoko twatera indwara z’inda.\nIcyo wakora:\n• Teka inyama kugeza zihindutse neza; teka amagi kugeza umutobe w’imbere wumutse.\nImitobe y’isukari nyinshi n’ibinyobwa bya energy\nIbyo kwirinda:\n• Imitobe irimo isukari nyinshi, ibinyobwa byongera imbaraga (energy drinks).\nImpamvu:\n• Bitera isukari nyinshi mu maraso, bikongera ibyago byo kubyibuha no kurwara diyabete y’inda.\nIcyo wakora:\n• Simbuza imbuto nzima cyangwa imitobe yateguwe mu rugo idafite isukari nyinshi.\nUmunyu n’amavuta menshi atatunganyijwe\nIbyo kwirinda:\n• Umunyu mwinshi, amavuta y’ikirungo atunganyijwe cyane.\nImpamvu:\n• Byongera ibyago by’umuvuduko w’amaraso (hypertension) n’indwara z’umutima.\nIcyo wakora:\n• Gabanya umunyu n’amavuta; hitamo amavuta meza nk’ay’inyanya, amacunga cyangwa avoka.\nImitobe irimo isukari nyinshi (n’ibinyobwa byaswe isukari, sodas)\nIbyo kwirinda:\n• Imitobe yongeretsemo isukari, sodas, “juice drinks” zidakomoka ku mbuto 100%.\nImpamvu:\n• Isukari nyinshi izamura cyane glucose mu maraso, ikongera ibyago bya diyabete y’inda no\nkubyibuha bikabije.\nIcyo wakora:\n• Hitamo imbuto nzima uko ziri cyangwa “juice” witeguriye mu rugo udashyizemo isukari; shyira\nimbere amazi meza.\nInzoga (alcohol)\nIbyo kwirinda:\n• Inzoga zose (divayi, bierre, spirit…).\nImpamvu:\n• Inzoga zinjira ku mwana nta kizuzi, zikangiza ubwonko n’imikurire (nta gipimo\ncy’“umutekano” gihari ku mugore utwite).\nIcyo wakora:\n• Subiza inzoga amazi, amata, cyangwa imitobe y’imbuto wateguye mu rugo.\nItabi (harimo n’umwotsi w’itabi w’abandi)\nIbyo kwirinda:\n• Kunywa itabi n’uko kose kwihorera mu mwotsi w’itabi (passive smoking).\nImpamvu:\n• Nikotine na carbon monoxide bigabanya umwuka n’amaraso agera ku nda, bigadindiza\nimikurire y’umwana.\nIcyo wakora:\n• Kureka itabi burundu; gusaba abo mubana/aho ukorera kutatandika hafi yawe.\nIbiyobyabwenge (urumogi, cocaine, heroin, meth, n’imiti ikoreshwa nabi)\nIbyo kwirinda:\n• Ibiyobyabwenge byose n’imiti ikoreshwa mu buryo butanditswe n’umuganga.\nImpamvu:\n• Byangiza ubwonko, imitsi n’umutima; binyura ku mwana biciye mu maraso/placenta.\nIcyo wakora:\n• Irinde rwose; niba hari ikibazo cyo kubireka, shaka ubufasha kwa muganga."
   },
   {
     "id": "3.2",
-    "title": "Ibibazo biterwa no gutwita",
-    "content": "Mu gihe umugore atwite, ubudahangarwa bw’umubiri we ndetse n’ubw’amarangamutima biba byoroshye\nniyo mpamvu agomba kwirinda kandi akarindwa icyamuhungabanya cyose.\nIgihe hari ikimenyetso mpuruza abonye giteye inkeke nko kuva, kuribwa umutwe bikabije no mu kiziba\ncy’inda, gucika intege cyane n’ibindi; itabaze muganga cyangwa umujyanama w’ubuzima hakiri kare.\nIrinde umuhangayiko ndetse unirinde malariya uryama mu nzitiramibu iteye umuti. Umugore utwite yirinda\nn’izindi ndwara agira isuku, aruhuka bihagije akirinda imirimo ivunanye kandi akajya akora imyitozo\nngororamubiri.\nAbagore batwite bagomba kwirinda kuryama bubitse inda cyangwa bagaramye, ahubwo baba bagomba\nkuryamira urubavu."
+    "title": "Ibiryo byanduye cyangwa byataye igihe",
+    "content": "\nImpamvu: Iyo ibiryo byanduye cyangwa byapfuye, bigira udukoko (microbes) dutera\nindwara z’igifu nka salmonella cyangwa E.coli.\n\nKu mubyeyi: ashobora kurwara isesemi rikomeye, guhitwa, umuriro mwinshi cyangwa\ndehydration.\n\nKu mwana: ashobora kutabona amaraso n’intungamubiri zihagije, bikamudindiza mu\nmikurire cyangwa inda igacika."
   },
   {
     "id": "3.3",
-    "title": "uruhare rw’umugabo mugihe umugore we atwite",
-    "content": ". Gufasha umubyeyi utwite no gushyikirana n’umwana uri mu nda\nUmugabo witaye ku mugore we mu gihe atwite,akamuherekeza kwisuzumisha, bituma agira ubuzima bwiza,\nkandi akabasha gukemura neza ibibazo umugore ashobora guhura nabyo hakiri kare kandi bikongera\nubusabane hagati yabo.\nIyo umugabo ari kumwe n’umugore we igihe abyara, bituma abasha gutuza, ububabare agira buragabanuka\nndetse binatuma yumva akunzwe kandi ashyigikiwe n’umugabo we. Ababyeyi bombi bashobora gutangira\ngushyikirana n’umwana wabo akiri munda binyuze mu kumuganiriza, kumuririmbira no gukuyakuya inda\ny’umubyeyi utwite bikamwongerera amahirwe yo gukura neza mu bwenge, mu mbatima n’imibanire ye\nn’abandi."
-  },
-  {
-    "id": "3.3",
-    "title": "Ibyiciro by’ingenzi by’imikurire y’umwana uri mu nda",
-    "content": "Ukwezi kwa 1: Isura itangira kwirema, ahazajya amazo ari utuziga twijimye\nUkwezi kwa 2: Ubwonko butangira kwirema\nUkezi kwa 3: Amaboko, ibiganza, intoki, ibirenge n’mano biba bimaze kwirema mu buryo bwuzuye Ibice\nby’umubiri byose n’ingingo biba bimaze kwirema\nUkwezi kwa 4: Ushobora kumva umutima w’umwana utera wifashishije igikoresho cyabugenewe\nUkwezi kwa 5: Ushobora kumva umwana yinyagambura mu nda\nUkwezi kwa 6: Amaso atangira gufunguka\nUkwezi kwa 7: Ubushobozi bwo kumva/amatwi buba butangiye bwuzuye neza\nUkwezi kwa 8: Umwana ashobora kumva no kureba. Ubwonko buba bukura vuba cyane\nUkwezi kwa 9: Ibihaha biba byariremye ku buryo bwuzuye Umwana ashobora kwerekana ko yumvise\nijwi, ko yabonye urumuri no kumukoraho akabyumva\nUkwezi kwa 10: Igihe icyo ari cyo cyose ushobora gufatwa n’ibise Kwinyagambura k’umwana\nkuragabanuka kuko umwana aba amaze kuba munini."
+    "title": "Inyama n’amagi bidahiye neza",
+    "content": "\nImpamvu: Inyama zidahiye neza cyangwa amagi atarimo gushya neza bishobora\nkubamo udukoko nka toxoplasma gondii cyangwa salmonella.\n\nKu mubyeyi: bishobora gutera infection, umuriro no kuribwa mu nda.\n\nKu mwana: ashobora kugira ubumuga bw’amaso, ubwonko cyangwa kuvuka afite intege\nnke."
   },
   {
     "id": "3.4",
-    "title": "Ibiryo umugore utwite agomba kurya",
-    "content": "Urutonde rw’ibiribwa bikungahaye ku butare no kuri vitamine C umugore utwite ashobora gufungura\nUrutonde rw’ibyokurya bikungahaye ku butare bwa feri Amagi (cyane cyane umuhondo), amafi,\nudushyimbo duto twa rantiye, sesame, ingano, porici, igikoma, kinowa, umuceri, uburo, ibishyimbo,\namashaza, imboga rwatsi (epinari), imbuto zimeze nk’ ibinyobwa (imbuto za cashew, almonde,\nubunyobwa, pisitaciyo), inyama zitukura, inkoko, tangawizi. imbuto zumwe, tofu, n’ uumugati\nukungahaye ku butare\nibyokurya bikungahaye kuri vitamine C. Icunga, papayi, indimu, urusenda rutukura, imbuto zitukura,\ninkeri, shufureri, amashu atukura n’ inkeri. umweru. Imboga zifite indabyo nka brokoli,ibirayi by’umweru\nIcyayi kigabanya ubutare yinjira mu mubiri. Ujye wirinda kunywa icyayi mu gihe uri kurya.\nIbiribwa bikungahaye kuri Kalisiyumu\nShufureri Celeri Imiteja imboga rwatsi Inzuzi Beterave Coconati Avoka Amashu Celeri Shufureri Sesame\nIbitunguru."
+    "title": "Imitobe y’isukari nyinshi n’ibinyobwa bya energy",
+    "content": "\nImpamvu: Isukari nyinshi ituma igipimo cy’isukari mu maraso gihora kiri hejuru, naho\nibinyobwa bya energy bikaba bifite caffeine nyinshi n’amavuta.\n\nKu mubyeyi: byongera ibyago byo kurwara diyabete y’inda, kubyibuha bikabije no\nkugira umuvuduko w’amaraso.\n\nKu mwana: ashobora kuvuka afite ibiro byinshi cyane cyangwa imirire mibi, ndetse\nbikamutera kuvuka kare."
   },
   {
     "id": "3.5",
-    "title": "Urutonde rw’ibyokurya bikungahaye ku butare bwa feri",
-    "content": "Amagi (cyane cyane umuhondo), amafi, udushyimbo duto twa rantiye, sesame, ingano, porici, igikoma,\nkinowa, umuceri, uburo, ibishyimbo, amashaza, imboga rwatsi (epinari), imbuto zimeze nk’ ibinyobwa\n(imbuto za cashew, almonde, ubunyobwa, pisitaciyo), inyama zitukura, inkoko, tangawizi. imbuto\nzumwe, tofu, n’ uumugati ukungahaye ku butare"
+    "title": "Umunyu n’amavuta menshi atunganyijwe cyane",
+    "content": "\nImpamvu: Umunyu mwinshi utuma amazi afata mu mubiri, naho amavuta menshi\natunganyijwe cyane (processed oils) agatera cholesterol nyinshi.\n\nKu mubyeyi: byongera ibyago bya pre-eclampsia (umuvuduko mwinshi w’amaraso\nn’inkari zirimo proteyine), indwara z’umutima.\n\nKu mwana: ashobora kubura amaraso amukwiye no kudakura neza mu nda."
   },
   {
     "id": "3.6",
-    "title": "ibyokurya bikungahaye kuri vitamine C",
-    "content": "Icunga, papayi, indimu, urusenda rutukura, imbuto zitukura,\ninkeri, shufureri, amashu atukura n’ inkeri. umweru. Imboga zifite indabyo nka brokoli,ibirayi\nby’umweru"
+    "title": "Ikawa na caffeine nyinshi",
+    "content": "\nImpamvu: Caffeine ishyira umubiri ku murimo mwinshi (stimulant), ikagabanya\ngusinzira no gukora k’umutima. Umwana nta bushobozi afite bwo kuyisohora mu maraso\nye.\n\nKu mubyeyi: atakaza amazi menshi, akagira isereri, umutima ukihuta no gusinzira gake.\n\nKu mwana: akura buhoro, ashobora kuvuka ari muto cyane, bikongera ibyago byo\nkubura inda."
   },
   {
     "id": "3.7",
-    "title": "Ibiribwa bikungahaye kuri Kalisiyumu",
-    "content": "Shufureri Celeri Imiteja imboga rwatsi Inzuzi Beterave Coconati Avoka Amashu Celeri Shufureri Sesame\nIbitunguru."
+    "title": "Inzoga",
+    "content": "\nImpamvu: Inzoga zose zinjira mu maraso ya mama zikagera ku mwana nta kizuzi,\nzikangiza ubwonko n’imikaya ye.\n\nKu mubyeyi: ashobora kugira intege nke, kubura amaraso no kugira ibibazo\nby’amarangamutima.\n\nKu mwana: ashobora kuvuka afite Fetal Alcohol Syndrome (ubumuga bw’ubwonko\nn’isura idasanzwe), kuvuka kare cyangwa inda igacika."
+  },
+  {
+    "id": "3.8",
+    "title": "Itabi",
+    "content": "\nImpamvu: Itabi ririmo nikotine na carbon monoxide bikabuza amaraso gutembera neza\nku nda. Ndetse n’umwotsi w’itabi wo ku bandi (passive smoking) ufite ingaruka.\n\nKu mubyeyi: atangira kugira umuvuduko w’amaraso, indwara z’umutima no guhumeka\nnabi.\n\nKu mwana: abura umwuka uhagije, akavuka ari muto, imburagihe cyangwa inda\nigacika."
+  },
+  {
+    "id": "3.9",
+    "title": "Ibiyobyabwenge (urumogi, cocaine, heroin n’ibindi)",
+    "content": "\nImpamvu: Ibiyobyabwenge bikangiza ubwonko, imitsi n’umutima. Byinjira mu maraso\nya mama bikagera ku mwana mu nda.\n\nKu mubyeyi: agira intege nke, ashobora kubura amaraso, indwara z’umutima no\nkwiyongera kwa stress.\n\nKu mwana: ashobora kuvuka afite addiction (yamenyereye ibiyobyabwenge akiri mu\nnda), kuba afite ubumuga bw’ubwonko, indwara y’imitima cyangwa kuvuka kare."
+  },
+  {
+    "id": "3.11",
+    "title": "Ikawa na Caffeine nyinshi",
+    "content": "\nImpamvu bitemewe:\no\nCaffeine ni ikinyabutabire gishyira umubiri ku murimo mwinshi (stimulant). Iyo\nikawa ibaye nyinshi, ishobora gutera umuvuduko w’amaraso no kwihuta\nk’umutima.\no\nKu mwana uri mu nda, caffeine yinjira mu maraso ya nyina ikagera ku mwana.\nUmwana nta bushobozi afite bwo kuyisohora, bigatuma atangira kugaragaza\nibibazo byo gukura.\no\nIbyago byiyongera byo gukuramo inda cyangwa kubura ibiro byinshi ku\nmwana avuka.\n\nIcyo wakora:\no\nGabanya ikawa n’ibinyobwa bifite caffeine (nk’icyayi gikaze, energy drinks).\no\nSimbuza amazi meza, imitobe y’imbuto cyangwa icyayi cya herbal kitagira\ncaffeine."
+  },
+  {
+    "id": "3.12",
+    "title": "Inzoga",
+    "content": "\nImpamvu zibuza:\no\nInzoga (alcool) nta gipimo cyemewe cy’umutekano ku mugore utwite: inzoga\nnkeya cyangwa nyinshi byose byangiza.\no\nZishobora gutera ibibazo bikomeye ku mikurire y’ubwonko bw’umwana\n(Fetal Alcohol Syndrome).\no\nByongera ibyago byo gukuramo inda, kuvuka imburagihe cyangwa umwana\nufite ubumuga bwo mu mutwe n’ubwenge.\n\nIcyo wakora:\no\nIrinde inzoga zose (cyane cyane divayi, bierre, ibinyobwa bikomeye).\no\nSimbuza amazi, imitobe y’imbuto cyangwa amata."
+  },
+  {
+    "id": "3.13",
+    "title": "Itabi",
+    "content": "\nImpamvu zibuza:\no\nItabi ririmo nikotine na carbon monoxide bihagarika umwuka mwiza kugera ku\nmwana.\no\nBitera kugabanuka k’amaraso ajya ku nda, bigatuma umwana adakura neza.\no\nByongera ibyago byo kubura inda (miscarriage), kuvuka imburagihe,\ncyangwa umwana ufite ibiro bikeya cyane.\no\nNo guhumeka umwotsi w’itabi rituruka ku bandi (passive smoking) nabyo bigira\ningaruka zimwe.\n\nIcyo wakora:\no\nKureka itabi burundu.\no\nGusaba abo mubana kudatandika hafi yawe.\no\nNiba bikugoye kureka, shaka ubufasha ku muganga cyangwa mu matsinda\ny’abafasha kureka itabi."
+  },
+  {
+    "id": "3.14",
+    "title": "Ibiyobyabwenge (nk’urumogi, cocaine, heroin, n’ibindi)",
+    "content": "\nImpamvu zibuza:\no\nByangiza ubwonko n’imitsi by’umwana mu nda.\no\nByongera ibyago byo kubura inda, kubura amaraso ku mugore, kuvuka\nimburagihe n’ubumuga bukomeye ku mwana.\no\nUmwana ashobora kuvuka afite kwiyumvisha inzoga cyangwa\nibiyobyabwenge mu maraso (addiction) bigatuma arwara kuva akivuka.\n\nIcyo wakora:\no\nIrinde ibiyobyabwenge byose.\no\nNiba hari ikibazo cyo kubireka, shaka ubufasha ku muganga cyangwa ku kigo\ncy’ubuvuzi."
+  },
+  {
+    "id": "3.15",
+    "title": "ibinyobwa bitemewe mugihe utwite",
+    "content": "Imitobe y’isukari nyinshi n’ibinyobwa bya energy\n\nImpamvu: Isukari nyinshi ituma igipimo cy’isukari mu maraso gihora kiri hejuru, naho\nibinyobwa bya energy bikaba bifite caffeine nyinshi n’amavuta.\n\nKu mubyeyi: byongera ibyago byo kurwara diyabete y’inda, kubyibuha bikabije no\nkugira umuvuduko w’amaraso.\n\nKu mwana: ashobora kuvuka afite ibiro byinshi cyane cyangwa imirire mibi, ndetse\nbikamutera kuvuka kare.\nIkawa na Caffeine nyinshi\n\nImpamvu bitemewe:\no\nCaffeine ni ikinyabutabire gishyira umubiri ku murimo mwinshi (stimulant). Iyo\nikawa ibaye nyinshi, ishobora gutera umuvuduko w’amaraso no kwihuta\nk’umutima.\no\nKu mwana uri mu nda, caffeine yinjira mu maraso ya nyina ikagera ku mwana.\nUmwana nta bushobozi afite bwo kuyisohora, bigatuma atangira kugaragaza\nibibazo byo gukura.\no\nIbyago byiyongera byo gukuramo inda cyangwa kubura ibiro byinshi ku\nmwana avuka.\n\nIcyo wakora:\no\nGabanya ikawa n’ibinyobwa bifite caffeine (nk’icyayi gikaze, energy drinks).\no\nSimbuza amazi meza, imitobe y’imbuto cyangwa icyayi cya herbal kitagira\ncaffeine.\nInzoga\n\nImpamvu zibuza:\no\nInzoga (alcool) nta gipimo cyemewe cy’umutekano ku mugore utwite: inzoga\nnkeya cyangwa nyinshi byose byangiza.\no\nZishobora gutera ibibazo bikomeye ku mikurire y’ubwonko bw’umwana\n(Fetal Alcohol Syndrome).\no\nByongera ibyago byo gukuramo inda, kuvuka imburagihe cyangwa umwana\nufite ubumuga bwo mu mutwe n’ubwenge.\n\nIcyo wakora:\no\nIrinde inzoga zose (cyane cyane divayi, bierre, ibinyobwa bikomeye).\no\nSimbuza amazi, imitobe y’imbuto cyangwa amata.\nItabi\n\nImpamvu zibuza:\no\nItabi ririmo nikotine na carbon monoxide bihagarika umwuka mwiza kugera ku\nmwana.\no\nBitera kugabanuka k’amaraso ajya ku nda, bigatuma umwana adakura neza.\no\nByongera ibyago byo kubura inda (miscarriage), kuvuka imburagihe,\ncyangwa umwana ufite ibiro bikeya cyane.\no\nNo guhumeka umwotsi w’itabi rituruka ku bandi (passive smoking) nabyo bigira\ningaruka zimwe.\n\nIcyo wakora:\no\nKureka itabi burundu.\no\nGusaba abo mubana kudatandika hafi yawe.\no\nNiba bikugoye kureka, shaka ubufasha ku muganga cyangwa mu matsinda\ny’abafasha kureka itabi.\nIbiyobyabwenge (nk’urumogi, cocaine, heroin, n’ibindi)\n\nImpamvu zibuza:\no\nByangiza ubwonko n’imitsi by’umwana mu nda.\no\nByongera ibyago byo kubura inda, kubura amaraso ku mugore, kuvuka\nimburagihe n’ubumuga bukomeye ku mwana.\no\nUmwana ashobora kuvuka afite kwiyumvisha inzoga cyangwa\nibiyobyabwenge mu maraso (addiction) bigatuma arwara kuva akivuka.\n\nIcyo wakora:\no\nIrinde ibiyobyabwenge byose.\no\nNiba hari ikibazo cyo kubireka, shaka ubufasha ku muganga cyangwa ku kigo\ncy’ubuvuzi."
   },
   {
     "id": "4.1",
-    "title": "Kwitegura kubyara",
-    "content": "Dore bimwe mubyo wamenya mugihe witegura kubyara\nTangira gutegura ibikoresho uzitwaza mu gihe cyo kubyara, uburyo uzagerayo, uzaguherekeza, kandi\nwitegure hakiri kare uko wifuza ibintu bizagenda ku munsi uzabyariraho.\nMugabo, herekeza umugore wawe kwa muganga agiye kubyara kugirango umufashe kandi umube hafi."
+    "title": "Ibibazo biterwa no gutwita",
+    "content": "Mu gihe umugore atwite, ubudahangarwa bw’umubiri ndetse n’ubw’amarangamutima\nburagabanuka, ni yo mpamvu agomba kwirinda icyamuhungabanya cyose.dore bimwe mu bibazo\nbishobora kugaragara mu gihe cyo gutwita\nIbimenyetso Mpuruza (Danger Signs)\nMugihe utwite kandi ukabona ibimenyetso bikurikira bisaba kwihutira kujya kwa muganga kuko\nbishobora gushyira ubuzima bw’umubyeyi ndetse n’ubw’umwana mu kaga:\n• Kuva amaraso menshi mu gitsina: bishobora gusobanura gukuramo inda kare, placenta\nyashwanyutse cyangwa indi ndwara ikomeye.\n• Kuribwa umutwe bikabije: bishobora kuba ikimenyetso cya umuvuduko w’amaraso mwinshi\n(pre-eclampsia) n’ibindi bibazo bikomeye.\n• Kuribwa mu kiziba cy’inda: bishobora kwerekana ko inda ifite ikibazo, harimo kuba hari inda\niri hanze y’umura cyangwa placenta yamanutse.\n• Gucika intege cyane cyangwa kugira isereri: bishobora kuba ikimenyetso cyo kubura amaraso\n(anémie) cyangwa izindi ndwara zikeneye kwitabwaho.\n• Umuriro mwinshi cyangwa guhumeka nabi: bishobora gusobanura infection cyangwa ikibazo\nku bihaha.\nIyo kimwe muri ibi bibaye, umugore agomba guhita atabaza muganga cyangwa umujyanama\nw’ubuzima."
   },
   {
     "id": "4.2",
-    "title": "Ibyiza byo kubyarira kwa muganga",
-    "content": "Kubyarira kwa muganga ni ingirakamaro kuko uhabwa ubufasha bw’abaganga bikarinda umubyeyi\nn‘umwana uvuka ingorane zishobora kubaho mu gihe cyo kubyara zirimo ubumuga nk’ indwara yo\nkujojoba, kuva cyane k‘umugore cyangwa urupfu."
+    "title": "Ibyo Umugore Agomba Kwitwararika mu gihe atwite",
+    "content": "• Kwirinda umuhangayiko: Stress ishobora gutera ibibazo ku misemburo no ku mikurire\ny’umwana.\n• Kwirinda malariya: Malariya ku mugore utwite ishobora gutera kubura inda cyangwa umwana\nkuvuka ari muto cyane. Ni yo mpamvu inzitiramibu iteye umuti ari ngombwa.\n• Isuku: Gukora isuku y’umubiri n’aho atuye birinda indwara ziterwa n’umwanda nko guhitwa\nno kurwara urwuma.\n• Kuruhuka bihagije: Kuba utaruhutse bihagije bishobora gutera umunaniro ukabije no kubura\nimbaraga.\n• Kwirinda imirimo ivunanye: Imirimo iremereye ishobora gutera gukuramo inda cyangwa\nkugera ku nda kare.\n• Imyitozo yoroshye: Nko kugenda buhoro, yoga yoroshye, guhumeka neza – bifasha umubiri\nkugira imbaraga no kurinda kubyimba amaguru.\n• Uburyo bwo kuryama: Kuryamira urubavu rw’ibumoso ni bwo bwiza kuko bituma amaraso\natembera neza ajya ku nda n’umwana. Kuryama ugaramye cyangwa ububitse inda byongera\nibyago byo kugira isereri no kugabanya amaraso agera ku mwana."
   },
   {
     "id": "4.3",
-    "title": "wamenya ute ko ugiye kubyara",
-    "content": "Iyo igihe cyo kubyara kigeze, umugore utwite agira ibise birangwa no kwihaga/kwifora kw’inda (ukabona\nku gice cy’inda yo hasi uruhande harabyimbe kandi harakomeye) bikamara nk’igihe kirenga amasegonda"
-  },
-  {
-    "id": "30",
-    "title": "kandi bikagenda birushaho gukomera ndetse bikaba kenshi.",
-    "content": "Mubyeyi menya uburyo bwo guhumeka bugufasha kukugabanyiriza uburibwe. Mugabo fasha umugore\nwawe umuherekeze, umwiteho kandi umwereke urugwiro mu gihe cyo kubyara. Uruhinja rukimara kuvuka\nrushyirwa mu gituza cy’umubyeyi, ibi bifasha umwana gukomeza kuba ashyushye ndetse binafasha\numwana n’umubyeyi komatana ndetse bikanatuma abasha kumwonsa hakiri kare."
+    "title": "Uburyo bwo Kuryama mugihe utwite",
+    "content": "Kuryamira urubavu rw’ibumoso (ni bwo bwiza cyane)\n\nImpamvu: bigabanya igitutu ku mutsi munini w’amaraso (vena cava) n’umwijima\nw’inkari, bikongera amaraso n’umwuka bigera ku mwana no ku mpyiko za mama;\nbigafasha no kugabanya kubyimba amaguru.\n\nUko wabikora: funga amavi gake; shyira umuriro/pilo hagati y’amavi, undi munsi\ny’inda n’undi inyuma y’umugongo kugira ngo utayigarama utabishatse.\nKuryamira urubavu rw’iburyo (ni byiza nk’impalternativa)\n\nImpamvu: nta kibazo gikomeye, ariko urubavu rw’ibumoso ruba rufite inyungu nyinshi;\ngusimburanya impande zombi birinda kubabara mu mugongo no gupfukirana.\nKuryama ugaramye (flat on the back) – wirinde cyane ugiye hejuru y’ibyumweru 20\n\nImpamvu: inda ikura igakanda vena cava, bigatera isereri, umutima kugenda buhoro, no\nguhanagura amaraso agera ku mwana.\n\nIcyitonderwa: nibiba ukabyuka wisanze ugaramye, hindukira ucye usubire ku rubavu;\nushobora no gukoresha pilo y’akabambano (wedge) ku ruhande rw’iburyo kugira ngo\numubiri ube ufite ikizenguruko gito (atari flat).\nKuryama wubitse inda (wubitse umusaya) – birahinduka uko inda ikura\n\nMu ntangiriro: bishobora kutagira ingaruka zikomeye niba byoroheye mama.\n\nNyuma: ntibikunda no kworoha bitewe n’uko inda iba nini; wirinde gucinya inda.\nKuzamura igihimba cy’hejuru (semi-recline)\n\nImpamvu: bigabanya isesemi n’induru mu muhogo (reflux/heartburn) kandi bifasha\nabumva kubura umwuka nijoro.\n\nUko ubikora: shyira amapilo menshi ku mutwe n’igitsina cyo hejuru; wirinde kuryama\nmuri saa 2–3 za mbere nyuma yo kurya.\nUburyo bwo kuruhuka neza nijoro\n\nGahunda y’ibitotsi: gerageza amasaha 8–9; jya kuryama no kubyuka igihe kimwe buri\nmunsi.\n\nAmazi: nywa menshi ku manywa, ugabanye nijoro kugira ngo kujya ku bwiherero\nkenshi bitaguhungabanya.\n\nUmwuka na pilo: funguza icyumba, koresha amapilo afasha uruti rw’umugongo (spine)\nkuguma mu murongo.\nIbyo wirinda nijoro\n\nKwicara/kwirambika umwanya muremure utimukiye → biha amazi gufata mu\nmaguru; wimuke gake-gake (stretching).\n\nIbiryo biremereye mbere yo kuryama → byongera reflux/heartburn.\nAho wihutira gusaba ubufasha\n\nIsereri ikabije iyo ugaramye, guhumeka nabi, ububabare bukomeye mu gituza,\ncyangwa ikimenyetso cy’akabombambari k’akaguru (urwara rudahemuka, akaguru\nkababaye, kabyimbye kurusha akandi): jya kwa muganga ako kanya."
   },
   {
     "id": "4.4",
-    "title": "icyo wakora ruhinja rukimara kuvuka",
-    "content": "Uruhinja rukimara kuvuka rushyirwa mu gituza cy’umubyeyi, bikarufasha gukomeza kuba rushyushye\nndetse no komatana neza na nyina, bikanatuma abasha kumwonsa mu isaha ya mbere yo kuvuka.\nUruhinja rugomba gusuzumwa nyuma yo kuvuka na mbere y’uko musezererwa kwa muganga.\nNiba hari Impungenge mugize k’ubuzima bw’umwana, nk’ubumuga bukomeye cyangwa bworoshye\nuruhinja rushobora kuvukana, ugomba kubaza muganga kugirango agusobanurire ku bibazo byose\nmwibaza bigendanye n’ubuzima bw’uruhinja n’ubw’umubyeyi. Itabaze muganga niba hari ibimenyetso\nmpuruza ubonye ku ruhinja rwawe nko kugira umuhondo, kuva amaraso mu mukondo, kuzana icyena\nmu mbavu, amashyira mu maso n’ibindi."
+    "title": "Uburyo bwiza bwo kuryama igihe utwite",
+    "content": "• Uburyo bwiza: ni kuryamira urubavu cyane cyane urubavu rw’ibumoso. Ibi bifasha amaraso\nkugera neza ku nda n’umwana, bigabanya ibyago byo kugira umuvuduko w’amaraso mwinshi.\n\nImpamvu: bigabanya igitutu ku mutsi munini w’amaraso (vena cava) n’umwijima\nw’inkari, bikongera amaraso n’umwuka bigera ku mwana no ku mpyiko za mama;\nbigafasha no kugabanya kubyimba amaguru.\n\nUko wabikora: funga amavi gake; shyira umuriro/pilo hagati y’amavi, undi munsi\ny’inda n’undi inyuma y’umugongo kugira ngo utayigarama utabishatse."
   },
   {
     "id": "4.5",
-    "title": "uruhinja ruvutse rufite ikibazo",
-    "content": "Niba hari Impungenge mugize k’ubuzima bw’umwana, nk’ubumuga bukomeye cyangwa bworoshye\nuruhinja rushobora kuvukana, ugomba kubaza muganga kugirango agusobanurire ku bibazo byose\nmwibaza bigendanye n’ubuzima bw’uruhinja n’ubw’umubyeyi. Itabaze muganga niba hari ibimenyetso\nmpuruza ubonye ku ruhinja rwawe nko kugira umuhondo, kuva amaraso mu mukondo, kuzana icyena\nmu mbavu, amashyira mu maso n’ibindi."
+    "title": "Kuryamira urubavu rw’ibumoso (ni bwo bwiza cyane)",
+    "content": "\nImpamvu: bigabanya igitutu ku mutsi munini w’amaraso (vena cava) n’umwijima\nw’inkari, bikongera amaraso n’umwuka bigera ku mwana no ku mpyiko za mama;\nbigafasha no kugabanya kubyimba amaguru.\n\nUko wabikora: funga amavi gake; shyira umuriro/pilo hagati y’amavi, undi munsi\ny’inda n’undi inyuma y’umugongo kugira ngo utayigarama utabishatse.\nKuryamira urubavu rw’iburyo (ni byiza nk’impalternativa)\n\nImpamvu: nta kibazo gikomeye, ariko urubavu rw’ibumoso ruba rufite inyungu nyinshi;\ngusimburanya impande zombi birinda kubabara mu mugongo no gupfukirana."
   },
   {
     "id": "4.6",
-    "title": "Kwita ku mubyeyi n’uruhinja nyuma yo kubyara",
-    "content": "Nyuma yo kubyara, umubyeyi n’uruhinja bisuzumisha inshuro eshatu, inshuro ya 1: Basuzumwa na\nmuganga mbere yo gutaha. inshuro ya 2: Basuzumwa n’ umujyanama w‘ubuzima ku munsi wa gatatu\nageze mu rugo. inshuro ya 3: Basuzumwa na muganga ku munsi wa 42 basubiye ku kigo nderabuzima\nguhabwa inkingo z’umwana. Ariko hari izindi nshuro 2 ziyongera ku mwana wavukanye ibiro bikeya, aho\nasurwa n’ umujyanama w‘ ubuzima ku munsi wa 7 ndetse n’ umunsi wa 28 ageze mu rugo. Bifasha\ngutahura hakiri kare ikibazo icyo aricyo cyose cyahungabanya ubuzima bw’uruhinja n’ubw’umubyeyi.\nUrwo ruhinja rushyirwa mu gituza cya nyina cyangwa cya se, umubiri ku mubiri mu minsi ya mbere\nrukivuka, bituma rukura vuba rukagira n’ubuzima bwiza.\nUmubyeyi agomba kuruhuka bihagije, akarya indyo yuzuye, akonsa umwana kenshi uko bikwiye. Ni byiza\ngukurikiza umwana afite byibura imyaka ibiri, bifasha umubiri w’umubyeyi kwisubiranya, umwana\nakonka igihe gihagije n’umuryango ugatera imbere. Ganira na muganga ku buryo bwo kuboneza\nurubyaro wahitamo gukoresha."
+    "title": "Kuryama ugaramye (flat on the back) – wirinde cyane ugiye hejuru y’ibyumweru 20",
+    "content": "\nImpamvu: inda ikura igakanda vena cava, bigatera isereri, umutima kugenda buhoro, no\nguhanagura amaraso agera ku mwana.\n\nIcyitonderwa: nibiba ukabyuka wisanze ugaramye, hindukira ucye usubire ku rubavu;\nushobora no gukoresha pilo y’akabambano (wedge) ku ruhande rw’iburyo kugira ngo\numubiri ube ufite ikizenguruko gito (atari flat)."
   },
   {
     "id": "4.7",
-    "title": "Kwita ku ruhinja",
-    "content": "Kugirango umwana akure neza kandi atekanye aba akeneye kugirana isano yihariye byibura n’umuntu\numwe yiyumvamo. Jya usabana n’umwana wawe. Impinja zigaragaza ibyifuzo byazo zirira, bishoboka ko\nziba zikeneye, isuku, konka, guterurwa, guhozwa no guhugezwa cyangwa se rwumva rutameze neza. Ni\nbyiza cyane ko umubyeyi atangira kumenyereza uruhinja kugira igihe gihoraho cyo gusinzira."
+    "title": "Kuryama wubitse inda (wubitse umusaya) – birahinduka uko inda ikura",
+    "content": "\nMu ntangiriro: bishobora kutagira ingaruka zikomeye niba byoroheye mama.\n\nNyuma: ntibikunda no kworoha bitewe n’uko inda iba nini; wirinde gucinya inda."
   },
   {
     "id": "4.8",
-    "title": "uko wakwita ku ruhinja/umwana muto",
-    "content": "Umwana agomba guhabwa inkingo z’ingenzi zagenwe kuri buri cyiciro agezemo, kandi hakubahirizwa\namatariki yatanzwe na muganga. Buri gihe ihutire kuvuza uruhinja igihe rugaragaza ibimenyetso\nby’uburwayi. Komeza kwita ku mwana umwonsa bihagije, umugaburira indyo yuzuye, umugirira isuku,\nkandi witabira kumusuzumisha imikurire ye buri kwezi mu mudugudu cyangwa kwa muganga. Ujye uha\numwana gusa imiti yandikiwe na muganga, kandi ukayikura kwa muganga cyangwa amaguriro y’imiti\n(farumasi) yemewe unirinde kumuvurisha imiti ya gakondo. Niba ubona hari ikimenyetso mpuruza afite\nmwihutire kujya kwa muganga."
+    "title": "Kuzamura igihimba cy’hejuru (semi-recline)",
+    "content": "\nImpamvu: bigabanya isesemi n’induru mu muhogo (reflux/heartburn) kandi bifasha\nabumva kubura umwuka nijoro.\n\nUko ubikora: shyira amapilo menshi ku mutwe n’igitsina cyo hejuru; wirinde kuryama\nmuri saa 2–3 za mbere nyuma yo kurya."
   },
   {
     "id": "4.9",
-    "title": "Imbindo z’umwana – Pampegisi",
-    "content": "• Ubusanzwe umwana ukivuka yituma ibintu bisa n’icyatsi cyangwa umukara mu masaha 24 ya\nmbere. Niba utabibonye ku mwana wawe, baza muganga.\n• Ugomba guhindurira umwana kabiri ku munsi (inshuro 2 mu masaha 24) kuva ku munsi wa 6 avu\ntse. Namara kugira ibyumweru 6, inshuro yituma zizagenda zigabanuka, imbindo ze atakizanduza\ncyane.\n• Mu minsi ya mbere ushobora kubona ibintu bimeze nk’ibitukura cyangwa iroza mu mwanda\nuruhinja rwitumye. Ariko uko arushaho konka bi genda bishira.\n• Mu mbindo z’impinja z’abakobwa ushobora kubonamo utuntu tw’uturaso mu minsi mike\nakivuka, ariko humura, ntibigutere impun genge birashira.\n• Umubare w’imbindo umwana yanduje ugomba kungana n’umubare w’iminsi uruhija rumaze ruvu\ntse. Urugero, imbindo 3 ku munsi wa 3 umwana avutse, n’imbindo 6 umwana amaze iminsi 6."
-  },
-  {
-    "id": "4.10",
-    "title": "umubare w’imbindo umwana akeneye",
-    "content": "• Umubare w’imbindo umwana yanduje ugomba kungana n’umubare w’iminsi uruhija rumaze ruvu\ntse. Urugero, imbindo 3 ku munsi wa 3 umwana avutse, n’imbindo 6 umwana amaze iminsi 6."
-  },
-  {
-    "id": "4.11",
-    "title": "Uruhu rw’uruhinja",
-    "content": "Ni ibisanzwe ko impinja zisesa uduheri ku mubiri mu minsi ya mbere ya mbere.\n• Umwana wawe ashobora gusesa uduheri tusa n’umutuku ku mubiri, ku maboko no ku maguru.\nUdu duheri dukunda kurangirana mu cyumweru cya mbere avutse.\n• Uruhinja rushobora nanone gusesa uduheri mu gahanga, ku bitsike no mu ijosi igihe arize cyangwa\nhari ubushyuhe bwinshi. Ibi ariko birashi ra iyo haje amafu n’umwana yacecetse.\n• Uruhu rw’umwana rushobora gukanyarara cya ne ku bana bavutse barengeje igihe\ngisanzwe. Ushobora kubasiga amavuta. Ugomba kubaza abashinzwe ubuzima amavuta\nakwiye."
-  },
-  {
-    "id": "4.12",
-    "title": "Urureri/ uko wafata urureri",
-    "content": "Urureri • Ntukagire ikintu na kimwe usiga ku rureri cyangwa ngo urufubike mu mwenda. Rureke\nruzahuguta ubundi rwivaneho umwana amaze hagati y’iminsi 5 -10 avutse. rugifite urureri\n• Igengesere mu gihe uhindurira imbindo uruhinja rugifite urureri. Niba ubona rutangiye kuva ama\nraso, ruhindutse umutuku cyangwa ku mukondo hameze nk’ahandujwe n’udukoko dutera indwara,\nihutire kubibwira muganga.\n• Baza muganga uko wakwitwararika igihe uruhinja Umwihariko ku mpinja zavukanye ibiro\nbidashyitse n’izavutse igihe kitageze"
-  },
-  {
-    "id": "4.13",
-    "title": "uruhinja rwavutse igihe kitageze",
-    "content": "• Impinja zivutse igihe kitageze n’izavukanye ibiro bidashyitse zikunze kugira ibibazo kandi\nziba zishobora kurwara kurusha cyane.\n• Izi mpinja zikonja vuba kurusha izavukiye igihe n’izavukanye ibiro bishyitse. Dore ibimenyetso\nby’uko uruhinja rwakonje : kutonka/kutarya neza, kutarira, kumukora ukumva yakonje no kuba igiti\nntiyite ku byo umukorera.\n• Ababyeyi bagomba kwitwararika ku buryo uruhinja rwavutse igihe kitageze, urwavukanye ibiro\nbidashyitse n’urwavukanye ibiro bike ruhorana ubushyuhe, cyane bamuheka mu gituza utambaye,\nari byo byitwa Kangaro.\nUburyo bwa Kangaro bwo gufatira uruhinja mu gituza butuma ruhorana ubushyuhe. Ubu kandi ni\nn’uburyo bwiza bwo konsa umwana kuko byongera urugwiro akomatana n’umubyeyi."
-  },
-  {
-    "id": "4.14",
-    "title": "uruhare rw’umugabo mugihe umugore we abyara",
-    "content": "Iyo umugabo ari kumwe n’umugore we igihe abyara, bituma abasha gutuza, ububabare agira\nburagabanuka ndetse binatuma yumva akunzwe kandi ashyigikiwe n’umugabo we. Ababyeyi bombi\nbashobora gutangira gushyikirana n’umwana wabo akiri munda binyuze mu kumuganiriza,\nkumuririmbira no gukuyakuya inda y’umubyeyi utwite bikamwongerera amahirwe yo gukura neza mu\nbwenge, mu mbatima n’imibanire ye n’abandi."
+    "title": "Uburyo bwo kuruhuka neza nijoro",
+    "content": "\nGahunda y’ibitotsi: gerageza amasaha 8–9; jya kuryama no kubyuka igihe kimwe buri\nmunsi.\n\nAmazi: nywa menshi ku manywa, ugabanye nijoro kugira ngo kujya ku bwiherero\nkenshi bitaguhungabanya.\n\nUmwuka na pilo: funguza icyumba, koresha amapilo afasha uruti rw’umugongo (spine)\nkuguma mu murongo.\n."
   },
   {
     "id": "5.1",
-    "title": "Konsa ni iki",
-    "content": "Konsa ni uguha umwana amashereka gusa. Konsa ni ingirakamaro ku mwana na nyina. Konsa bikwiye\ngukorwa bitarenze isaha imwe umubyeyi amaze kubyara, igihe umwana abishatse, na buri masaha 3\nnibura, umwana agatungwa n’amashereka gusa kugeza ku mezi 6."
+    "title": "Uruhare rw’Umugabo mu Gihe Umugore we Atwite",
+    "content": "Umugabo ufasha umugore we mu gihe cyo gutwita atuma umugore agira umutuzo\nw’amarangamutima, bikagabanya stress no kongera ubusabane hagati yabo. Kumuherekeza\nkwisuzumisha (ANC) bituma ibibazo bikemurwa hakiri kare kandi bigatanga umutekano.\nIyo umugabo amuba hafi igihe cyo kubyara, umugore agira ubutwari n’amahoro, ububabare\nburagabanuka kandi yumva akunzwe. Kugirana umubano n’umwana akiri mu nda binyuze mu\nkumuganiriza, kumuririmbira no gukoraho inda bimufasha gukura neza mu bwenge, mu mibanire\nn’amarangamutima.\nIbyo umugabo ashobora gukora\n• Kumuherekeza kwa muganga no kumushyigikira mu isuzuma.\n• Gufasha mu mirimo yo mu rugo kugira ngo umugore aruhuke.\n• Kumuganiriza no kumwumva.\n• Gushyikirana n’umwana akiri mu nda (kumuririmbira, kumuganiriza, gukoraho inda buhoro)."
   },
   {
     "id": "5.2",
-    "title": "Umumaro wo konsa umwana",
-    "content": "Ibyiza byo konsa umwana GUSA mu mezi 6 ya mbere\n• Guha umwana amashereka yonyine mu mezi 6 ya mbere bimurinda indwara nyinshi nk’impis wi\nn’indwara zo mu myanya y’ubuhumekero.\n• Bifasha umwana kwiyongera mu biro, igihagararo no mu mikurire myiza y’ubwonko\n• Konsa ukimara kubyara bituma nyababyeyi yisubiranya bikagabanya kuva\n• Konsa bituma habaho komatana hagati y’umwana n’umubyeyi, kandi umwana aba akeneye cyane"
+    "title": "Ibyiciro by’Ingenzi by’Imikurire y’Umwana uri mu nda",
+    "content": "• Ukwezi kwa 1: Isura itangira kwirema, ahazajya amaso hagaragara utuziga twijimye.\n• Ukwezi kwa 2: Ubwonko butangira kwirema.\n• Ukwezi kwa 3: Amaboko, ibiganza, intoki, ibirenge n’ino biba byamaze kwirema. Ibice byose\nby’umubiri biba byarangiye kurema.\n• Ukwezi kwa 4: Umutima ushobora kumvwa n’igikoresho cyabugenewe.\n• Ukwezi kwa 5: Umwana atangira kwinyagambura mu nda.\n• Ukwezi kwa 6: Amaso atangira gufunguka.\n• Ukwezi kwa 7: Ubushobozi bwo kumva (amatwi) buba bwuzuye neza.\n• Ukwezi kwa 8: Umwana ashobora kumva no kureba, ubwonko bukura vuba cyane.\n• Ukwezi kwa 9: Ibihaha biba byarangiye kurema neza. Umwana ashobora kumva ijwi, kubona\nurumuri no kumva gukorwaho.\n• Ukwezi kwa 10: Umwana aba ageze igihe cyo kuvuka; kwinyagambura kwe kuragabanuka\nkuko aba amaze kuba munini."
   },
   {
     "id": "5.3",
-    "title": "umuhondo ni iki?",
-    "content": "Umuhondo ni amashereka y’umubyeyi ukibyara, akaba ingirakamaro cyane ku ruhinja. Gushyira\numwana mu gituza bifasha ubwiyongere bw’amashereka. Umumaro wo gukuyakuya umwana igihe\nurimo kumwonsa\nMuzi impamvu amashereka y’umuhondo agereranywa na zahabu? Umuhondo ni amashereka\ny’umubyeyi ukibyara; aba asa n’umuhondo kandi ni meza cyane ku mwana wawe. Ntakwiriye\nkwirengagizwa.\n• Arinda uruhinja rwawe indwara. Afasha uruhinja kwituma bwa mbere no gusohora indurwe\nyashoboraga gutera umwana indwara yo kuba umuhondo (Jaundice).\n• Amashereka y’umuhondo akubiyemo intun gamubiri z’ingirakamaro ku mikurire y’umwana, harimo\nn’izifasha imikurire y’imyakura."
+    "title": "Urutonde rw’Ibiribwa Bikungahaye ku Butare (Fer)",
+    "content": "• Amagi (umuhondo)\n• Amafi\n• Udushyimbo duto twa rantiye\n• Sesame\n• Ingano, porici, igikoma, kinowa\n• Umuceri, uburo\n• Ibishyimbo, amashaza\n• Imboga rwatsi (epinari)\n• Imbuto z’amasaka nka cashew, almonde, ubunyobwa, pisitaciyo\n• Inyama zitukura, inkoko\n• Tangawizi\n• Imbuto zimwe\n• Tofu\n• Umugati ukungahaye ku butare\nFer ni ingenzi mu gukora amaraso mashya, kugabanya umunaniro no gufasha umwana gukura\nneza."
   },
   {
     "id": "5.4",
-    "title": "Ni ryari ugomba konsa?",
-    "content": "Konsa ukimara kubyara Tangira konsa mu isaha ya mbere ukibyara. Konsa uruhinja rukivuka birufasha\nkumenya konka kuko ibere riba ricyoroshye.\nKonsa umwana igihe kigenwe:\n• Onsa umwana kenshi. Uko umwana akurura ni ko amashereka arushaho kwihembera akaza ari\nmenshi.\n• Ibwirize konsa umwana ku manywa na nijoro.\n• Impinja zikeneye konswa nibura buri masa ha atatu (3).\n• Niba umwana wawe arwaye cyangwa asinziriye, hari ubwo byaba ngombwa ku mukangura\nNyuma yo konka, akenshi uruhinja ruba rukeneye gutura umubi ukanaguma kurukikira neza kugira ngo\nrwongere rusinzire.\nKwikangura ukonsa nijoro ni ingirakamaro ku mikurire y’umwana wawe no komatana na we, no kongera\nikorwa ry’amashereka"
+    "title": "Ibyokurya Bikungahaye kuri Vitamine C",
+    "content": "• Icunga\n• Papayi\n• Indimu\n• Urusenda rutukura\n• Imbuto zitukura (inkeri)\n• Shufureri\n• Amashu atukura\n• Brokoli\n• Ibirayi by’umweru\nVitamine C ifasha umubiri kumira neza fer kandi irinda umubiri indwara.\nIcyitonderwa: Icyayi gikomeye kigabanya uko fer imirwa. Ntukinywe mu gihe uri kurya ibiribwa\nbikungahaye ku butare."
   },
   {
     "id": "5.5",
-    "title": "Ibimenyetso bigaragaza ko umwana ashaka konka",
-    "content": "Ubwirwa n’iki ko umwana wawe ashonje ashaka konka?\n• Arasama ubundi akajya akebuka hirya no hino\n• Gusohora ururimi ubudatuza\n• Konka intoki n’ibipfunsi Ntugategereze ko umwana arira ngo ukunde umwonse. Kurira bishobora kuba\nikimenyetso cya nyuma cy’uko umwana akeneye konka, ashonje cyangwa atisanzuye ashaka ko\numwitaho."
-  },
-  {
-    "id": "5.6",
-    "title": "Ibyiza byo konsa umwana gusa mu mezi 6 ya mbere",
-    "content": "• Guha umwana amashereka yonyine mu mezi 6 ya mbere bimurinda indwara nyinshi nk’impiswi\nn’indwara zo mu myanya y’ubuhumekero.\n• Bifasha umwana kwiyongera mu biro, igihagararo no mu mikurire myiza y’ubwonko.\nBaza ababyeyi ibyo bibuka mu nyigisho y’uyu munsi. Niba ari ngombwa bibutse ibi:\n• Ni ngombwa konsa umwana gusa mu mezi atandatu ye ya mbere. Ibi bivuze kumuha amashereka\nYONYINE kuva avutse kugeza afite amezi 6.\n• Umubyeyi agomba konsa akimara kubyara n’ikindi gihe cyose biri ngombwa\n• Uko wonsa umwana, jya umureba mu maso umusekere, umuvugirize ubuhuha… Gushimira ababyeyi\nIndirimbo isoza"
-  },
-  {
-    "id": "5.7",
-    "title": "uburyo bwo gukikira umwana urimo konka",
-    "content": "• Nta buryo bumwe BWIHARIYE bwo gukikiramo umwana arimo konka, ahubwo habaho uburyo\nbunyuranye bushobora kunogera buri mubyeyi n’umwana we, bukanahinduka bitewe n’ibihe.\n• Umwana wawe yifitemo ibyiyumvo bimufasha konka mu buryo bwisanzuye. • Jya mu mwanya mwiza\nigihe urimo konsa\n• Umva neza ko amaboko yawe afite ikiyashyigikiye kandi ko umwana umukikiye neza. Ushobora gu\nkoresha nk’umusego kugirango wonse wisanzuye neza.\n• Fata umwanya uhagije wonse umwana\n• Buri gihe ujye ubanza ukarabe ukoresheje isabune mbere yo konsa\n• Konsa umwana ijosi rye urishyigiikije ukuboko gutandukanye n’ibere arimo konka\n• Gukikira umwana akonka umushyigikije am aboko abiri\n• Konsa umwana uryamishije urubavu\n• Konsa umwana wegamye Fasha ababyeyi kwimenyereza ubu buryo bwo konsa bifashishije igikinisho\ncyangwa umwana wabo ny irizina\nReka umwana abanze ahumuze ibere rimwe mbere yo kumuha irindi.\n• Bifasha umwana konka amashereka y’imbere n’ay’inyuma. Amashereka y’imbere abamo amazi amara\numwana inyota. Amashereka y’inyuma yo aba akungahaye ku binure kandi amara umwana inzara."
-  },
-  {
-    "id": "5.8",
-    "title": "Gusabana no kwiyegereza umwana mugihe cyo kumwonsa",
-    "content": "Kwiyegereza umwana neza bituma atakuruma n’imoko zigahora ziheherereye\nHari ibimenyetso 4 byerekana ko umwana yegereye ibere neza:\n• Umwana arasama bihagije.\n• Umwana ntatamira imoko yose.\n• Umunwa w’umwana ubona uhehereye, yasamye\n• Akananwa k’umwana gakora ku ibere ry’umubyeyi.\nKonsa umwana neza bituma amashereka yihembera akaba menshi agahaza umwana.\nIbimenyetso byerekana ko umwana akurura amashereka neza ni:\n• Umwana akurura amashereka yitonze, akananyuzamo akaruhuka.\n• Nyuma yo gukurura amashereka nk’inshuro 4 cyangwa 5 ushobora kumva cyangwa kubona umwana\namira\n• Umwana akurura amashereka yitonze kandi ntibibabaze umubyeyi.\n• Umwana amara konka akarekura ibere ukabona aranezerewe kandi yisanzuye\nIyo umaze konsa, amabere aba yoroshye ahehereye\nIgihe umwana wawe afite ikibazo cyo kudatamira ibere neza cyangwa ngo akurure neza, geregeza\nkumwonsa mu buryo butandukanye\n• Nibikomeza kumugora cyangwa akaguma gusonza kandi amaze konka, mujyane kwa muganga. Abana\nbenshi bakunda kunanirwa kon ka kubera ikibazo cy’akugara k’ururimi abaganga bashobora kuvura\nbyoroheje.\nIrinde gukoresha inkongoro zifite udupfundikizo twa purasitike (bibero) n’utundi dukoresho bashyira mu\nkanwa k’umwana. Bitera umwana urujijo kuko uburyo bwo gukurura amashereka butandukanye n’ubwo\ndukoresho bundi\nIbyo wakwibuka:\n• Hitamo uburyo wonsa wowe n’uruhinja mwisanzuye, kandi ujye uhinduranya uburyo ukikira umwana\nurimo kumwonsa\n• Jya ureka uruhinja rwonke ibere rimwe rurihumuze neza, mbere yo kuruha irindi\n• Genzura niba uruhinja rufite imbogamizi mu konka neza/gukurura amashereka, ubundi ugishe inama\nabaganga."
-  },
-  {
-    "id": "5.9",
-    "title": "umwana ufite ikibazo cyo konka",
-    "content": "Igihe umwana wawe afite ikibazo cyo kudatamira ibere neza cyangwa ngo akurure neza, geregeza\nkumwonsa mu buryo butandukanye\n• Nibikomeza kumugora cyangwa akaguma gusonza kandi amaze konka, mujyane kwa muganga. Abana\nbenshi bakunda kunanirwa kon ka kubera ikibazo cy’akugara k’ururimi abaganga bashobora kuvura\nbyoroheje.\nIrinde gukoresha inkongoro zifite udupfundikizo twa purasitike (bibero) n’utundi dukoresho bashyira mu\nkanwa k’umwana. Bitera umwana urujijo kuko uburyo bwo gukurura amashereka butandukanye n’ubwo\ndukoresho bundi\nIbyo wakwibuka:\n• Hitamo uburyo wonsa wowe n’uruhinja mwisanzuye, kandi ujye uhinduranya uburyo ukikira umwana\nurimo kumwonsa\n• Jya ureka uruhinja rwonke ibere rimwe rurihumuze neza, mbere yo kuruha irindi\n• Genzura niba uruhinja rufite imbogamizi mu konka neza/gukurura amashereka, ubundi ugishe inama\nabaganga."
-  },
-  {
-    "id": "5.10",
-    "title": "Imbogamizi mu gihe cyo konsa",
-    "content": "Imbogamizi zikunda kubaho mu gihe cyo konsa ni ukubabara imoko, kurwara amabere, kuzana udusebe\nku mabere Guhesha umwana amashereka agakombe\nKujya kwa muganga kwisuzumisha Gusobanukirwa ibimenyetso by’uko warwaye imoko cyangwa ibere\nnk’igihe ryabyimbye, hajeho udusebe. Kwirinda uburwayi bw’ibere Gukomeza konsa umwana cyangwa\nrimwe na rimwe ukamuhesha amashereka agakombe.\n• Niba imoko zawe zikubabaza cyangwa amabere akakurya igihe umwana arimo konka, genzura uko\numwana afashe ibere maze umukikire mu bundi buryo, nihatagira igihinduka jya kwisuzumisha kwa\nmuganga.\n• Komeza wonse umwana cyangwa wikame umuheshe agakombe ubundi ujye kwisuzumisha"
-  },
-  {
-    "id": "5.11",
-    "title": "kwikama amashereka",
-    "content": "• Ushobora kugira impamvu zituma wikama amashereka ugahesha umwana agakombe:\n• Kubabara amabere cyangwa izindi mbogamizi mu konsa\n• Kuba utari kumwe n’umwana\n• Kuba umwana arwaye\nKaraba intoki unasukure ibikoresho n’amazi meza n’isabune\nSukura igikoresho uri bukamiremo amashereka ndetse unagiteke mu mazi abire Isanzure Rimwe na\nrimwe gusa nk’ukandakanda amabere yawe birafasha.\nGukoresha agatambaro gashyushye bifa sha imiyoboro guhembera amashereka.\n• Fata ibere ku buryo igikumwe kifata agace ko hejuru k’imoko, izindi ntoki ziri munsi y’ibere.\n• Ukoresheje igikumwe n’intoki byegeranye ebyiri, kanda agace kirabura k’imoko\n• Kamira amashereka mu gikoresho gisukuye\n• Genda wimura intoki zawe mu gace gakikije imoko. Kama ibere rimwe hagati y’iminot 3-5 kugeza igihe\namashereka atakirimo kuza, noneho ubikore no ku rindi bere; umare hagati y’iminota 20 na 30\nuyasimburanya.\nTereka amashereka wikamye mu gikoresho gisukuye gipfundikiye.\nAmashereka ushobora kuyatereka ahantu:\n• Amasaha 6 kugeza ku 8 ahantu hafite ubushyuhe busanzwe\n• Amasaha 24 mu cyuma gikonjesha- firigo\n• Hagati y’amezi 3 n’atandatu ari ku gipimo cyo hejuru cy’ubukonje bwa dogere 20 munsi ya zeru muri\nfirigo Guhesha umwana amashereka agakombe"
-  },
-  {
-    "id": "5.12",
-    "title": "Konsa umwana urwaye",
-    "content": "Igihe umwana wawe arwaye:\n• Mwonse inshuro nyinshi kurusha mbere: bifasha umwana gukira kandi bikamuhumuriza.\n• Muhe imiti yandikiwe na muganga GUSA.\n• Niba umwana yacitse intege cyane ku buryo adashobora konka, kama amashereka umuheshe\nagakombe cyangwa ikiyiko.\n• Umwana wawe namara koroherwa, ongera inshuro umwonsa ubikore iminsi myinshi. Ibi bifasha\numwana kwijajara agasubirana ibiro, akagira imbaraga. Igihe ari wowe mubyeyi urwaye:\n• Jya kwa muganga bakugire inama niba wako meza konsa umwana cyangwa wabihagarika. Ushobora\ngukenera amafunguro y’inyongera no kunganirwa n’umuryango wawe. Niba ubona amashereka yawe\nadahagije, gisha inama muganga.\nBaza ababyeyi icyo bungutse mu nyigisho y’uyu munsi.\nNiba ari ngombwa bibutse: •\nIgihe wumve ufite uburibwe igihe wonsa, gerageza kuguma konsa cyangwa wikame uheshe umwana\nagakombe;\n• Niba urwaye cyangwa umwana wawe arwaye, komeza umwonse cyangwa wikame amashereka\num"
-  },
-  {
-    "id": "5.13",
-    "title": "Imirire y’ababyeyi bonsa",
-    "content": "• Mu gihe wonsa, jya ufata buri munsi amafunguro abiri yoroheje yiyongera ku yo usanzwe ufata buri\nmunsi, kugirango akongerere imbara ga anafashe umwana wawe gukura neza\n• Rya amafunguro y’ubwoko bwose akungahaye ku ntungamubiri\n• Nywa amazi menshi, nibura litiro zisaga 2 ku munsi (zingana n’ibikombe 8 binini)\n• Gabanya icyayi n’ikawa unywa kuko bishobora kubangamira uburyo umubiri wawe ukoresha\namafunguro wafashe.\n• Reka inzoga, itabi n’ibiyobyabwenge mu gihe wonsa.\nMu gihe wonsa, intungamubiri zihariye zifasha umwana wawe gukura neza kandi akagira ubuz ima\nbwiza. Ubutare (Feri) na Vitamine B ni ingi rakamaro.\n• Fata ku buryo buhoraho ibikomoka ku mata, kandi ukoreshe umunyu ukungahaye kuri Iyode kugiran\ngo bifashe ubwonko bw’umwana wawe gukura neza, no mu gihagararo\n• Fata ibinini bivura inzoka zo mu nda kugirango urwanye kubura amaraso.\n• Ganira na muganga ibijyanye na Vitamine z’inyun ganiramirire ushobora kuba wafata, maze ukurik ize\namabwiriza aguha.\n• Ku babyeyi b’abangavu: mukeneye kurya cyane kuruta ababyeyi bakuze. Mukeneye kurya kugiran go\nmukomeze gukura kandi munafashe n’abana banyu gukura neza.\nGukora umurima w’igikoni n’ibiti by’imbuto no korora amatungo magufi\n• Imbuto n’imboga ni bimwe mu bigize indyo yuzuye.\n• Amafunguro akomoka ku matungo nk’inyama, amagi, amafi, amata, ni bimwe mu bigize indyo yuzuye\nkandi bikungahaye ku ntungamubiri. Ibinyamisogwe nk’ibishyimbo bishobora gusimbura ibikomoka ku\nmatungo rimwe na rimwe\n• Mutunganye umurima w’igikoni mushobora guhingamo ubwoko butandukanye bw’imboga\numuryango uzakenera umwaka wose.\n• Imbuto nk’imineke, ipapayi, indimu, avoka zikungahaye ku ma vitamine. Nimuhinge amoko anyuranye\ny’imbuto.\n• Mushake uko mwakorora amatungo magufi nk’ingurube, inkwavu cyangwa inkoko Mushake uko\nmwakora ikidendezi cyo kororera mo amafi.\n• Niba mwabasha kubona inka n’uburyo mwayita ho byabafasha kujya mubona amata ku buryo\nbuhoraho.\nIYOBORA ABABYEYI KU KUGABURA INDYO YUZUYE"
+    "title": "Ibiribwa Bikungahaye kuri Kalisiyumu",
+    "content": "• Shufureri\n• Celeri\n• Imiteja\n• Imboga rwatsi\n• Inzuzi\n• Beterave\n• Coconati\n• Avoka\n• Amashu\n• Sesame\n• Ibitunguru\nKalisiyumu ikomeza amagufa n’amenyo y’umwana, kandi irinda umubyeyi kubura\nibinyabutabire by’ingenzi."
   },
   {
     "id": "6.1",
-    "title": "Ibiribwa bukungahaye ku butare",
-    "content": "Amagi (by’umwihariko umuhondo w’igi), ifi, ranti ye, sezame, ingano, oats, amasaka, umureti, rye,\nibishyimbo, uburo, imboga rwatsi/epinari, ubunyobwa (ibibiringanya, almond, imbuto, pistaciyo),\ninyama zitukura, inkoko, tangawizi. Ibiribwa bikungahaye kuri vitamins C Icunga, ipapayi, kiwi, indimu,\nurusenda rwa piripiri, imbuto zitukura, inkeri, amashu, amashu atukura, imizabibu, ubundi bwoko\nbw’imboga nka borokori,amashu ameze Icunga, ipapayi, kiwi, indimu, urusenda rwa piripiri, imbu to\nzitukura, inkeri, amashu, amashu atukura, imiz abibu. Imbuto zihuguse nk’imizabibu, umutini,\nibinyomoro, dattes, na apricots. Haimo na tofu, n’umugati ukungahaye ku butare"
+    "title": "Gushyikirana hagati y’umubyeyi utwite n’umwana we",
+    "content": "Gushyikirana hagati y’umubyeyi utwite n’umwana we bikubiyemo guhererekanya no kwakira\namakuru hagati y’umwana uri mu nda na nyina, bitanyuze mu magambo gusa, ahubwo biciye mu\namaraso, amarangamutima, amajwi, imisemburo, no gukorakora inda.\nUmwana aba ashobora kumva no kwiyumvisha ibibera hanze n’iby’umubyeyi kuva mu mezi ya\nmbere y’inda."
   },
   {
     "id": "6.2",
-    "title": "Ibiribwa bikungahaye kuri vitamins C",
-    "content": "Icunga, ipapayi, kiwi, indimu, urusenda rwa piripiri, imbuto zitukura, inkeri, amashu, amashu atukura,\nimizabibu, ubundi bwoko bw’imboga nka borokori,amashu ameze n’amababi (choux fleurs), amashu\nyitiriwe Buruseli, ibirayi by’umweru."
+    "title": "Uburyo butandukanye umubyeyi utwite ashobora gushyikirana n’umwana we",
+    "content": "Gushyikirana hagati y’umubyeyi utwite n’umwana we bikubiyemo guhererekanya no kwakira\namakuru hagati y’umwana uri mu nda na nyina, bitanyuze mu magambo gusa, ahubwo biciye mu\namaraso, amarangamutima, amajwi, imisemburo, no gukorakora inda.\nUmwana aba ashobora kumva no kwiyumvisha ibibera hanze n’iby’umubyeyi kuva mu mezi ya\nmbere y’inda."
   },
   {
-    "id": "6.3",
-    "title": "Ibyo ababyeyi bagomba gukoramu gihe bashaka Konsa umwana",
-    "content": "mu gihe kitarenze isaha avutse.\nKonsa umwana umuhondo mu minsi ye ya mbere.\nGuha umwana amashereka YONYINE kugeza ku mezi 6.\nKumenya ibimenyetso byibanze by’uko umwana ashonje Konsa umwana hagati y’amasaha 2 n’atatu,\nnubwo yaba arwaye cyangwa asinziriye Ababyeyi bombi bagomba gufatira umwana mu gituza.\nKumwenyurira umwana, kumuvugiriza ubuhuha/ ubuguriguri igihe arimo konka\n• Konsa gusa bivuze guha umwana amashereka YONYINE mu mezi 6 ya mbere.\n• Ntugahe amazi cyangwa ibindi binyobwa cyang wa ibiribwa umwana atarageza amezi 6. Bishobo ra\nkumutera indwara.\n• Amashereka ubwayo akubiyemo intungamubiri zose umwana akeneye, arimo indyo zose n’amazi\numwana wawe akeneye mu mezi 6 ya mbere y’ubuzima bwe.\nNubwo haba hari ubushyuhe bu kaze, amashereka atsirika inyota y’umwana wawe\n. • Guha umwana wawe ikindi kintu kitari amshereka atarageza amezi 6 bimutera ubunebwe bwo konka\nbikanagabanya amashereka umubiri w’umubyeyi ukora.\n• Usabwe guha umwana wawe imiti yandikiwe na muganga GUSA; ukayikura kwa muganga cyangwa\namaguriro y’imiti (farumasi) yemewe\nIngano y’igifu cy’umwana\n- Ingano y’igifu cy’umwana. Saba ababyeyi bafunge igipfunsi. Babwire ko igifu cy’umwana kingana\nn’igipfunsi cye.\n• Igifu cy’uruhinja ni gito cyane ku buryo mu minsi ye ya mbere aba akeneye make gusa"
+    "id": "1",
+    "title": "Biciye mu maraso n’imisemburo",
+    "content": "o\nPlacenta itwara umwuka n’intungamubiri biva ku mubyeyi bikagera ku\nmwana, kandi isubizayo imyanda.\no\nIyo mama afite stress cyangwa ibyishimo, imisemburo y’umubiri (hormones)\nihinduka, bikagera no ku mwana."
   },
   {
-    "id": "6.4",
-    "title": "Ni gute wamenya ko umwana yijuse?",
-    "content": "• Iyo umwana atangiye konka, agapfunsi ke agashyira mu isura. Iyo yijuse, afungura igipfunsi amaboko\nakayarambura.\nIyo umwana wawe yonka bihagije bigaragazwa nuko:\n• Yiyongera ibiro n’igihagararo\n• Ubona ashabutse, akina bijyanye n’imyaka ye.\n• Yihagarika inkari zikeye nibura inshuro 6 ku munsi cyangwa kuzamura iyo yonka GUSA."
-  },
-  {
-    "id": "6.5",
-    "title": "Umumaro wo konsa umwana",
-    "content": "Ibyiza byo konsa umwana GUSA mu mezi 6 ya mbere\n• Guha umwana amashereka yonyine mu mezi 6 ya mbere bimurinda indwara nyinshi nk’impis wi\nn’indwara zo mu myanya y’ubuhumekero.\n• Bifasha umwana kwiyongera mu biro, igihagararo no mu mikurire myiza y’ubwonko\n• Konsa ukimara kubyara bituma nyababyeyi yisubiranya bikagabanya kuva\n• Konsa bituma habaho komatana hagati y’umwana n’umubyeyi, kandi umwana aba akeneye cyane\n6.6Imirire y’abangavu bonsa\nAbabyeyi b’abangavu bakenera kurya cyane kuruta uko bari basanzwe barya, kugirango bakomeze gukura\nneza kandi banafashe abana gukura neza. Abangavu bakenera indyo yuzuye, byibura amafunguro atatu ku\nmunsi kugirango bakure neza, bagire ubudahangarwa bw’umubiri, bitegure kuba ababyeyi b’ejo hazaza\nbadafite imirire mibi by’umwihariko ibura ry’amaraso riterwa n’ibura ry’intungamubiri."
-  },
-  {
-    "id": "6.7",
-    "title": "gutangira konsa",
-    "content": "Uruhinja rugomba konswa mu isaha ya mbere rukimara kuvuka, kandi rukonka gusa amashereka yonyine mu\nmezi 6 ya mbere, kuko akubiyemo intungamubiri zose ndetse n’amazi umwana akeneye."
-  },
-  {
-    "id": "6.8",
-    "title": "incuro umubyeyi agomba konsa",
-    "content": "Mubyeyi, onsa umwana kenshi ku manywa na nijoro nibura buri masaha atatu (3), kandi ujye wibuka\ngukangura umwana ukunda gusinzira cyane kugirango yonke."
-  },
-  {
-    "id": "6.9",
-    "title": "Amashereka / Umumaro wo konsa",
-    "content": "Amashereka y’umuhondo arinda uruhinja kurwara kandi akanavana mu nda yarwo umwanda wa mbere. Guha\numwana amashereka yonyine mu mezi 6 ya mbere bimurinda indwara nyinshi nk’impiswi n’indwara zo mu\nmyanya y’ubuhumekero. Konka bifasha umwana kwiyongera mu biro, gukura mu gihagararo kandi\nbikamwongerera ubusabane na nyina. Niba umwana arwaye agomba konka cyane kugirango bimufashe gukira\nvuba. Konsa kenshi bituma umubyeyi ahembera, akagira amashereka ahagije bikamurinda kugira andi mata\naha umwana. Konsa neza kandi igihe kirekire binafasha umubyeyi kuboneza urubyaro."
-  },
-  {
-    "id": "6.10",
-    "title": "ibyo wakwitondera mugihe wonsa",
-    "content": "Amata y’inka si meza kuyaha umwana uri munsi y’uwaka umwe , kuko agoye cyane kugogora k’umwana muto.\nIyo bibaye ngombwa ko ari bwo buryo bwa nyuma bukoreshwa mu kugaburira umwana, wegera muganga\nakagufasha mu buryo buboneye bwo kuyategura."
-  },
-  {
-    "id": "6.11",
-    "title": "Konsa gusa umwana nta kindi umuhaye",
-    "content": "Uruhinja rugomba konswa mu isaha ya mbere rukimara kuvuka, kandi rukonka gusa amashereka YONYINE\nkugeza mu mezi 6 ya mbere. Umwana ataruzuza amezi 6 ntagomba guhabwa amazi, ibindi binyobwa cyangwa\nibiryo kuko bishobora kumutera uburwayi. Amashereka ubwayo akubiyemo intungamubiri zose umwana\nakeneye, harimo indyo zose n’amazi umwana wawe akeneye mu mezi 6 ya mbere y’ubuzima bwe. Nubwo haba\nhari ubushyuhe bukaze, amashereka atsirika inyota y’umwana wawe. Usabwe guha umwana wawe imiti\nyandikiwe na MUGANGA gusa, kandi ukayikura kwa muganga cyangwa amaguriro y’imiti (farumasi)\nyemewe."
-  },
-  {
-    "id": "6.12",
-    "title": "Uburyo bwo konsa umwana neza",
-    "content": "Konsa umwana neza bituma amashereka yihembera akaba menshi agahaza umwana. Konsa umwana neza, ni\nukumufata neza umubiri we urambuye atihinnye, umutwe we usa n’aho uraramye buhoro.\nMu maso h’umwana hagomba kuba hateganye n’ibere kandi utamutsindagije ku gituza no ku nda byawe,\nakureba mu maso. Umwana aba afunguye umunwa bihagije, ikiziga cy’ibere kigaragara hejuru y’umunwa\nw’umwana kurusha munsi yawo, umunwa wo hasi w’umwana uba ugaruka hanze, akananwa ke gakora ku\nibere.\nUmubyeyi kandi ashobora kwikama akabika amashereka mu gikoresho gisukuye umwana akaza kuyakoresha\nmu gihe mama we adahari.\nUko wonsa umwana, jya umureba mu maso umusekere, umuvugirize ubuhuha, kuko bikangura ubwonko\nbigafasha umwana mu mikurire y’ubwenge hakiri kare\nNiba ugize imbogamizi mu gihe cyo konsa nko kubabara imoko, gutarirana kw’ibere, kuzana udusebe ku ibere\nkomeza wonse umwana kandi ujye kwa muganga."
-  },
-  {
-    "id": "6.13",
-    "title": "ibyo wakwitondera mugihe wonsa",
-    "content": "Niba ugize imbogamizi mu gihe cyo konsa nko kubabara imoko, gutarirana kw’ibere, kuzana udusebe ku ibere\nkomeza wonse umwana kandi ujye kwa muganga."
-  },
-  {
-    "id": "6.14",
-    "title": "Guha abana imfashabere",
-    "content": "Umwana ugejeje ku mezi atandatu agomba gutangira guhabwa ibiryo byunganira ibere, ariko agakomeza\nkonka kugeza ku mezi 24 ndetse no hejuru yayo. Inshuro umugaburira n’ingano y’ibyo umuha bigenda\nbyiyongera uko akura, kandi ukamuha indyo yuzuye igizwe n’ibiryo biboneka mu matsinda yose uko ari atanu\nharimo:\n• Ibinyampeke n’ ibinyabijumba n’ibitoki.\n• Ibinyamisogwe byumye (ibishyimbo, amashaza, lantiye) bikungahaye kuri poroteyine y’ibikomoka ku\nbimera.\n• Ibikomoka ku matungo bikungaye kuri poroteyine: inyama, amafi, amagi, amata;\n• Imboga n’imbuto biboneka aho abaturage batuye\n• Ibiryo bikungahaye ku binure: amavuta, avoka, ubunyobwa, ibihwagari n’ibindi."
-  },
-  {
-    "id": "6.15",
-    "title": "kugaburira umwana muto",
-    "content": "Igihe ugaburira umwana wawe, murebe mu maso, umumwenyurire, umuganirize, unamuvugirize ubuhuha,\nbimufasha gushishikarira igikorwa cyo kurya no gukangura ubwonko, bikamufasha gukura vuba mu bwenge,\nmu mbamutima, kumva no kuvuga vuba. Wite ku isuku cyane mu gihe ugaburira umwana cyangwa umwonsa,\nukarabe intoki kandi nawe umukarabye.\nIbyo kurya bihabwa umwana ndetse n’igikoma bigomba kuba bifashe bihagije, ibiryo bivanze binombye kandi\nhakongerwamo ifu ya Ongera-intungamubiri ikungahaye ku myunyungugu irinda umwana kugwingira no\nkurwara izindi ndwara ziterwa n’imirire mibi.\nNi byiza guha umwana igi rimwe buri munsi kuko ririmo intungamubiri zose umwana akeneye kugirango akure\nneza.\nAbabyeyi bagomba kwita cyane ku igaburo ry’abana bacutse n’abigiye hejuru, bakita ku isuku yabo no kubyo\nbakinisha. Uwo mwana agomba kugaburirwa inshuro 5 ku munsi, agahabwa ibiryo bihagije kandi bijyanye\nn’ikigero agezemo, indyo ikaba igizwe n’amoko atandukanye y’ibiribwa bagenda bahinduranya."
-  },
-  {
-    "id": "6.16",
-    "title": "Kugaburira abana bigiye hejuru",
-    "content": "Ababyeyi bagomba kwita cyane ku igaburo ry’abana bacutse ibere n’abigiye hejuru, bakita cyane ku isuku\nyabo, kubyo bakinisha n’ibyo barya, bakagenzura cyane ko igaburo bafata rigizwe n’indryo yuzuye igizwe\nn’ibyubaka umubiri, ibitera imbaraga ndetse n’ibirinda indwara, bakongera ifu ya Ongera mu igaburo\nry’umwana, kandi bagaha umwana igi rimwe buri munsi.\nUwo mwana agomba kugaburirwa inshuro 5 ku munsi, agahabwa ibiryo bihagije kandi bijyanye n’ikigero\nagezemo. Ibiryo arya bigomba kuba bifashe kandi, nibyiza kumuha inombe y’ibiryo bivanze cyangwa bikasemo\nuduce duto. Hinduranya indyo umuha kandi ibe igizwe n’amoko atandukanye y’ibiribwa, sabana cyane\nn’umwana mu gihe urimo kumugaburira."
-  },
-  {
-    "id": "7.0",
-    "title": "uburere buboneye ni iki",
-    "content": "Uburere buboneye budahutaza umwana ni ukumuyobora mu nzira iboneye hadakoreshejwe ibihano bibabaza\numubiri n’imbamutima, mukusoze urukundo n’ineza bimufasha kwikosora no kwitarwara neza."
-  },
-  {
-    "id": "7.1",
-    "title": ".Uko watoza umwana wawe uburere buboneye",
-    "content": "Uburyo umwana atozwa uburere buboneye bijyana n’icyiciro cy’ubukure agezemo. Mubyeyi, toza umwana\nwawe kumvira, ikinyabupfura,kubaha no kumenya gutandukanya imigirire myiza n’imibi,ndetse no kumva ko\nyabazwa ibyo yakoze atabishyize ku bandi.\nToza umwana hakiri kare kumenya kwikorera uturimo tumwe na tumwe bijyanye n’ikigero ke, bidahariwe\ngusa abakozi bo mu rugo.\nMufashe abana kugira imyitwarire myiza mufatanya gushyiraho imirongo ngenderwaho mu rugo nk’amasaha\nyo kuryama, koga, kubyuka, gusasa, gutaha mu rugo, gukina, kureba televiziyo,kumva radio, gusurana, gusoma\nibitabo,gukora imikoro yo ku ishuri no gukora isuku n’ibindi."
-  },
-  {
-    "id": "7.2",
-    "title": "uko umubyeyi yashyikirana n’umwana",
-    "content": "Ababyeyi bagomba gushimangira no gusigasira umubano mwiza no kwizerana n’abana babo mu buryo\nbuhoraho, bamarana igihe, baganira banakina; bituma umwana arushaho kubiyumvamo, kubizera no\nkubagaragariza inzitizi afite nta kwishisha. Abana biga bitegereza ibyo ababyeyi babo bavuga, bakora nuko\nbabayeho. Mubyeyi, erekana imyitwarire ikwiye wifuza kubona mu bana bawe, nk'icyubahiro, ineza,\nn'ubunyangamugayo, urukundo, umutoze kubana neza n’abandi no gukunda Igihugu."
-  },
-  {
-    "id": "7.3",
-    "title": "uko warinda umwana wawe",
-    "content": "Kurinda umwana ihohoterwa ryaba irishingiye ku kubabaza umubiri, gukomeretsa amarangamutima,\nkuvangura abana, kubakoresha imirimo irenze ubushobozi bwabo, kubashakiraho amaronko, kubacuruza\nkutabaha ibyo bakeneye uko bikwiye nko kubitaho, kubagaburira, kubavuza, kubajyana kwiga, kwidagadura\nndetse n’ibindi."
-  },
-  {
-    "id": "7.4",
-    "title": "ingaruka zo kuba umwana yarahohotewe",
-    "content": "Iyo umwana akorewe ihohoterwa iryo ariryo ryose, bimugiraho ingaruka mbi ku buzima bwe, bw’ umubiri\nn’ubwo mu mutwe, mu myitwarire ye ndetse n’imibanire ye n’abandi, bikaba byanakurizaho kudindira mu\nmikurire ye, kumugara ndetse n’urupfu. Ibihano byose bibabaza umubiri n’imbamutima bihanwa n’amategeko\nkandi ntibikwiye gukoreshwa mu gukosora abana."
-  },
-  {
-    "id": "7.5",
-    "title": "uko wahana umwana wawe",
-    "content": "Gukosora neza udahutaje umwana mu gihe yakoze ibidakwiye cyangwa yarenze ku murongo mwiza\nmwemeranijeho mu muryango, ni ukumuyobora si ukumuhana cyangwa kumuhahamura; banza ucururuke,\nutuze, umwegere muganire ku ikosa yakoze umwereka ingaruka mbi zabyo ndetse n’ibyiza byo kwitwara neza,\nmufate ingamba yo kutazabisubira.\nMu gihe habayeho isubirakosa, umwibutsa ingamba mwari mwarafashe byaba ngombwa agakosorwa mu\nbundi buryo butari ugukubitwa cyangwa gutukwa nko kumuha umurimo akora utavunanye, nko gukora isuku\nmu cyumba, gusukura mu busitani, amasahani n’ibindi."
-  },
-  {
-    "id": "7.6",
-    "title": "Ese wumva guha umwana ibihano bibabaza umubiri n’iteshagaciro bifasha ababyeyi mu kurera?",
-    "content": "Ibihano bibabaza umubiri n’ibitesha agaciro, bitera abana kwiyumva nk’abatereranywe n’abantu bakabaye\nbabitaho kurusha abandi. Iyo abwiwe nabi cyangwa atonganyijwe cyangwa agakubitwa kubera ko hari ibyo\nakoze bitari byo cyangwa agaragaje imyitwarire idahwitse, bishobora gutuma atangira kujya abikora yihishe,\nbikaba byanamutera agahinda gakabije, kwigunga kubahahamura, kwitakariza ikizere bikaba byamuviramo no\nkwiyahura cyangwa guhunga mu rugo no kubagabanyiriza imibanire myiza n’abandi.\nIbihano bituma umwana yiyumva nk’aho ari umuntu mubi, bishobora kandi gutuma abana bazinukwa ababyeyi\nbakanabarwara inzika n’ubwo batabyerekana mu buryo butaziguye. Binatuma abana batinya ababyeyi bikaba\nbyabatera kujya bababeshya. Ibihano bitera abana impagarara zishobora kudindiza imikurire y’ubwonko\nbwabo, bikaba byabatera kugira umuze/uburwayi/urupfu, kudindira mu buryo bw’imitekerereze no kutabasha\nguhangana n’ibibazo; bikamukurikirana yaranabaye umuntu mukuru. Ibihano by’ubwoko bwose bibabaza\numubiri n’ibibabaza imbamutima bihanwa n’amategeko kandi ntibikwiye gukoreshwa mu gukosora abana.\nMugihe umwana yakoze ibidakwiye mwegere ufate umwanya uhagije wo kuganira nawe ku ikosa yakoze\numwereka ingaruka mbi zabyo ndetse mufate ingamba yo kutazabisubira. Mu gihe habayeho isubiracyaha,\numwibutsa ingamba mwari mwarafashe byaba ngombwa agahanwa mu bundi buryo butari ugukubitwa\ncyangwa gutukwa. Ushobora kumuha umurimo akora nk’igihano ariko utavunanye, kumwima uruhushya rwo\ngukinana n’abandi cyangwa gukora ibyo yakundaga gukora nko kureba television n’ibindi."
-  },
-  {
-    "id": "7.7",
-    "title": "impamvu zitera umwana kurira",
-    "content": "Impinja n’abana b’ibitambambuga akenshi barira iyo bamenyekanisha ibyifuzo byabo n’uko bamerewe nko\nkuba bumva batameze neza, bashonje, bafite inyota, bashyushye cyane, bakonje cyane, batisanzuye, bashaka\nko ubaterura, ubahobera cyangwa bashaka ko ubahindurira imyambaro.\nImbamutima zigaragaza kurakazwa n’ubusa, kurira, kwisiribanga hasi ni ibisanzwe ku mwana\nw’igitambambuga bitewe n’uko bamubujije icyo yashakaga gukora cyangwa gufata, bityo rero akeneye\ngufashwa kwiga, gusobanukirwa ndetse no kugenzura imbamutima ze mu buryo bwiza.\nIyo barira ntabwo ari uko baba bashaka gutesha umutwe ababyeyi babo. Gerageza kumenya ibyo uruhinja\ncyangwa umwana bakeneye ubafashe. Uruhinja rukeneye ko urukuyakuya cyane kugirango rwumve rutekanye\nrunarusheho kukwibonamo. Kirazira kuzunguza uruhinja kuko ushobora kurutera ubumuga bukomeye ku\nbwonko."
-  },
-  {
-    "id": "7.8",
-    "title": "icyo wakora mugihe umwana ari kurira",
-    "content": "Babyeyi, mukurikije ikigero umwana agezemo, mutoze kwimenyereza kuvuga no gusaba icyo ashaka mu buryo\nbwiza atarize cyangwa ngo asiribange hasi.\nAbana bato batazi kuvuga, ahubwo bakoresha amarira, banza utuze,ugabanye uburakari, ufatire amaboko\ninyuma cyangwa uyashyire mu mufuko w’umwenda wambaye, urebe aho uba ugiye gato, ubanze ucururuke,\nmaze usesengure impamvu iri kumuriza, ugaruke muganire umenye kandi umufashe kubona icyo ashaka\natarinze guhogora.\nUmwana umufasha kugenzura uburakari bwe umukinisha, umuterura, umuhobera kugirango mwubake\nurugwiro yibagirwe ibyatumye arakara, umuhe ibyo akeneye yamaze gutuza.\nUruhinja rukeneye ko urukuyakuya cyane kugirango rwumve rutekanye runarusheho kukwibonamo. Kirazira\nkuzunguza uruhinja kuko ushobora kurutera ubumuga bukomeye ku bwonko."
-  },
-  {
-    "id": "7.9",
-    "title": "impamvu zitera abana gukubagana",
-    "content": "Abana b’ibitambambuga ni abanyamatsiko, baba bifuza kwiga ibishya, kuvumbura no kumenya ibibakikije uko\nbikora n’uko biteye, ni abanyeshuri bigira ku byo babona, cyangwa bakora mu byumviro bitanu aribyo\nguhumurirwa, kuryoherwa, gukorakora, kumva no kubona.\nAbabyeyi bumva ko ari ubukubaganyi, kubahombya, kwangiza ibikoresho n’ahantu no guta umwanya iyo\nabana babasabye kubafasha. Iyo tugerageje kubabuza kwiga n’ubuvumbuzi bwabo birabarakaza cyane kandi\nbikadindiza iterambere ryabo mu bwenge; bamwe bahita bivumbura, barira, abandi bagasiribanga hasi kubera\nko tubabujije ibyo bashaka."
-  },
-  {
-    "id": "7.10",
-    "title": "Gufasha abana bakubagana",
-    "content": "Mubyeyi, uburyo bwiza bwo kubafasha, ni ugusobanurira umwana ibintu babona hafi yabo cyangwa bakinisha\nuko bimeze, uko bikora, icyo bigenewe gukoreshwa n’uburyo bwiza bwo kubikoresha kugirango bidashyira\nubuzima bwabo mu kaga bikaba byabakomeretsa, bihera mu mihogo no mu matwi, bibahumanya nk’uburozi,\nn’ibindi kugirango bagire amakuru ahagije, bunguke ubwenge ubutaha babikoreshe neza.\nYobora umwana utamukubise cyangwa utamututse, umwereke igikwiye gukorwa kimufasha kugera ku ntego\nyashakaga; niba ubona byamushyira mukaga cyangwa ari kwangiza umubwire ko ari bibi, umuhindurire,\numwereke igikwiye cyimufitiye akamaro"
-  },
-  {
-    "id": "7.11",
-    "title": "uburyo bwo gufata uruhinja",
-    "content": "Iyo uteruye uruhinja ugomba gushyira ikiganza kimwe munsi y’ umutwe noneho ikindi kigafata ku\nkibuno. Hera aho noneho umuzamure umwegereza igituza cyane Hariho uburyo butandukanye bwo\ngufata no guterura uruhinja rukivuka."
-  },
-  {
-    "id": "7.12",
-    "title": "Uburyo bwo guhoza umwana",
-    "content": "• Ushobora kugerageza izi ngamba ukareba icyafasha umwana wawe.\n• Mushyire mu mugongo\n• Muririmbire\n• Ahari zimya amatara\n• Muzengurutse hanze cyangwa mu nzu. Cyangwa mu buriri ujya mu gikoni n’ahandi…)\n• Mukoreshe imyitozo yo guhumeka\n• Muhe undi muntu agufashe ubone umwanya wo kuruhuka no gutuza\n• Bamwe mu bana bakuze bakunda kwiyorosa igitambaro cyangwa uburingiti.\n• Muhe ikintu ashobora guhugiraho, nk’ igitabo cyangwa ikinyamakuru."
-  },
-  {
-    "id": "7.13",
-    "title": "Uko wafasha umwana gusura:",
-    "content": "• Gusura: Gusura ni ngombwa nyuma ya buri funguro umwana yaba yariye bicye cyangwa se byinshi.\nDore uko wabikora:\n• Muterure umushyire ku rutugu\n• “nyonga” amaguru y’umwana wawe\n• witonze witonze terura umwana areba hejuru ufate umugongo ugenda umuzamura wongera\numumanura\n. • Fata amaboko munsi y’amavi y’umwana wawe, hanyuma ukande witonze amaguru ye uyakoza ku\nnda\n• Buhorobuhora kanda ku nda y’umwana wawe."
-  },
-  {
-    "id": "7.14",
-    "title": "gusinzira ufite uruhinja",
-    "content": "Niba uryamana n’uruhinja rwawe dore ibyo ukwiye gukora kugira ngo usinzire neza nta kirogoya: •\nUkwiye kwizera neza ko umwana wawe adashobora guhanuka ku buriri ngo yiture hasi. cyangwa se ngo\nafatirwe hagati ya matela n’ urukuta.\n• Shyira imisego, amashuka, ndetse n’ uburingiti kure y’uruhinja , ubarinde gututubikana cyangwa se\nngo bipfuke mu maso ku buryo byababuza guhumeka. Ushobora gukoresha udfuka impinja ziryamamo.\n• Irinde kurekera abandi bana mu buriri icyarimwe;\n• Reka umwana wawe aryame ivure. Ntukaryame aho umwana aryamye:\nNiba wowe n’ umugabo wawe mwanyoye inzoga cyangwa se ibiyobyabwenge. (bigutera gusinzira\nkandi ntubone uko wita ku mwana wawe);\n• Niba umwana wawe yaravutse adashyitse kandi afite ibiro bike;\n• Niba wumva unaniwe cyane;\n• Umwana wawe afite umuriro cyangwa ibimenyetso byose by’uburwayi."
-  },
-  {
-    "id": "7.15",
-    "title": "Uburyo bwo kuryama hirindwa indwara y’ urupfu ru tunguranye ku bana b’ impinja ( SIDS)",
-    "content": "Iyi ndwara y’urupfu rutunguranye (SIDS) ibaho mu gihe umwana asinziriye akabura umwuka.\nImpamvu zibitera ntabwo zumvikana neza, ariko ababyeyi bagomba gufata ingamba zose zatuma icyo\ncyago kitaba ku mwana wabo.\n• Buri gihe shyira umwana wawe / uruhinja rwawe kuburiri agaramye. (Ntacyo bitwaye niba umwana\nashobora kwihindukiza ( mu kigero cy’ amezi 4-6);\n• Umwana wawe agomba kuryama ahantu hafite isuku haterereye kandi, nta bindi bintu\nbihanyanyagiye.\n• Shyira ibirenge by’umwana wawe hafi y’impere z’igitanda kugira ngo adashobora gukurura ibyatuma\nyifunga mu mazuru bikamubuza umwuka.\n• Orosa umwana kuburyo ikiringiti cyangwa ishuka uyifungira mu mpande zombi z’igitanda kandi\nntibirengo mu akananwa k’umwana.\n• Byogeye kandi:\n• Inzu uyirinde umwotsi w’ itabi (byibuze icyumba cyo kuraramo);\n• Ryamisha umwana wawe ahantu hatekanye hafite: o ahantu hakomeye kandi haterereye o o Nta\ncyuho hagati ya matela n’impera z’ igitanda Nta kintu gikonje, gihehereye nka bumper padi, umusego\ncyangwa ibikinisho."
-  },
-  {
-    "id": "7.16",
-    "title": "Guha umwana inkingo",
-    "content": "Dore zimwe mu nko umwana agomba gufata:\nMugihe cyo kuvuka: Urukingo rwa BCG urirnda umwana kurwara igituntu\nMugihe cyo kuvuka ikongera gutangwa nyuma y’ ibyumweru 6, 10 na 14:\nUrukingo rwo mu kanwa (OPV) rurinda umwana Gapfura\nNuba umubyeyi arwaye umwijima wo mu bwoko bwa B) ku byumweru 4: Uruhinja rugomba guhabwa\nurukingo rumurinda Umwijima wo mu bwoko bwa B (Hepatite B).\nKu byumweru 6, 10, na 14: Uruhinja ruhabwa inkingo zirinda kwandura Agapfura, Difuteriya, Tetanosi,\nKokolishi, Umwijima wo mu bwoko bwa B, ibicurane byo mu bwoko bwa Hemofirusi; Igituntu na\nRotavirusi.\nKu byumweru 6, 10, na 14: Uruhinja ruhabwa inkingo zirinda rotavirusi Ku\nmezi 9: Urukingo rwo kurinda umwana wawe kurwara Iseru na Rubela"
-  },
-  {
-    "id": "7.17",
-    "title": "Ibimenyetso by’indwara z’abana",
-    "content": "Bimwe mu bimenyetso byakwereka ko umwana wawe arwaye cyangwa afite indwara z’abana\n\nUmuriro, ubukonje bw’intoki n’ibirenge\n\nKwanga ibiryo\n\nKuruka\n\nUruhu rwera n’urwijimye\n\nGuhagarika umutima no kwanga i bimukorerwa\n\nKugamika ijosi, kudakunda amatara\n\nGuhondo bera\n\nGusinzira cyane kuburyo bigorana kubyuk\n\nIbiheri\n\nGuhumeka cyane\n\nKurira bi dasanzwe\n\nKubyimba igihorihori\n\nGusa nkuhwereye /kugwa igicuri"
-  },
-  {
-    "id": "7.18",
-    "title": "Ibimenyetso byo kwitabwaho mugihe umwana arwaye ni:",
-    "content": "• Kugira umunabi ntakunde gukorwaho/witabira nabi;\n• Kubura ubushake bwo kurya / kurya nabi;\n• Uruhinja rwumva rushyushye cyangwa rukonje;\n• Ubururu cyangwa ibara ryijimye cyane;\n• Bigora umwana kubyuka;\n• Kudatuza muri we agashikagurika\n• Impinduka cyangwa ingorane zo guhumeka;\n• - Kuruka na / cyangwa impiswi ;\n• - Indwara y’ uruhu rw’ umuhondo by’ igihe kirekire"
-  },
-  {
-    "id": "7.19",
-    "title": "Uburyo bwo gushyira umwana mu gituza cy’umubyeyi",
-    "content": "Uruhinja rushyirwa mu gituza cya Mama cyangwa papa kuburyo imibiri ikoranaho.uruhinja narwo\nrukaba ntacyo rwambaye usibye nko kuba bamubinze na pampegisi/amaranje/ibitambaro\nbyabugenewe, yambaye ingofero n’amasogisi. Nanone uruhinja rukoroswa ikigoma/igishura cyangwa\nikindi cyakoroswa umwana kugirango adaskonja. Ushobora kuruhuka muri ubu buryo.\nMu gihe umubyeyi w’umugabo ari kuruhuka nka nijoro avuye nko mukazi, ashobora kuruhuka ashyize\numwana mu gituza. Niba ukeneye guhaguruka ngo ugende ushobora no guheka uruhinja rwawe nta\nmwenda urimo kuburyo imibiri ikoranaho noneho ukikomereza imirimo yawe. Igihe umuhekeye imbere\nmu gituza ukitondera ko utaribwegere ikintu gishyushye nk’isafuriya cyangwa ikindi, urugero niba uri\nnk’umucuruzi mu isoko cyangwa muri butike, ushobora guheka umwana wawe kuburyo umubiri wawe\nn’uwe ukoranaho ubundi ukikomereza imiromo yawe."
-  },
-  {
-    "id": "7.20",
-    "title": "Uko wakwita kumwana igihe utwite",
-    "content": "Komatana n’umwana uri mu nda\nKomatana n’umwana wawe Ririmbira umwana uri mu nda, muganirize, ukuyakuye inda.\n• Ababyeyi bombi bashobora gutangira kwita ku mwana no kumwereka urugwiro binyuze mu ku\nmuganiriza, kumuririmbira no gukuyakuya inda kuko bituma arushaho kubaho neza akanagira imikurire\nmyiza\n• Abana bakiri mu nda bamenyera amajwi bakunze kumva n’intoki z’abakunze gukuyakuya inda ya\nnyina. Iyo ayo majwi yuje urukundo n’ituze, bituma umwana agira imbamutima ndetse akanarushaho\nkomatana na nyina n’undi wese umwitaho.\nKumva umerewe neza bishobora kugutera ibyishimo : umuziki, kuririmba, amagambo meza,\nibintu bishobora kukubuza umutuzo : umuntu uvugira hejuru, amahane, umuryango utishimye,\numujagararo utewe n’abo mubana cyangwa uhura nabo.\nIbyo bintu bigushimisha n’ibikubabaza binagira ingaruka ku mwana utwite. Ni yo mpamvu ugomba gukora\nuko ushoboye ukirinda ibigutera impagarara ugashaka ibigushimisha."
-  },
-  {
-    "id": "7.21",
-    "title": "Icyo wakora mu gihe uruhinja rukivuka",
-    "content": "Uruhinja rukivuka rugomba guhita rushyirwa mu gituza cy’umubyeyi:\n• Hagire ugushyira umwana wawe yambaye ubusa, inda ye ayihuze n’igituza cyawe nta kintu\nwambayeho kuburyo umubiri wawe uhura n’uwuruhinja.\n• Hindura mu maso h’uruhinja mu gihe yubitse inda kuyawe kugirango abashe guhumeka.\n• Hanagura umwana wawe hanyuma umufubikishe igitambaro/akaringiti, kugirango mukomeze kugira\nubushyuhe mwembi. Murebane amaso ku yandi\n• Abana bakunda kureba mu maso h’ababyeyi babo kandi bamara igihe bitegereza mu maso h’ababyeyi\nbabo nyuma yo kuvuka. Nyuma y’igihe cyo kuruhuka no gukanguka:\n• Uruhinja rutangira gukoresha utugeri rusunika inda ya mama kandi rugatangira kushaka gukurura inda\nrugana ku ibere rya nyina.\n• Iyo bageze ku ibere, bashobora gufataho, kuririgata, cyangwa gukanda ahantu bafashe bakonka.\n• Abana benshi bashoboye gufata imoko hanyuma bagatangira konka. Niba bikenewe ushobora\nkumufasha kubona ibere ryambere ukarimutamika ndetse no guhindura ukamuha irya kabiri.\n• Nyuma yo guhaga, uruhinja, rurongera rugasinzirira mu gituza cy’umubyeyi. Ubu buryo bwo gushyira\nurihinja mu gituza bikwiye gukomeza, ntabwo ari igihe umwana akibuka gusa, uruhinja ruba rukwiye\ngushyirwa mu gituza cya nyina cyangwa se noneho ibindi bice bitari gukora ku mubiri w’umubyeyi\nbikoroswa n’ikigoma/akaringiti cyangwa ikindi, Ibi mujye mubikomeza uko mushoboye\nIbikorwa byafasha umugore utwite n’ibitamugwa neza"
-  },
-  {
-    "id": "7.22",
-    "title": "Gufasha umugore utwite",
-    "content": "• Umugore utwite akenera kuruhuka bihagije. Mu gihembwe cya mbere cyo gutwita, habaho impinduka\nmu mikorere y’imisemburo zituma akenshi umugore yumva ananiwe cyane.\n• Imirimo ivunanye nko guterura cyangwa kwikorera ibintu biremeye bigomba kwirindwa.\n• Ku bagore badakora imirimo isaba ingufu nk’iy’ubuhinzi, ni ngombwa gukora imyitozo ngorora mubiri\nituma ugira ubuzima bwiza nkuko wayikoraga mbere yo gusama ariko ikaba itananiza umubiri wawe.\nIkiganiro kiyobowe Tekereza imirimo usanzwe ukora. Wabigenza ute kugirango abandi bajye\nbabigufasha ? Ese ujya usaba umugabo wawe kugufasha ?\n• Mu gihembwe cya kabiri cyo gutwita, abagore batwite bagomba kwirinda kuryama bubitse inda\ncyangwa bagaramye. Kuryama wubitse inda utwite ni bibi kuko bishobora gutuma utsikamira umwana.\nKuryama ugaramye kandi utwite bihagarika gutem bera kw’amaraso yawe n’umwana."
-  },
-  {
-    "id": "7.23",
-    "title": "Imibonano mpuzabitsina mu gihe utwite",
-    "content": "Mutekereza iki ku bijyanye n’imibonano mpuzabitsina mu gihe umugore atwite? Abashakanye\nbashobora kutiyumva kimwe kuri iyi ngingo ariko ni ngombwa kuganira bakabyumvikanaho.\n• Muri rusange gukora imibonano mpuzabitsina nta cyo bitwaye ku mugore utwite; ariko bigomba kwir\nindwa niba waba waragize ikibazo cyo kuva cyangwa kubabara mu kiziba cy’inda; ni ibimenyetso cy’uko\nushobora gukuramo inda cyangwa kubyara umwana utagejeje igihe.\nImibonano igomba nanone guhaga rara ugize ibintu by’ururenda bidasanzwe/isuha, niba warigeze kujya\nukuramo inda mbere cyangwa niba warasabwe na muganga ku mpamvu z’ubuzima ibyo nabyo\nbishobora gutuma inda ivamo cyangwa ukabyara igihe kitageze.\n• Iyo gukora imibonano mpuzabitsina bitera ububabare umugore utwite, ni ngombwa cyane\nkubiganiraho kuko ari igikorwa kigomba kumvikanwaho kugirango kibanezeze mwembi.\nKwita ku mubyeyi mbere yo kubyara\nKujya kwipimisha inda kwa muganga n’umumaro wabyo Ikurikinanwa n’isuzuma bihoraho by’ubuzima\nbw’umugore utwite n’umwana atwite Kwivuza no gukingirwa k’umugore utwite Iminota.\nKujya gusuzumisha inda kwa muganga Kugabanyirizwa kw’umubyeyi kujya kwisuzumisha kuko aba\nyamaze gusobanukirwa ibijyanye n’inda atwite Guhitamo kujya kwipimisha umubyeyi ajyanye\nn’umugabo we cyangwa undi muntu bafitanye isano."
-  },
-  {
-    "id": "7.24",
-    "title": "kujya kwipimisha inda kwa muganga",
-    "content": "Kujya kwipimisha inda kwa muganga Kubera iki kwipisha inda ari ngombwa ku mugore utwite? Ni ryari\numubyeyi akwiriye kujya kwipimisha?\nIgihe cyo gutwita kigabanyijemo ibihembwe bitatu. Hari ibyumweru 0-12, 13-26,28-40. Umugore utwite\nagomba kujya kwipimisha inshuro 8:\n• Inshuro 1 Mu gihembwe cya mbere (Kugeza mu byumweru 12)\n• Inshuro 2 mu gihembwe cya 2 (akenshi ni hagati y’icyumweru cya 20 na 26)\n• Inshuro 5 mu gihembwe cya 3 (mu byumweru bya 30,34,36,38 na 40).\nIbi bipimo ni ngombwa kugira ngo hizerwe ko:\n• Umwana wawe arimo gukura neza\n• Urimo guhabwa inyunganiramire n’ubufasha ukeneye kugirango ugire ubuzima buzira umuze ndetse\nn’um wana utwite agire imikurire iboneye.\n• Uba ubonye uburyo bwo kuvuga ibibazo waba ufite ukabiganira n’abaguha ubufasha bwizewe.\n• Ntabibazo bigenda bivuka kugira ngo uhabwe ubu fasha hakiri kare ?\n• Umwana ameze neza munda ndetse n’igihe cyo kuvuka kikaba kizwi. Imfashanyigisho Imfashanyigisho\n• Abagore batwita bakiri bato munsi y’imyaka 19 bakunze guhura n’ibibazo bikomeye igihe batwite.\nIbi bibazo byose bikemurwa no gukurikirana kenshi ubuzima bw’umwana batwite ari nayo mpamvu ari\nngombwa kwipimisha ziriya nshuro zose uko ari 8.\n• Iyo ugiye kwipimisha bwa mbere umuganga/umu byaza akubaza uburwayi waba waragize mu bihe\nbyashize, bwaba atari ubwambere usamye akubaza uko byakugendekeye igihe wari utwite izindi nda\nzabanjirije iyingiyi ndetse n’ uburyo wabyayemo.\n• Ibiro, umuvuduko n’inkari bifatirwa ibipimo buri uko ugiye kwipimisha.\n• Umubyaza akubaza ndetse akagufasha gusobanukirwa aho umwana aherereye mu nda ndetse\nn’ingano ye. Kuva mu byumweru 20 azakubaza niba wumva umwana yinyagambura mu nda, iki gihe\nkandi azumva uko umutima w’umwana utera."
-  },
-  {
-    "id": "7.25",
-    "title": "Ikurikinanwa n’isuzuma bihoraho by’ubuzima bw’umwana uri mu nda",
-    "content": "Gupima amaraso: bashobora gupima niba ufite amaraso make, urwaye Marariya cyangwa niba ufite\nagakoko gatera SIDA ndetse n’ibindi. Baza muganga ibisubizo by’ibipimo byafashwe ndetse niba nta\nn’ikibazo babonyemo kugirango umenye ingamba zigomba gufatwa niba hari ikibazo. Guca mu cyuma\nkireba umwana munda (Ekogara f i): Iyo witabira serivise zihabwa umugore utwite ku ivuriro, ushobora\nguca mu cyuma mbere y’ibyumweru 24 kugira ngo bemeze igihe nyakuri inda ifite, uko umwana angana,\nkugirango barebe niba hari ikibazo cyangwa ubumuga umwana uri munda yaba afite; niba utwite\nimpanga cyangwa abana barenze 2, Ibyuma bifite ubu bushobozi ntibiboneka hose ariko muganga igihe\nabona ko ari ngombwa akohereza ku bitaro/ivuriro ribifitiye ubushobozi."
-  },
-  {
-    "id": "7.26",
-    "title": "Kwikingiza no kwivuza ku mugore utwite.",
-    "content": "Urukingo rwa tetanusi:\n• Uru rukingo ruhabwa umubyeyi utwite rukana habwa umwana nyuma yo kuvuka\n• Umugore yandura tetanusi mu gihe agakoko kay itera kinjiye muri nyababyeyi cyangwa mu gitsina. Ku\nmwana yinjirira mu mukondo nyuma yo kuvuka iyo hakoreshejwe inzembe zanduye cyangwa igihe haba\nhari umwanda cyangwa umwanda witumwe n’amatungo ugera ku rureri rw’umwana\n• Urukingo rwa tetanus ntacyo rutwara umugore utwite. Ibinini bivura inzoka: Mu byumweru 20\nuzahabwa ibinini by’ inzoka unywera icyarimwe (ushobora no kubihabwa mu gihembwe cya 3) kuko\ninzoka zituma umugore abura amaraso, zigatuma atarya uko bikwi ye bityo bikagira ingaruka kuri wowe\nno ku mwana utwite."
-  },
-  {
-    "id": "7.27",
-    "title": "Ubufasha bwihariye ku mugore utwite kandi afite agakoko gatera SIDA.",
-    "content": "• Hamwe n’uwo mwashakanye, mupimwa agakoko gatera SIDA mu gihembwe cya mbere. Ku bagore\nbafite ubwandu bw’agakoko gatera SIDA, ari aba busanganywe cyangwa se abakibwandura, bahabwa\n• ubufasha buhagije mu guhumurizwa no guhabwa imiti igabanya ubukana. Mu gihe cyo kubyara umugore\nufite ubwandu bwa SIDA ahabwa ubufasha bwihariye kugira ngo hirindwe ko yakwanduza umwana we\n• igihe ari kumubyara cy angwa se ngo abe yakwanduza umubyaza. Abana babyawe n’umubyeyi ufite\nubwandu bwa SIDA bitabwaho bahabwa imiti ibakingira. Iyo umwana yanduye, ahita atangira guhabwa\nimiti igabanya ubukana. Ikiganiro kiyobowe – HIV Waba uzi niba ufite agakoko gatera SIDA? Mbese uti\nnya kwipimisha SIDA kugirango udasanga wanduye? Kubera iki?\n• Umufashamyumvire asobanurira abahugurwa ko u Rwanda rwakoresheje imbaraga nyinshi cyane kugira\nngo hagabanuke ubwandu bwa SIDA ndetse no kugi rango haboneke imiti igabanya ubukana kandi\n• ifashe abafite agakoko kugira ubuzima bwiza hagabanywa ubukana bw’agakoko ndetse hagabanywa\nikwirakwira ry’agakoko nko kuba umubyeyi yakwanduza amubyaza cyangwa na nyuma yaho."
-  },
-  {
-    "id": "7.28",
-    "title": "Ibimenyetso mpuruza ku mugore utwite",
-    "content": "Ni ibihe bimenyetso mpuruza ku mugore utwite ?\nUmugore utwite agomba guhita ajya kwa muganga mu gihe cyose abonye ibimenyetso mpuruza nk’ibi +-\nbikurikira :\n• Umugore utwite agomba guhita ajya kwa muganga mu gihe cyose abonye ibimenyetso mpuruza nk’ibi\nbikurikira :\n• Kuva amaraso mu gitsina cyangwa kumva ababara cyane mu nda yo hepfo.\n• Kuruka cyane bishobora kujyana no guhitwa\n• Kuribwa umutwe bikabije (bitakizwa na paracetam olo), kubyimba (ibirenge, utugombambari, mu\nmaso n’ibiganza), kumva utabona neza no kumva imbavu zikurya byose ni ibimenyetso mpuruza\nby’indwara y’umuvuduko ukabije yitwa puri-Ekalampusiya (Pre-eclampsia), kandi bishobora kugira\ningaruka zikomeye zirimo no kugwa igicuri, kubura umwuka, kubura ubwenge n’ibindi, mu gihe hari\nugize ikibazo nk’iki, ubufasha bwa muganga buba bukenewe by ihuse.\n• Uburyaryate, uhereye mu biganza, mu birenge no gukomeza ku bindi bice by’umubiri kandi budatera\nubuheri.\n• Iyo ubonye amazi atunguranye mu gitsina, bishobora gusobanura ko isuha yamenetse kandi igihe cyo\nkuvuka kitaragera, ibi bivuze ko ari ikibazo gikomeye cy’ubwandu (infection) buri muri nyababyeyi.\n• Igihe wumva ko gukina munda k’uruhinja kugenda kugabanuka cg se kwarahagaze mu minsi mike\nishize.\n• Kubyimba amaguru ndetse n’ uburibwe cyangwa se ukabona igice kimwe gitukura\n• Gutitira no kugira umuriro bishobora kuba ibimenyet so bya Marariya ndetse n’ izindi ndwara zandura."
-  },
-  {
-    "id": "7.29",
-    "title": "Kwirinda ubwandu / indwara zandura",
-    "content": "• Horana isuku, karaba intoki n’isabune n’amazi meza buri gihe.\n• Ryama mu nzitiramibu mu kwirinda kurumwa n’agakoko gatera malaria.\n• Umugore utwite agomba kwirinda gukorako ra intama, injangwe n’umwanda wazo kuko aya matungo\nakunze gukwirakwiza indwara zibangamira ubuzima bw’umwana uri mu nda. Karaba neza intoki nyuma\nyo gukora imirimo ig usaba gukora mu bitaka cyangwa wakoze hasi.\nKwiyakira no kumenya uko witwara utwite"
-  },
-  {
-    "id": "7.30",
-    "title": "Impinduka mu byiyumvo by’umugore utwite Ibimenyetso by’agahinda gakabije",
-    "content": "Impinduka mu byiyumvo by’umugore utwite Saba ubufasha mu gihe wumva ufite agahinda Guhangana\nn’ibibazo bahura nabyo mu gihe batwite (abangavu) Kuganiriza abana babo hagamijwe kabategurira\nkwakira umwana uzavuka. Gushaka uzita ku bandi bana ku munsi wo kujya kubyara\nGuhindagurika byihuse kw’ibyiyumvo nk’ibishimishije, ubwoba, ibisekeje, ibituma arira, kugira uburakari\ncyangwa umujinya n’ibintu bibaho cya ne ku mubyeyi utwite. Ibyo byiyumvo nk’ibyo bibaho kandi ni\ningenzi kubiganiraho n’umuntu wiyumvamo. • Ku bagore bamwe na bamwe bakiri bato gut wita\nbibatera umunezero, n’ibyo kwishimira, ku bandi bo bishobora kuba byarabatunguye kandi bikabatera\nubwoba."
-  },
-  {
-    "id": "7.31",
-    "title": "Ibimenyetso by’agahinda gakabije",
-    "content": "Ibimenyetso by’agahinda gakabije. Ni ibihe bimenyetso biranga umuntu ufite agahinda gakabije, umuntu\nwumva ko ibye byarangiye?\n• Kubura ubushake bwo kurya no kunanirwa kurya ibyo usanzwe umenyereye\n• Kubura ibitotsi no kugira umunaniro ukabije\n• Kumva udashishikajwe n’umwana utwite\n• Kumva wihebye\n• Ibitekerezo byo kwigirira nabi\n• Ibitekerezo byo kugirira nabi umwana utwite\n• Kwiyumvamo ubwoba bukabije bwo kuba ububyeyi gito\n• Agahinda gakabije ni ikibazo gikomeye aba gore benshi bahura na cyo mugihe batwite na nyuma yo\nkubyara. Iki kibazo kandi gishobora kugira ingaru ka mbi ku mikurire y’umwana. Gana muganga igihe\nwumva ufite agahinda gakabije cyangwa igihe wumva wihebye.\n• Ababyeyi bakiri bato nimwe mukunze kugi ra agahinda gakabije iyo mutwite. Mu gihe wumva\nutishimye cyangwa wumva watakaje ikizere, shaka ubufasha cyangwa ubiganirize inshuti yawe cyangwa\nuwo mufitanye isano wizera."
-  },
-  {
-    "id": "7.32",
-    "title": "Gutegura abandi bana kwakira undi mwana muzabyara (Cyangwa abangavu-Guhangana",
-    "content": "n’impinduka mu gihe batwite)\nGutegura abandi bana kwakira undi mwana muzabyara Waba waraganirije undi mwana/abandi bana\nmufite mwen da kubyara undi mwana? Gutegura abandi bana kwakira undi umwana muzabyara Mu gihe\nutwite, ni ngombwa gushaka umwanya wo kuganiriza abana banyu ku mwana wenda kuvuka kugira ngo\nbatangire bagaragaze uko bazamwakira niba hari n’abataby ishimiye utangire ubibakundishe. Guteganya\numuntu uzabafasha kwita ku bandi bana ku munsi wo kubyara. Teganya byibuze umuntu umwe uzasigara\nmu rugo yita ku bandi bana igihe muzaba mwagihe kwa muganga ugiye kubyara. Reka abana batangire\nbamenyerane n’uwo muntu\nKu bangavu"
-  },
-  {
-    "id": "7.33",
-    "title": "Ibibazo biterwa no gutwita imburagihe",
-    "content": "Ibibabazo biterwa no gutwita imburagihe? (Urugero: Kubura ubufasha, Amikoro make murugo,\nimibereho mibi mu muryango, kubura amikoro yo kujya ku ishuri, kure ka ishuri, kubura akazi n’ibindi,\nkandi ibi bishobora guhangayikisha.) Bafashe gukemura ibi bibazo ndetse unabagire inama yo kujya\nbabiganiraho n’umuntu bizera, bishobotse bakabiganiraho n’umuganga/umujyanama w’ubuzima\nkugirango babashe guhabwa ubufasha bakeneye. Kubijyanye no kuva mu ishuri, bamenyeshe amabw\niriza/gahunda y’igihugu ku burezi igamije gushishikarizaabana gusubira mu ishuri"
-  },
-  {
-    "id": "7.34",
-    "title": "Umumaro wo kubyarira kwa muganga",
-    "content": "Ibyiza byo kubyarira kwa muganga harimo :\n• Kubyarira kwa muganga ukabyazwa n’umuganga wabyigiye ufite ubumenyi mu buryo bwemewe\nn’amategeko\n• Umwana ahita yandikwa mu bitabo by’irangamimerere akivuka\n• Iyo uri kwa muganga bamenya neza ubufasha ukeneye kugirango ubyare neza, cyane nk’iyo\nwakurikiranwaga by’umwihariko/ufite uburwayi bakuvuye ubwo wabaga wisuzumisha utwite.\n• Iyo uri kwa muganga biroroha kwitabwaho igihe ukeneye ubutabazi byihuse ngo ubyare"
-  },
-  {
-    "id": "7.35",
-    "title": "Ibyo wamenya ku ndwara yo Kujojoba",
-    "content": "Kujojoba ni indwara ikomeye iterwa n’umwenge ucika hagati y’inda ibyara n’impera y’urura runini\ncyangwa uruhago, kubera ko inzira umwana acamo iba ari nto cyane, imeze nk’ifunganye umubyeyi\nagategereza umwanya munini atarabyara.\nUku gufungana bitera umubyeyi uburibwe bukabije, uruhago rukitugatugira ku igufa ryo mu mayasha\nbigatuma hagati y’inda ibyara n’impera y’urura runini cyangwa uruhago haturikamo umwenge. Ingaruka\nzo kujojoba ni uko ari ubumuga umuntu ashobora kugira ubuzima bwose, aho inkari cyangwa umwanda\nwagombye guca mu kibuno bica muri wa mwenge kandi bikaza utabishatse. Ni indwara itera ipfunwe no\nkwiheza k’uyirwaye, ndetse no guhezwa n’abandi."
-  },
-  {
-    "id": "7.35",
-    "title": "Ubufasha bw’uwaherekeje umubyeyi kubyara.",
-    "content": "Uherekeje umugore utwite ashobora gutanga ubufasha butangaje bashobora gutuma umubyeyi yumva\naruhutse ku mutima bityo bigatuma abyara neza :\n• Kubana nawe no kugufasha mu gihe uri kubise\n• Guhindura uruhande uryamiye no kugukanda mu mugongo akugabanyiriza ububabare.\n• Kugufasha mu byo ushobora gukenera gukora kubw’ibyemezo wafashe.\n• Kumenyekanisha icyo ucyeneye kubashinzwe ku kwitaho.\n• Kukubwira ibirimo kuba"
-  },
-  {
-    "id": "7.36",
-    "title": "Gusinzira k’uruhinja cyangwa gusinziriza uruhinja",
-    "content": "• Impinja zisinzira mu buryo butandukanye kandi birahindagurika. Mu byumweru bya mbere nyuma yo\nkuvuka, bisa nkaho bahora basinziriye usibye mu bihe byo konka. Bamwe babasha kwikangura. Nk’uko\nbiba ku bantu bakuru, impinja nazo zigira ibihe byazo bikagera ubwo nawe nk’umubyeyi/ umurezi\nubisobanukirwa.\n• Ni byiza cyane ko umubyeyi atangira kumenyereza uruhinja kugira igihe gihoraho cyo gusinzira.\nUrugero nk’igihe cyo kumukarabya/kumwuhagira, igihe cyo konsa umwana mu masaha adahinduka mu\ngihe cya nijoro no kugira uburyo bwo ku musinziriza.\nBwira ababyeyi ko uhantu hambere hatekanye um wana akwiye kuryamishwa mu mezi atandatu ye ya\nmbere ni mu akamoyize cyangwa mu gatanda kage newe abana ariko kakaba kari mucyumba ababyeyi\nbararamo."
-  },
-  {
-    "id": "7.39",
-    "title": "Gukomeza kwita kubana bato",
-    "content": "Ni ngombwa gukingiza abana Gusobanukirwa n’indwara z’abana no kubajyana kwa muganga Gusukura\nibigoma n’ibyo babindisha umwana Kunanura uruhu rw’umwana umusiga amavuta aho biri ngombwa\nKugenzura urureri rw’umwana Gushyira umwana mu gituza, cyane uwavutse atagejeje igihe\nn’uwavukanye ibiro bidashyitse\nKuvuza umwana vuba na bwangu igihe agaragaza ibimenyetso by’uburwayi\n• Abana bakunda kurwara iyo bakiri munsi y’umwaka umwe kubera ko umubiri wabo uba utaragira\nubudahangarwa, nubwo amashereka n’inkingo bibongerera ubwirinzi cyane.\n• Indwara zisanzwe zishobora kurembya abana cya ne bitunguranye\n• Ugomba kwigengesera ku buzima bw’umwana wawe kandi ukihutira kumuvuza igihe agaragaza\nibimenyetso by’uburwayi."
-  },
-  {
-    "id": "8.1",
-    "title": "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana muto urwaye",
-    "content": " Igihe umwana afite umuriro mwinshi:\n Genzura ubushyuhe bwe ukoresheje igipimo.\n Umwambure imyenda myinshi.\n Umushyire ku gahanga agatambaro gatose.\n Shaka inama za muganga cyangwa umujyanama w’ubuzima.\n"
-  },
-  {
-    "id": "8.2",
-    "title": "umwana urwaye impiswi",
-    "content": "- Igihe umwana afite impiswi no kuruka cyane:\n- Muhe umuti w’amazi uvura impiswi (SRO) utangwa na muganga cyangwa umujyanama\nw’ubuzima.\n- Komeza kumwonsa no kumugaburira uko bikwiye.\n- Niba bidakize, umujyane kwa muganga kandi wirinde kumuha imiti wishakiye.\nUko wakwirinda impiswi\n- Ukaraba intoki neza buri gihe.\n- Tegura amafunguro mu isuku kandi uyabike mu bikoresho bisukuye."
-  },
-  {
-    "id": "8.3",
-    "title": "Umwana unizwe n’ikintu",
-    "content": "Niba ari uruhinja runizwe n’ikintu, urukomanga mu mugongo cyangwa mu gatuza, niba ari umwana\numukomanga cyangwa ukamukanda mu mugongo kugirango umufashe kivemo. Mwihutane kwa muganga\nniba kitavuyemo, ntugerageze kugikururisha intoki cyangwa kumuha amazi cyangwa ikindi kintu cyo kurya"
-  },
-  {
-    "id": "8.4",
-    "title": "Umwana urumwe n’inyamanswa",
-    "content": "Niba umwana arumwe n’inyamaswa, oza cyane aharumwe n’amazi meza menshi n’isabune, hambira\nahakomeretse ukoresheje igitambaro cyangwa umwenda bisukuye, kugirango uhagarike cyangwa ugabanye\nkuva, ugahita umujyana kwa muganga.\nMu gihe cyose umwana wawe yegereye amatungo cyangwa inyamaswa, mwigishe ko zitamenyerwa\numwereke n’uburyo bwo kuzitwaraho kugirango hirindwe kurumwa cyangwa gukomeretswa nazo."
-  },
-  {
-    "id": "8.5",
-    "title": "uruhinja cyangwa umwana ukomeretse",
-    "content": "Niba umwana akomeretse ari kuva byoroheje oza ahakomeretse n’amazi meza uhahambire n’igitambaro\ngisukuye akenshi kuva birashira. Niba ava amaraso menshi, hambira ahantu hakomeretse ukoresheje\nigitambaro cyangwa umwenda usukuye umwihutane kwa muganga cyangwa ku mujyanama w’ubuzima.\nNiba hari ikintu kinjiye mu mubiri ntugikuremo ubiharire muganga. Wirinde koza igikomere kirimo kuva\ncyane kuko bishobora kurushaho kuba bibi."
-  },
-  {
-    "id": "8.6",
-    "title": "Umwana uri kuva imyuna",
-    "content": "Niba umwana ari kuva imyuna, kanda ku zuru riva umubwire afungure umunwa abe ahumekera mu kanwa,\numurinde kuraramisha umutwe, ahubwo yicare ku ntebe areba imbere kugirango amaraso atajya mu nda,\nmujyane kwa muganga niba nyuma y’iminota 5 bidakemutse."
-  },
-  {
-    "id": "8.7",
-    "title": "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana uhiye",
-    "content": "Hoza ubushye usukaho amazi akonje nibura iminota 5, irinde gukoresha barafu cyangwa amavuta,\nntumukuremo umwenda yahiye yambaye ugafatira ku bushye. Mukuremo ikintu cyose kimufashe kegereye\nahahiye nk’ibikomo ,isaha,impeta, n’ibindi maze umwihutane kwa muganga"
-  },
-  {
-    "id": "8.8",
-    "title": "Umwana wakomeretse mu mutwe",
-    "content": "Niba uruhinja cyangwa umwana agaragaza ububabare bukabije cyangwa ibindi bimenyetso bidasanzwe\nnyuma yo kwikubita hasi cyangwa kugonga ikintu, ashobora kuba yavunitse igufa cyangwa ubwonko\nbwahungabanye. Hagarika kuva kw’amaraso, tegesha umutwe umusego cyangwa umwenda, ushyire ikintu\ngikonje (barafu) ahakomeretse."
-  },
-  {
-    "id": "8.9",
-    "title": "Umwana uvunitse igufwa",
-    "content": "umwihutane kwa muganga. Niba ari ukoboko cyangwa ukuguru kwavunitse, hategeshe akabaho cyangwa\nikarito uhambire ahavunitse n’igitambaro kugirango bigabanye kunyeganyega kw’igice cy’umubiri cyaho\nigufwa ryavunitse"
-  },
-  {
-    "id": "8.10",
-    "title": "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana utaye ubwenge cg urwaye igicuri",
-    "content": "Mu gihe uruhinja cyangwa umwana yituye hasi agata ubwenge, arimo kwigaragura asa nk’utitiza ibice\nby’umubiri, ashobora no kuzana urufuzi. Wihungabana, ahubwo genzura ko aguye ahantu hatari ibishobora\nkumukomeretsa ubikureho niba bihari. Musegure umwenda ku mutwe kugirango bimurinde kuba\nyawukomereka. Irinde kumutsikamira wigizeyo abantu batamucura umwuka, umureke kugeza igihe\nbimurekuye abanze agarure ubwenge, noneho umufashe kuruhuka neza aryamiye urubavu, umugume\niruhande. Mujyane kwa muganga niba ari ubwa mbere bimubayeho cyangwa se bisanzwe bimubaho ariko\nguta ubwenge bikamara igihe kirenze iminota 5.\n8.11Umwana ushyize ikintu mu kanwa, muzuru cyangwa mu matwi:\n Ntugikuremo ubwawe.\n Ubiharire muganga kuko gukuramo nabi byakurura ibindi bibazo.\n Irinde koza igikomere kirimo kuva cyane."
-  },
-  {
-    "id": "8.12",
-    "title": "Kurinda umwana kugira icyo yinjiza mu kanwa cyangwa mu mazuru",
-    "content": " Sukura aho umwana ari.\n Menyereza umwana kwitwararika.\n Mugenzura buri gihe kugira ngo hatagira icyo ashyira mu kanwa."
-  },
-  {
-    "id": "9.1",
-    "title": "Umumaro w’isuku ku mubiri",
-    "content": "Isuku ni isoko y’ubuzima ku bana n’ababyeyi ndetse n’umuryango wose. Kugira isuku ni ukwita ku mubiri\nwacu uhereye ku mutwe ukageza ku birenge, gukaraba intoki, kwiyogoshesha, guca inzara, kwambara\ninkweto, kwiyuhagira, koza mu kanwa, gusukura mu nzu no mu mbuga, gukoresha neza\numusarane/ubwiherero no kuwubungabunga.\nToza umwana hakiri kare uko agenda akura, gukaraba intoki, gukoresha neza umusarane, kwiyogereza\namenyo, kwiyuhagira, kwiyambika, kwisasira, kwandurura amasahane yaririyeho, ndetse no kwikorera isuku\nn’ahamukikije."
-  },
-  {
-    "id": "9.2",
-    "title": "Umumaro wo gukaraba intoki",
-    "content": "Gukaraba intoki biturinda indwara dushobora kwandura twe n’abana bacu. Ni ngombwa gukaraba intoki\niteka ukoresheje isabune n’amazi meza kandi atemba mu bihe by’ingenzi bikurikira: mbere yo gutegura\namafunguro na mbere yo kurya, mbere yo konsa no kugaburira abana, nyuma yo kuva ku musarane,\ngusukura umwana witumye no kumuhindurira, nyuma yo gusukura/gufasha umuntu urwaye, nyuma yo\ngukora ku itungo/inyamaswa, nyuma yo gukora ahagenewe umwanda/ingarane, kandi mugire kandagira\nukarabe mu rugo rwanyu."
-  },
-  {
-    "id": "9.3",
-    "title": "igihe tugomba kukaraba intoki",
-    "content": "Ningombwa gukaraba intoki :\nmbere yo gutegura amafunguro na mbere yo kurya, mbere yo konsa no kugaburira abana, nyuma yo kuva ku\nmusarane, gusukura umwana witumye no kumuhindurira, nyuma yo gusukura/gufasha umuntu urwaye,\nnyuma yo gukora ku itungo/inyamaswa, nyuma yo gukora ahagenewe umwanda/ingarane."
-  },
-  {
-    "id": "9.4",
-    "title": "kunywa amazi meza",
-    "content": "Tugomba kunywa amazi yavomwe ku isoko isukuye, ndetse yatunganyijwe neza nko kuyateka cyangwa\nkuyashyiramo umuti wica udukoko, tuyabika neza, tukanayanywera mu kintu gisukuye."
-  },
-  {
-    "id": "9.5",
-    "title": "isuku y’ibyo kurya",
-    "content": "Bika ibiryo ahantu hasukuye no mu bikoresho bisukuye kandi bipfundikirwa neza. Toza umwana kunywa\namazi meza no kuyagirira isuku."
-  },
-  {
-    "id": "9.6",
-    "title": "isuku y umusarane",
-    "content": "Kutituma mu musarane bishobora gutuma imyanda yanduza abantu indwara z’impiswi ziterwa n’inzoka zo\nmu nda, macinya, tifoyide na korera. Impiswi kandi ituma umwana abura amazi mu mubiri, akagira umwuma\nn’imirire mibi, akadindira mu mikurire.\nUmwanda wose witumwe, harimo n’uw’abana, ugomba kujugunywa mu musarane. Urugo rwanyu rugomba\nkuba rufite umusarane kandi ugahora usukuye."
-  },
-  {
-    "id": "9.7",
-    "title": "Gusukura imbuga y’urugo n’aharukikije",
-    "content": "Tugomba gutunganya aho dutuye no mu nkengero zaho, dutema ibigunda,dutwikira amafunguro\nn’ibyombo, twirinda amazi areka hafi y’urugo no mu nkengero zarwo, tumena imyanda ahabugenewe no mu\nngarane yujuje ibisabwa. Biturinda gukurura udukoko dutera indwara bikanatuma twororoka nk’isazi, imibu,\nibinyenzi n’imbeba, amatungo ntagomba kurara mu nzu imwe n’abantu."
-  },
-  {
-    "id": "9.8",
-    "title": "Akamaro ko kugira isuku murugo",
-    "content": "Biturinda gukurura udukoko dutera indwara bikanatuma twororoka nk’isazi, imibu, ibinyenzi n’imbeba,\namatungo ntagomba kurara mu nzu imwe n’abantu"
-  },
-  {
-    "id": "10.1",
-    "title": "Akamaro k’ikoranabuhanga rikoresha murandasi",
-    "content": "Ikoranabuhanga rikoresha murandasi, riha abana amahirwe menshi yo kwiyungura ubumenyi, gukina\nimikino itandukanye, kwiga ibintu bishya, guhanga ibishya; gushyikirana n’abandi, kugaragaza impano;\ngufatanya, gukora ubushakashatsi; ndetse no guteza imbere ubumenyi rusange."
-  },
-  {
-    "id": "10.2",
-    "title": "uko ikoranabuhanga rishobora gukoreshwa nabi",
-    "content": "Mu gihe ikoranabuhanga rikoresha murandasi rikoreshejwe nabi, nko guha amakuru yawe, amashusho,\namafoto, imyirondoro n’ ijambo banga umuntu utazi; kureba inkuru cyangwa filime z’ubusambanyi\nn’urukozasoni, iz’ubwicanyi n’ubujura, ubugizi bwa nabi n’urugomo; intambara, ibihuha cyangwa inkuru\nziteye agahinda n’itesha gaciro; bigira ingaruka mbi ku mwana mu mikurire, ubwenge, imyitwarire\nn’imbamutima bye, imibanire ye n’abandi, umutekano we, uw’umuryango we ndetse n’uw’igihugu."
-  },
-  {
-    "id": "10.3",
-    "title": "uko umubyeyi yafasha abana gukoresha ikoranabuhanga",
-    "content": "Mubyeyi, ganira n’abana ku kamaro n’ibyago bashobora guhura na byo mu gihe bakoresha ibikoresho\nby’ikoranabuhanga rikoresha murandasi nka telefoni, mudasobwa, n’ibindi. Toza umwana wawe kugira\namakenga mu gihe akoresha ikoranabuhanga kuri murandasi (interineti) n’uwo udasanzwe uzi, ku makuru\nmashya akuyobora cyane cyane ku mahirwe cyangwa impano. Ababyeyi n’abana bitondere kwitabira no\ngushishikarira gahunda bamenyeye kuri murandasi, akenshi ziba zigambiriye ubushukanyi buganisha ku kibi."
-  },
-  {
-    "id": "10.4",
-    "title": "uko umubyeyi yafasha umwana we kudatwarwa n’ikoranabuhanga",
-    "content": "Mubyeyi ubaka ubucuti n’umwana wawe kandi umubere urugero rwiza; mutoze kujya muganira cyane\nkubyo abona, yumva, asoma cyangwa abwirwa kuri murandasi, umurinde kurikoresha mu gihe kirekire\ncyangwa yihishe; umube hafi kandi umukurikirane ku mbuga nkoranyambaga agire amakuru ahagije mbere\nyo kurikoresha, umushakire ibindi bikorwa yahugiraho nk’imikino, gusoma, n’ibindi. Bizatuma ataba imbata\ny’ikoranabuhanga (addiction), cyangwa kugwa mu byaha bigaragara kuri murandasi harimo ibyo gucuruza\nabantu, ubujura, ingeso z’ubusambanyi, imico mibi no gutakaza indangagaciro z’umuco w’ u Rwanda."
-  },
-  {
-    "id": "11.1",
-    "title": "Ubumuga ni iki",
-    "content": "Ubumuga ni imbogamizi mu miterere n’ubushobozi buke umubiri w’umuntu ufite, bigatuma atabasha\ngukora inshingano cyangwa se imirimo nk’iyo abandi badafite ubumuga bakora; cyangwa se kuba umuntu\nabura urugingo rw’umubiri, cyangwa afite urugingo rudakora neza umugereranyije n’abandi bantu.\nImpamvu zitera ubumuga ziratandukanye, ariko ubumuga bwinshi bwakwirindwa mu gihe ababyeyi bombi\nbabigize inshingano zabo, kandi nta n’umwe witiriwe kuba nyirabayazana w’ubumuga bw’umwana"
-  },
-  {
-    "id": "11.2",
-    "title": "Impamvu zitera ubumuga",
-    "content": "1.Igihe umubyeyi atwite, hari ubumuga buva ku gisanira ku babyeyi bombi, kwirema nabi k’utunyangingo,\nkunywa inzoga nyinshi, itabi n’ibindi biyobyabwenge, gukoresha nabi imiti utandikiwe na muganga,\ngukoresha imiti ya gakondo, impanuka, indyo ituzuye, umuvuduko w’amaraso uri hejuru, guhumeka\numwuka wanduye, indwara zandura harimo Mburugu, SIDA, Rubewole n’izindi.\n2.Igihe cyo kubyara, umubyeyi yabyariye mu rugo, gutinda ku bise, umwana uvutse atagejeje igihe,kugira\numwuka muke, kubyara umwana ufite ibiro byinshi cyangwa bike, kubyara umubyeyi akuze, ihungabana mu\ngihe cyo kubyara, kuvukana indwara y’umuhondo."
+    "id": "2",
+    "title": "Biciye mu majwi n’amagambo",
+    "content": "o\nKuva ku mezi 5–6, umwana atangira kumva amajwi; yumva ijwi rya mama we\nnk’iryo hafi cyane.\no\nIyo mama aririmba indirimbo zimwe kenshi, umwana azikomeza kumenya no\nnyuma avutse."
   },
   {
     "id": "3",
-    "title": "Nyuma yo kubyara, umwana yagize ikibazo cyo guhagarara kw’amaraso mu bwonko, kutikingiza cyangwa",
-    "content": "gukingirwa nabi utubahiriza gahunda za muganga, imirire mibi, indwara nka mugiga na maraliya, kwigunga\nntuhure n’abandi no kudakangurwa ubwonko hakiri kare."
+    "title": "Biciye mu gukoraho inda",
+    "content": "o\nIyo mama cyangwa se bamukoraho inda buhoro, umwana ashobora\nkwinyagambura cyangwa kwitura aho bamukoze.\no\nIbi bituma yumva ahuje n’ababyeyi be."
   },
   {
-    "id": "11.3",
-    "title": "Uko ababyeyi barinda abana ubumuga",
-    "content": "Babyeyi, dore uko twarinda umwana ubumuga, umubyeyi utwite yisuzumisha kwa muganga byibura inshuro\n8, afata inyunganiramirire zikomatanyije yahawe na muganga, arya indyo yuzuye, agira isuku, yirinda itabi,\ninzoga, imiti atandikiwe na muganga ndetse n’imiti ya gakondo, yirinda guhumeka imyuka ihumanya, yirinda\nimpanuka zo mu rugo no mu muhanda, yirinda amakimbirane, kandi akabyarira kwa Muganga.\nUmwana agomba konka neza uko bikwiye, gukingirwa inkingo zose zateganyijwe, kugaburirwa indyo yuzuye\nno kumuvuza hakiri kare ku baganga bemewe, gukunda kumukinisha, kumuganiriza no gukangura ubwonko\nbw’umwana hakiri kare"
+    "id": "4",
+    "title": "Biciye mu marangamutima",
+    "content": "o\nIyo mama afite amahoro, umwana aba atuje. Iyo afite stress cyangwa agahinda,\numwana ashobora kubyiyumvamo (nko gukubita umutima vuba)."
   },
   {
-    "id": "11.4",
-    "title": "mugihe ufite umwana ufite ubumuga",
-    "content": "Abana bafite ubumuga ni abana nk’abandi, bafite uburenganzira bwo kwiga mu ngo mbonezamikurire\nndetse n’amashuri atandukanye. Ababyeyi bagomba gufasha umwana ufite ubumuga kwiga, gutsinda no\nkurangiza ishuri no kubona insimburangingo, bafatanyije n’abarezi bakamenya umwihariko bakwiye wo\ngufashwa kugirango babashe kugendana n’abandi. Tugomba kubinjiza mu bikorwa ndetse n’imikino hamwe\nn’abandi, ntawusigaye cyangwa uhejwe kugira ngo batigunga cyangwa bakiyanga"
+    "id": "5",
+    "title": "Biciye mu rumuri n’urusaku",
+    "content": "o\nNubwo inda imucyingiriza rumuri ruke, umwana ashobora gutandukanya\numucyo n’umwijima.\no\nAshobora no kumva urusaku rukabije arwumvise (nk’umuziki w’urusaku)."
   },
   {
-    "id": "12.1",
-    "title": "Umumaro wo gukina",
-    "content": "Mbere y’imyaka 6 y’amavuko, ubwonko bw’umwana buba bukura vuba cyane, bwubaka urufatiro\nrw’imyigire n’imikurire mu gihe cyose umwana amara ku isi. Ubwonko bukuzwa cyangwa bukadindizwa\nn’ibyo umuntu anyuramo byiza cyangwa bibi.\nImihangayiko irangiza, ariko gukina bigakangura ubwonko. Umwana avuka abona, akagenda akururwa\ncyane n’amasura y’abantu ndetse n’amabara y’ibintu akina nabyo.\nAbana bakunda gukina bafatiye ku byiyumviro byabo kuko bibafasha kwiga kumenya ibishyushye, ibikonje,\nibyoroshye n’ibikomeye bakoresheje mu kanwa n’intoki zabo.\nKu mwana ukiri munda, ababyeyi bamukinisha mu turirimbo, ibisingizo n’ibihozo kugirango bakangure\nubwonko bwe.\nAbana biga bakina cyangwa bigana ibyo abandi bakora kurusha ibyo babwirwa gukora. Gukina biha abana\nuburyo bwinshi bwo gutekereza no kwishakira ibisubizo cyangwa gukemura ibibazo.\nIyo umwana muto afata ikintu akakijugunya hasi inshuro nyinshi, bimufasha kumenya ibirimo kuba, igihe\nbyatwaye kugirango ijwi cyangwa urusaku rubashe kumvikana, uko abantu babyakira n’ibindi; mu mikino\nabana bato biga kuvumbura no kugerageza ibintu bishya."
+    "id": "1",
+    "title": "Kongera ubusabane (bonding) mbere yo kuvuka",
+    "content": "o\nUmwana amenya ijwi rya mama n’umuryango, bikamufasha kumenyera\nurukundo n’umutekano akivuka."
   },
   {
-    "id": "12.2",
-    "title": "inshingano z’ababyeyi mugihe umwana ari gukina",
-    "content": "Babyeyi, mufite inshingano zo guha umwanya abana bagakina, aho bakinira no kugenzura neza ko ibyo\numwana akinisha, akoraho ndetse anashyira mu kanwa bifite isuku, bitamuhumanya, bitamuniga, bidahera\nmu matwi kandi ko bitamukomeretsa, bakanagenzura aho abana bakinira mugihe bari gukina bonyine ku\nbw’umutekano wabo. Bituma barushaho kubaka ubucuti binyuze mu gukina no kuganira, bigatuma umwana\nyumva atekanye, agakura neza kandi yizeye ababyeyi, ntagire icyo abahisha. Yubaka kandi ubusabane\nn’imibanire myiza n’abandi bana bakinana"
+    "id": "2",
+    "title": "Guteza imbere ubwonko n’imikurire",
+    "content": "o\nGushyikirana na mama bigira uruhare mu mikorere y’ubwonko bw’umwana\n(cognitive development).\no\nByongera ubushobozi bwo kumva, kumenya amajwi, no kumva ibidukikije."
   },
   {
-    "id": "12.3",
-    "title": "icyo wamenya ku bwonko bw’umwana mbere y’imyaka 6",
-    "content": "Kuva umwana agisamwa, umwana ukiri mu nda ya nyina akurikirana amakuru yose yegereye aho ari, kandi\nbigakomeza kugenda byiyongera kurushaho binyuze mu kuganira, kuririmba, gusoma ibitabo no kuvuga\ninkuru zubaka. Mu myaka 6 ya mbere y’amavuko, ubwonko bw’umwana buba bukura vuba cyane, bwubaka\nurufatiro rw’imyigire n’imikurire mu bwenge, ibyo umwana atabonye muri iki gihe bimugiraho ingaruka mu\nbuzima bwe bwose mu rurimi, imitsindire n’imibanire ye n’abandi no mu byemezo afata."
+    "id": "3",
+    "title": "Kurinda umubyeyi stress nyinshi",
+    "content": "o\nIyo umubyeyi aganiriza cyangwa aririmbira umwana, nawe araruhuka, amaraso\natembera neza, kandi amarangamutima ye aba meza."
   },
   {
-    "id": "12.4",
-    "title": "Kwigisha umwana gusoma hakiri kare no kumenya ururimi tumutegura kwiga",
-    "content": "Iyo umwana ahawe uburyo bwo gusabana n’abandi, ukamuha ibitabo byo gusoma, kumwigisha indirimbo\nukamufasha no kubyikorera, mukaganira umubaza ibibazo bimwagura mu mitekerereze, ukanamubarira\ninkuru unamusomera ibitabo; bimufasha kumenya vuba ururimi yunguka amagambo mashya akavuga vuba\nbitamugoye, bibafasha no kwaguka mu mitekerereze, gufata ibyemezo no kwishakamo ibisubizo,\nakazatsinda mugihe atangiye amashuri abanza."
+    "id": "4",
+    "title": "Kongerera umwana amahirwe yo kuvuka afite ubuzima bwiza",
+    "content": "o\nUko amarangamutima n’imibereho myiza ya mama ari meza, niko umwana akura\nneza mu mitsi, mu magufa no mu bwenge."
   },
   {
-    "id": "12.5",
-    "title": "Icyo umubyeyi yakora kugira ngo umwana amenye gusoma hakiri kare",
-    "content": "\nMubyeyi, gira uruhare mu gushakira abana ibikinisho no gukinana n’ umwana mu mikino\nitandukanye ibafasha kuvumbura inyuguti n’imibare.\n\nBashakire ibitabo byo gusoma n’ibikinisho ndetse mufatanye no kubyikorera wifashishije ibikoresho\nbiboneka murugo aho mutuye.\n\nUshobora gukora ibikinisho mu bikoresho bitagikoreshwa byo mu rugo nk’uducupa, udukarito,\nimpapuro, ibirere, ibikenyeri ndeste n’ibindi.\n\nUshobora kandi gufatanya n’umwana gukina, urimo no gukora uturimo two mu rugo, nk’igihe utetse,\nuri mu masuku n’ibindi.\n\nMwigishe kuririmba, umucire imigani,umubarire inkuru ndetse n’ibindi.\n\nNi ngombwa ko umwana wese ajyanwa mu rugo mbonezamikurire kugirango ategurwe neza\ngutangira amashuri abanza yuzuye mu bwenge, mu gihagararo, mu mibanire n’abandi, mu rurimi\nn’indangagciro."
+    "id": "5",
+    "title": "Kwereka umwana ko ari uw’agaciro kuva akiri mu nda",
+    "content": "o\nIbi bituma umuryango wose (umugabo, abavandimwe, ababyeyi) uha agaciro\nuwo mwana akiri mu nda, bigatuma avuka afite umubano mwiza n’ababyeyi be."
   },
   {
-    "id": "12.6",
-    "title": "uko wakwikorera ibikinisho",
-    "content": "Ushobora gukora ibikinisho mu bikoresho bitagikoreshwa byo mu rugo nk’uducupa, udukarito, impapuro,\nibirere, ibikenyeri ndeste n’ibindi."
+    "id": "6.4",
+    "title": "Ingero z’ibyo wakora kugira ngo ushyikirane n’umwana wawe uri munda",
+    "content": "\nMama aririmbira indirimbo za gakondo buhoro → umwana aratuza.\n\nSe akora ku nda, akavuga amagambo meza → umwana akanyeganyega cyangwa akiturira\naho amajwi aturuka.\n\nMama arimo gusenga cyangwa asoma amagambo y’amahoro → umwana aba mu\nmutuzo.\n\nMu gihe hari indirimbo ikomeye cyangwa urusaku rukabije → umwana ashobora\nkwinyagambura cyane."
   },
   {
-    "id": "12.7",
-    "title": "umumaro wo gusomera abana inkuru cg kubacira imigani",
-    "content": "bimufasha kumenya vuba ururimi yunguka amagambo mashya akavuga vuba bitamugoye, bibafasha no\nkwaguka mu mitekerereze, gufata ibyemezo no kwishakamo ibisubizo, akazatsinda mugihe atangiye\namashuri abanza."
+    "id": "6.5",
+    "title": "Kuki umugore utwite agomba kwirinda stress?",
+    "content": "\nStress izamura imisemburo mibi (cortisol) ishobora guhungabanya imikurire\ny’umwana.\n\nIshobora gutera umuvuduko mwinshi w’amaraso (pre-eclampsia) no kudatembera\nneza k’amaraso ku nda.\n\nItuma umubyeyi atakaza imbaraga, agasiba kurya cyangwa gusinzira neza.\n\nYongera ibyago byo kubura inda cyangwa kuvuka imburagihe.\n\nIshobora kugira ingaruka ku bwenge n’imibanire y’umwana akivuka."
   },
   {
-    "id": "12.8",
-    "title": "icyo ababyeyi bagomba kuzirikana kugira ngo umwana akure afite ubwenge",
-    "content": "Kuva umwana agisamwa, umwana ukiri mu nda ya nyina akurikirana amakuru yose yegereye aho ari, kandi\nbigakomeza kugenda byiyongera kurushaho binyuze mu kuganira, kuririmba, gusoma ibitabo no kuvuga\ninkuru zubaka. Mu myaka 6 ya mbere y’amavuko, ubwonko bw’umwana buba bukura vuba cyane, bwubaka\nurufatiro rw’imyigire n’imikurire mu bwenge, ibyo umwana atabonye muri iki gihe bimugiraho ingaruka mu\nbuzima bwe bwose mu rurimi, imitsindire n’imibanire ye n’abandi no mu byemezo afata."
+    "id": "6.6",
+    "title": "Kongera ubusabane (bonding) mbere yo kuvuka",
+    "content": "\nIbisobanuro: Iyo umubyeyi aganiriza cyangwa aririmbira umwana, uwo mwana atangira\nkumenyera ijwi rya mama ndetse n’ay’abandi bo mu muryango.\n\nImpamvu: Uko kumenyera amajwi bituma umwana akura yumva afite umutekano, kandi\nigihe avutse yumva ibidukikije bimurimo urukundo n’ubusabane. Ibi bituma umubano we\nn’ababyeyi uhera ku rukundo rufatika."
   },
   {
-    "id": "12.9",
-    "title": "Kwita ku byo umwana akeneye",
-    "content": "Ababyeyi bombi bagomba komatana n’umwana kuva akiri mu nda ya nyina, kandi bigakomeza bigenda\nbyiyongera barushaho kubaka ubucuti magara hagati yabo n’umwana. Gukina no kuganira n’umwana\nbituma arushaho kugukunda no komatana n’umubyeyi, bituma umwana yumva atekanye, agakura neza\nkandi yizeye ababyeyi, ntagire icyo abahisha. Kwigana ijwi ry’umwana ndetse n’ibyo akora bituma ubasha\ngukomeza kumwitaho no kumenyera imvugo ye mu gihe hari icyo ashaka kuvuga. Bityo ukabasha\nkumuha/kumusubiza ibyo ashaka n’ibyo akeneye. Umubyeyi ashobora kuvugisha umwana, kumuririrmbira\ncyangwa kumukinisha mu gihe urimo kumukarabya, kumugaburira no kumwambika cyangwa ukabikora mu\ngihe urimo gusukura inzu, amasahani cyangwa urimo guteka. Uko urushaho gukorana imirimo yawe ya buri\nmunsi n’umwana wawe ni nako arushaho kwiga no kunguka ibintu byinshi. Gusabana k’umubyeyi n’umwana\nbya hato na hato bituma umwana arushaho kumenya ururimi ndetse bikanamwubakamo ikizere."
+    "id": "6.7",
+    "title": "Guteza imbere ubwonko n’imikurire",
+    "content": "\nIbisobanuro: Ubutumwa, indirimbo n’ijwi rya mama bituma ubwonko bw’umwana\nbutangira gukora imikoranire (neural connections).\n\nImpamvu: Ibi bituma umwana agira ubushobozi bwo gutangira kumva, gutandukanya\namajwi, no kumenya ibidukikije hakiri kare. Byongera amahirwe yo kugira imikurire\nmyiza mu bwenge (cognitive development) no mu mikorere y’ubuzima bwe bwose."
   },
   {
-    "id": "13.1",
-    "title": "Umumaro wo kuba umubyeyi w’umugabo ugira uru hare mu kurera",
-    "content": "Iyo umubyeyi w’umugabo yita ku mwana akanita ku byo akeneye akagerageza kubikemura mu bushobozi\nbwe uko bungana kose, bituma umwana akura neza akunda ababyeyi be, bikamwongerera ubushobozi bwo\nkwiga no gutsinda, no kubana neza n’abandi.\n\nUmubyeyi w’umugabo, agomba kuba intangarugero mu bana be.\n\nakaberekera uko afatanya n’uwo bashakanye mu nshingano zabo zo kwita ku bana babo abafasha mu\nkwiga no gukora imikoro bahawe ku ishuri.\n\nagakunda guterura abana bato.\n\nAbaganiriza.\n\nagakina nabo no kubafasha kuvumbura ibibazengurutse, hakubiyemo no kubakorera ibikinisho.\n\nUmubyeyi w’umugabo afite uruhare runini mu mikurire, umunezero n’umutekano w’umwana we\nndetse n’uw’umuryango wose."
+    "id": "6.8",
+    "title": "Kurinda umubyeyi stress nyinshi",
+    "content": "\nIbisobanuro: Iyo mama aririmbira cyangwa aganiriza umwana, nawe araruhuka,\numutima ugakora neza, amaraso akatembera neza kandi akagira amarangamutima meza.\n\nImpamvu: Kugabanya stress ku mugore utwite birinda indwara nko kugira umuvuduko\nw’amaraso mwinshi cyangwa kubura amaraso. Uko mama afite umutuzo, niko n’umwana\namera neza mu nda."
   },
   {
-    "id": "13.2",
-    "title": "uruhare rw’umugabo mu gufatanya inshingano z’urugo",
-    "content": "Kugira ngo abagabo babashe kwita ku bana babo bagomba kwirengagiza igitutu bashobora gushyirwaho\nn’umuryango mugari babita inganzwa, ngo bararozwe n’ibindi.\nAbagore bakwiye guha abagabo umwanya ndetse no kubashyigikira igihe biga kwita ku bana babo. Igihe\nababyeyi bombi bafatanyije imirimo yo mu rugo, bituma bombi bagira umwanya uhagije wo kwita ku yindi\nmirimo ishobora guteza umuryango imbere.\nGuterura umwana, kumuhindurira imyenda/ibyo yitumyemo, kumugaburira, kumuvugisha, kumuririmbira,\nndetse no gukina nawe, ni inshingano z’ababyeyi bombi; no mugihe cyo konsa, umugabo yunganira\numugore we amufasha gukora indi mirimo yari kuba akora mu rugo."
+    "id": "6.9",
+    "title": "Kongerera umwana amahirwe yo kuvuka afite ubuzima bwiza",
+    "content": "\nIbisobanuro: Uko amarangamutima ya mama ari meza kandi atuje, niko n’imikurire\ny’umwana mu nda igenda neza mu magufa, mu mitsi ndetse no mu bwonko.\n\nImpamvu: Ubuzima bwiza bwa mama butuma umwana abonera intungamubiri\nn’amaraso ahagije, bigatuma avuka afite ubuzima buzira umuze kandi afite imbaraga."
   },
   {
-    "id": "13.3",
-    "title": "uruhare rw’umugabo mu gukumira ihohoterwa mu muryango",
-    "content": "Ihohoterwa nko gukubitwa, guhutazwa, gucirwa mu maso, gutukwa, guteshwa agaciro, ihohoterwa\nrishingiye ku gitsina, ihohoterwa rishingiye ku mitungo, cyangwa kubona undi mu bagize umuryango\nabikorerwa, bigira ingaruka ku mikurire y’abana, ndetse n’ingaruka mbi mu mitekereze n’amarangamutima\nku mugore utwite n’umwana atwite."
+    "id": "6.10",
+    "title": "Kwereka umwana ko ari uw’agaciro kuva akiri mu nda",
+    "content": "\nIbisobanuro: Iyo umuryango wose uganiriza cyangwa ugashyikirana n’umwana akiri mu\nnda, uwo mwana atangira gufatwa nk’uw’agaciro mbere y’uko avuka.\n\nImpamvu: Ibi byubaka umubano mwiza hagati y’umwana n’umuryango we. Bituma\nakura azi ko akunzwe, ko ahawe umwanya, kandi bikamufasha kugira imibanire myiza\nakivuka ndetse no mu buzima bwe bw’igihe kirekire.\n"
   },
   {
-    "id": "13.4",
-    "title": "Ababyeyi bagomba gushyikirana neza murugo",
-    "content": "Abana biga bigana, iyo ababyeyi bakora ihohotera, babigiraho ingaruka, bakabona ko ari uburyo bwemewe\nkandi bukoreshwa igihe umuntu arakaye. Abana baba mu ngo zirimo amakimbirane, barahangayika cyane\nbikaba byabaviramo no guhunga urugo bakajya kwibera mu muhanda, ndetse no kugira imico mibi\nizabakurikirana mu mikurire yabo.\nGuhohotera umwana umukubita, umukankamira cyangwa umutesha agaciro bimugiraho ingaruka mbi nko\nkwigunga, agahinda gakabije, kurwana, kwiyahura n’ibindi. Babyeyi mwirinde impamvu zose zikurura\namakimbirane mu rugo kandi mwirinde kubigaragariza abana."
+    "id": "6.11",
+    "title": "Muri make : kubijyanye n’imishyikirano iri hagati y’umubyeyi utwite n’umwna we:",
+    "content": "Gushyikirana hagati y’umubyeyi n’umwana we si amagambo gusa, ahubwo ni itumanaho\nry’umubiri, amarangamutima n’amajwi rifasha umwana kumenya, gukura neza no\nkwiyumvamo ko akundwa mbere y’uko avuka."
   },
   {
-    "id": "13.5",
-    "title": "Uruhare rw’umugabo mu gufasha umuryango kugira ubuzima bwiza",
-    "content": "Umubyeyi w’umugabo agomba guharanira ko umuryango we urya indyo yuzuye, ugira isuku ihagije, ndetse\nakita ku mikurire y’umwana n’abagize umuryango. Azirikana ko umugore utwite, umubyeyi wonsa, ndeste\nn’umwana muto bakenera ifunguro ry’umwihariko rigizwe n’indyo yuzuye, ndeste no kugira buzima bwiza\nbavuzwa hakiri kare.\nKujyana n’umugore gupimisha inda, gukingiza no kuvuza umwana mu gihe yarwaye biri mu nshingano\nz’umugabo. Ibyo bibera abana urugero rwiza bazakurikiza, kandi bigatuma umuryango urushaho komatana."
+    "id": "6.12",
+    "title": "imiti gakondo mu gihe utwite",
+    "content": "Imiti gakondo ntiyemewe ku mugore utwite keretse iyo yemejwe n’umuganga.\nKuyikoresha ku giti cyawe ni ingorabahizi kuko ishobora gutera ibibazo bikomeye ku buzima\nbwa mama no ku mwana.\nImiti gakondo ikozwe mu byatsi cyangwa ibimera ishobora kuba ikaze cyane ku mubiri, ikagira\ningaruka zitazwi kuko idapimwa nk’imiti isanzwe yemewe na muganga.\nKu mugore utwite:\n\nGukuramo inda (miscarriage): bimwe mu byatsi bizwiho gutera ibise bikomeye bikaba\nbyakurura inda.\n\nKubyara imburagihe: imiti ibangura igifu cyangwa igatera imbarurira ishobora gutuma\ninda isohoka kare.\n\nKubura amaraso cyangwa umuvuduko w’amaraso: bimwe bigabanya amaraso\ncyangwa bikazamura cyane umuvuduko w’amaraso.\n\nIndwara z’igifu n’impyiko: imiti iteguwe mu buryo budafite isuku ishobora kwanduza\nbagiteri cyangwa kwangiza impyiko.\n\nKwivanga n’imiti ya muganga: ishobora kugabanya cyangwa kongera imbaraga z’imiti\nmuganga yaguhaye, bikaba bibi cyane.\nKu mwana uri mu nda:\n\nKudakura neza: imiti igabanya intungamubiri cyangwa amaraso agera ku nda, bigatuma\numwana akura nabi.\n\nUbumuga bw’ubwonko n’imitsi: bimwe mu bigize imiti byinjira mu maraso ya mama\nbikagera ku mwana bigahungabanya ubwonko.\n\nKuvuka ari muto cyane (low birth weight): kubera kubura amaraso cyangwa\nintungamubiri zihagije.\n\nKuvuka imburagihe: kubera ibise bitungurwa n’imiti gakondo.\n\nUrupfu rw’umwana akiri mu nda: mu gihe imiti ifite ingaruka zikaze."
+  },
+  {
+    "id": "6.13",
+    "title": "Inkingo umugore utwite agomba gufata",
+    "content": "\nTetanusi/Td vaccine – irinda mama n’umwana indwara ya tetanusi igihe cyo kubyara.\n\nMalaria prevention (SP/Fansidar) – ahantu hari malaria, abagore batwite bahabwa\nimiti yo kuyirinda.\n\nIndi nkingo: bitewe n’aho uri n’inama za muganga (urugero: Hepatite B, influenza).\nKuki ari ngombwa kuzifata?\n\nZirinda indwara zirembera ku mugore utwite.\n\nZirinda umwana uri mu nda n’igihe avutse.\n\nZigabanya ibyago byo gupfa kwa mama cyangwa umwana."
+  },
+  {
+    "id": "6.14",
+    "title": "Kuki ari ngombwa kwipimisha hakiri kare mu gihe utwite (ANC)",
+    "content": "\nKumenya kare niba inda iri mu buryo bwiza.\n\nKugenzura amaraso, inkari, ibipimo by’umuvuduko w’amaraso, fer/iron, acide folique.\n\nKugenzura uko umwana akura mu nda.\n\nGutegura gahunda yo kubyara (birth plan).\n\nKugabanya ibyago byo kubura inda cyangwa kugira ibibazo bikomeye.\nIcyo bitanga: umutekano ku buzima bwa mama n’umwana, kumenya kare ibibazo bishobora\nkubaho."
+  },
+  {
+    "id": "6.14",
+    "title": "Wakora iki mugihe umenye ko utwite cyangwa usanze utwite",
+    "content": "\nKora ikizamini cy’inda (pregnancy test) ukimara gutinda imihango.\n\nJya ku kigo nderabuzima uandikishe inda (ANC) mbere y’ibyumweru 12.\n\nTangira gufata acide folique na fer/iron buri munsi nk’uko muganga abigutegeka.\n\nIrinde inzoga, itabi, ibiyobyabwenge, imiti gakondo n’ibiribwa bitemewe.\n\nKurya indyo yuzuye: ibiribwa bikungahaye kuri proteyine, imboga, imbuto, amata,\nibinyampeke.\n\nKumenya ibimenyetso mpuruza (kuribwa bikabije, kuva amaraso, umuriro mwinshi,\nkutumva umwana anyeganyega).\n\nShaka inkunga y’umuryango n’umugabo: kuba hafi, kugufasha mu mirimo,\nkukuganiriza.\nMuri make\n\nInkingo: zirinda mama n’umwana indwara zikomeye.\n\nKwipimisha kare: bituma bamenya ibibazo hakiri kare kandi bigakemurwa.\n\nIyo umenye ko utwite: andikisha inda, fata imiti y’inyunganiramirire, irinde ibyangiza\numwana, kurya neza no gukurikiza inama za muganga."
+  },
+  {
+    "id": "6.15",
+    "title": "Ingaruka zo kudafata ibinini mbonezabuzima (Fer/iron na Acide folique) igihe utwite",
+    "content": "Ibinini mbonezamirire (inyunganiramirire) bigizwe ahanini na Fer/iron n’Acide folique.\nUmugore utwite abihabwa kugira ngo afashe umubiri we n’umwana gukura neza, kurinda\nindwara no kubura amaraso.\nIngaruka ku mubyeyi:\n\nAnemia (kubura amaraso) → umubyeyi ahora ananiwe, acika intege, ashobora kugira\numutwe ukabije n’isereri.\n\nKubyara imburagihe kubera kubura intungamubiri zihagije.\n\nKubura imbaraga igihe cyo kubyara (labor complications).\n\nKwiyongera ibyago byo gupfa ku mugore igihe cyo kubyara kubera kubura amaraso\nahagije.\nIngaruka ku mwana uri mu nda:\n\nKudakura neza mu nda (growth restriction).\n\nKuvuka ari muto cyane (low birth weight).\n\nKuvuka imburagihe (premature birth).\n\nUbumuga bwo mu bwonko n’umugongo (neural tube defects) bitewe no kubura acide\nfolique.\n\nKwiyongera ibyago byo gupfa akiri mu nda cyangwa akivuka.\nUmwanzuro\nKunywa fer/iron na acide folique buri munsi kuva utangira kwipimisha kugeza ubyaye ni\ningenzi cyane:\n\nBirinda kubura amaraso,\n\nBituma umwana akura neza,\n\nBirinda ubumuga bukomeye ku mwana."
+  },
+  {
+    "id": "6.16",
+    "title": "Wabwirwa n’iki ko umugore utwite afite ikibazo cy’imirire?",
+    "content": "Ibimenyetso ku mubiri wa mama\n\nKunanuka cyane cyangwa kubura ibiro (BMI iri hasi).\n\nGuhora ananiwe, isereri kenshi – bishobora kwerekana kubura amaraso (anemia).\n\nUruhu rwumye cyangwa rucikagurika, imisatsi itangiye kugwa.\n\nAmaguru n’ibirenge byabyimbye (bishobora kwerekana ikibazo cya proteyine).\n\nAmenyo ashobora gutangira kwangirika kubera kubura calcium na vitamini.\n\nUmunwa ugaragaza ibisebe cyangwa ururimi ruryaryata (kubura vitamini B\ncyangwa C).\nIbimenyetso mu mikorere\n\nKutagira imbaraga zo gukora imirimo isanzwe.\n\nKugira isesemi ikabije n’ibibazo byo kutabona ibyo kurya bihagije.\n\nKurwara kenshi kubera kugabanuka k’ubudahangarwa.\nIbimenyetso ku mwana uri mu nda\n\nKudakura neza mu nda (fetal growth restriction).\n\nKuvuka ari muto cyane cyangwa imburagihe.\n\nIbyago byo kugira ubumuga bw’ubwonko cyangwa amagufa bitewe no kubura\nintungamubiri (nk’acide folique, calcium)."
+  },
+  {
+    "id": "1",
+    "title": "Kwipimisha no gukurikirana kwa muganga",
+    "content": "\nJya ku kigo nderabuzima cyangwa kwa muganga hakiri kare kugira ngo bamenye\nimiterere y’ikibazo.\n\nMuganga ashobora gupima amaraso (anemia, fer/iron) no kugenzura imikurire\ny’umwana.\n\nUkurikize gahunda zose za ANC (Antenatal Care)."
+  },
+  {
+    "id": "2",
+    "title": "Indyo yuzuye buri munsi",
+    "content": "\nProteyine: amagi, inyama zidafite amavuta menshi, amafi, ibishyimbo, amashaza, soya.\n\nImboga n’imbuto: imboga z’icyatsi (isombe, dodo, epinari), imbuto zifite vitamin C\n(icunga, indimu, inanasi, papayi).\n\nIbinyampeke: umuceri, kawunga, amasaka, uburo.\n\nIbikomoka ku mata: amata, yogati, fromaji (byongera calcium).\n\nAmazi meza: ibikombe 6–8 ku munsi."
+  },
+  {
+    "id": "3",
+    "title": "Inyunganiramirire",
+    "content": "\nFata buri munsi fer/iron na acide folique nk’uko muganga abigutegeka.\n\nAhandi hakenewe, muganga ashobora kongeraho vitamini cyangwa kalisiyumu."
+  },
+  {
+    "id": "4",
+    "title": "Kwirinda ibyangiza",
+    "content": "\nIrinde inzoga, itabi, ibiyobyabwenge, imiti gakondo n’ibiryo byanduye.\n\nGabanya ikawa na caffeine nyinshi."
+  },
+  {
+    "id": "5",
+    "title": "Inkunga y’umuryango",
+    "content": "\nUmugabo n’umuryango bagomba gufasha umugore kubona indyo yuzuye, kumuha\nakaruhuko, no kumushyigikira mu rugendo rwo gutwita.\nJya kwa muganga ako kanya niba\n\nHari kubura amaraso gukabije (isereri, gucika intege cyane, umutwe ukabije).\n\nUmugore atabona ibiro bihagije cyangwa abura ibiro byinshi.\n\nUmwana ntakomeza kugaragaza imikurire (ntanyeganyega uko byari bisanzwe)."
+  },
+  {
+    "id": "6.18",
+    "title": "Ingaruka z’imirire mibi mu gihe umugore atwite",
+    "content": "Ku mugore utwite"
+  },
+  {
+    "id": "1",
+    "title": "Kubura amaraso (anemia)",
+    "content": "o\nUmugore ahora ananiwe, agira isereri kenshi, umutwe ukabije.\no\nByongera ibyago byo kugira amaraso make cyane igihe cyo kubyara."
+  },
+  {
+    "id": "2",
+    "title": "Kunanuka cyangwa kubura ibiro bikenewe",
+    "content": "o\nUmubiri we ubura ubushobozi bwo kwihanganira inzira yo kubyara.\no\nGucika intege no guhora ananiwe."
+  },
+  {
+    "id": "3",
+    "title": "Kugabanuka k’ubudahangarwa",
+    "content": "o\nAshobora kurwara indwara zoroheje kenshi (z’igifu, z’ubuhumekero, iz’uruhu)."
+  },
+  {
+    "id": "4",
+    "title": "Umunaniro n’agahinda gakabije",
+    "content": "o\nStress ikiyongera, rimwe na rimwe bigatera agahinda gakabije (depression)."
+  },
+  {
+    "id": "5",
+    "title": "Ibibazo mu gihe cyo kubyara",
+    "content": "o\nKubura imbaraga zo kubyara.\no\nKwiyongera k’ibyago byo gupfa igihe cyo kubyara.\no\nKugira ibibazo mu gukira nyuma yo kubyara.\nKu mwana uri mu nda"
+  },
+  {
+    "id": "1",
+    "title": "Kudakura neza (growth restriction)",
+    "content": "o\nUmwana ashobora kuvuka ari muto cyane (low birth weight)."
+  },
+  {
+    "id": "2",
+    "title": "Kuvuka imburagihe (premature birth)",
+    "content": "o\nInda ikarangira kare, umwana akavuka adakuriye neza."
+  },
+  {
+    "id": "3",
+    "title": "Ibibazo mu mikurire y’ubwonko n’umugongo",
+    "content": "o\nKubura acide folique bishobora gutera ubumuga bwo mu bwonko cyangwa mu\nmugongo (neural tube defects)."
+  },
+  {
+    "id": "4",
+    "title": "Intege nke cyangwa ubumuga",
+    "content": "o\nKubura intungamubiri (fer, vitamini, kalisiyumu) bigatera amagufa adakomera\ncyangwa ubwonko budakura neza."
+  },
+  {
+    "id": "5",
+    "title": "Kwiyongera k’icyago cyo gupfa",
+    "content": "o\nUmwana ashobora gupfa akiri mu nda cyangwa akivuka."
+  },
+  {
+    "id": "6.19",
+    "title": "Icyo wakora wakora mu gihe ufite imirire mibi kandi utwite",
+    "content": "Ku mugore utwite\n\nKwipimisha kare no gukurikirana ANC ku kigo nderabuzima.\n\nKurya indyo yuzuye buri munsi: ibinyampeke, ibikomoka ku matungo, imboga, imbuto,\namata n’amafi.\n\nKunywa fer/iron na acide folique buri munsi nk’uko muganga abigutegeka.\n\nKunywa amazi meza ahagije.\n\nKwirinda ibyangiza: inzoga, itabi, ibiyobyabwenge, imiti gakondo.\nKu mwana uri mu nda\n\nIyo mama akurikiranye imirire ye neza, umwana ahabwa intungamubiri zimufasha\ngukura neza mu magufa, mu bwonko no mu mubiri wose.\n\nGukurikirana kwa muganga (ANC) bituma ibibazo bamenyekana kare kandi umwana\nakarindwa ingaruka z’imirire mibi.\nMuri make\nImirire mibi ku mugore utwite itera kubura amaraso, gucika intege, kurwara kenshi, no kugira\nibyago byinshi igihe cyo kubyara.\nKu mwana, itera kudakura neza, kuvuka ari muto cyangwa imburagihe, ndetse n’ubumuga\nbukomeye.\nIgisubizo: kwipimisha hakiri kare, kurya indyo yuzuye, gufata inyunganiramirire (fer/iron na\nacide folique), no kwirinda ibyangiza."
   }
 ]
