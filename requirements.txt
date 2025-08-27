@@ -1,11 +1,6 @@
-transformers
-sentence-transformers
+openai>=1.13.3
 faiss-cpu
-fastapi
-uvicorn
-torch
-PyMuPDF
-numpy
-scikit-learn
+pypdf
+python-dotenv
 tiktoken
-torch
+tqdm
