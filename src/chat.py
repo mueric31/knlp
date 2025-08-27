@@ -1,228 +1,129 @@
-# chat.py
-import os, json, sys, re
+import os
+import json
+from functools import lru_cache
+from typing import List, Tuple
+
 import faiss
 import numpy as np
-from typing import List, Dict
 from dotenv import load_dotenv
 from openai import OpenAI
-from config import (
-    FAISS_PATH, META_PATH, SYN_PATH,
+
+# *** IMPORTANT: use relative imports inside the package ***
+from .config import (
+    FAISS_PATH, META_PATH, SYN_PATH,  # SYN_PATH optional
     EMBED_MODEL, CHAT_MODEL,
-    TOP_K, SCORE_THRESHOLD
+    TOP_K, SCORE_THRESHOLD,
 )
 
-FALLBACK = "ntamakuru ndagira kuri iyi ngingo"
+FALLBACK = "Ntabisubizo bubonetse."  # or "No answer available."
 
+# ---------- Bootstrapping ----------
 
-# ---------- I/O helpers ----------
-def load_meta(meta_path: str) -> List[Dict]:
-    rows = []
-    with open(meta_path, "r", encoding="utf-8") as f:
-        for line in f:
-            rows.append(json.loads(line))
-    return rows
-
-def load_synonyms(path: str) -> Dict[str, List[str]]:
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            # ensure values are lists of strings
-            clean = {}
-            for k, v in (data or {}).items():
-                if isinstance(v, list):
-                    clean[str(k)] = [str(x) for x in v]
-            return clean
-    except Exception:
-        return {}
-
-
-# ---------- Query processing ----------
-def _clean_kiny_query(q: str) -> str:
-    """
-    Normalize common Kinyarwanda question fillers to improve retrieval.
-    Examples: "ese", "none se", "mbese", "ni iki"/"niki"
-    """
-    ql = q.lower().strip()
-    fillers = [
-        r"^ese\s+",
-        r"^none\s+se\s+",
-        r"^none\s+",
-        r"^mbese\s+",
-        r"^ni\s+iki\s+",
-        r"^niki\s+",
-    ]
-    for pat in fillers:
-        ql = re.sub(pat, "", ql)
-    return re.sub(r"\s+", " ", ql).strip()
-
-def expand_query_with_synonyms(q: str, syn: Dict[str, List[str]]) -> str:
-    """
-    Expand query using synonyms:
-    - If a key appears in the query, add all its synonyms
-    - If any synonym appears in the query, add the key as well
-    """
-    if not syn:
-        return q
-
-    q_low = q.lower()
-    additions = set()
-
-    for key, candidates in syn.items():
-        key_l = key.lower()
-        # if key is in query => add its synonyms
-        if key_l in q_low:
-            for c in candidates:
-                c = c.lower().strip()
-                if c:
-                    additions.add(c)
-        # if any synonym is in query => add the key
-        for c in candidates:
-            c_l = c.lower().strip()
-            if c_l and c_l in q_low:
-                additions.add(key_l)
-
-    if additions:
-        return q + " | " + " ".join(sorted(additions))
-    return q
-
-
-# ---------- Embedding & retrieval ----------
-def embed_query(client: OpenAI, text: str) -> np.ndarray:
-    emb = client.embeddings.create(model=EMBED_MODEL, input=[text]).data[0].embedding
-    x = np.array(emb, dtype="float32")
-    faiss.normalize_L2(x.reshape(1, -1))
-    return x
-
-def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[str]], topn: int = 5):
-    """
-    Lightweight keyword fallback: rank chunks by how many query terms (and synonym terms) they contain.
-    """
-    q = _clean_kiny_query(query).lower()
-    tokens = [t for t in re.split(r"[^\w’'’]+", q) if len(t) > 2]
-
-    # consider synonyms for keys present in query
-    extra = set()
-    for key, vals in (syn or {}).items():
-        key_l = key.lower()
-        if key_l in q:
-            for v in vals:
-                v = str(v).lower().strip()
-                if v and len(v) > 2:
-                    extra.add(v)
-        # also if any synonym appears, include the key
-        for v in vals:
-            v_l = str(v).lower().strip()
-            if v_l and v_l in q and len(v_l) > 2:
-                extra.add(key_l)
-
-    vocab = set(tokens) | extra
-    if not vocab:
-        return []
-
-    scored = []
-    for row in meta_rows:
-        text = str(row.get("text", "")).lower()
-        score = sum(text.count(term) for term in vocab)
-        if score > 0:
-            scored.append((score, row))
-    scored.sort(key=lambda x: x[0], reverse=True)
-    return [r for _, r in scored[:topn]]
-
-def retrieve(client: OpenAI, index, meta_rows: List[Dict], question: str, syn: Dict[str, List[str]]):
-    base_q = _clean_kiny_query(question)
-    qx = expand_query_with_synonyms(base_q, syn)
-    qvec = embed_query(client, qx)
-
-    scores, idxs = index.search(qvec.reshape(1, -1), TOP_K)
-    scores = scores[0].tolist()
-    idxs = idxs[0].tolist()
-
-    pairs = []
-    for score, i in zip(scores, idxs):
-        if i == -1:
-            continue
-        pairs.append((score, meta_rows[i]))
-
-    # Filter by threshold
-    good = [m for (s, m) in pairs if s >= SCORE_THRESHOLD]
-
-    # Fallback: add up to 3 keyword-matched chunks if nothing passed threshold
-    if not good:
-        kw = _keyword_candidates(meta_rows, question, syn, topn=5)
-        if kw:
-            good = kw[:3]
-
-    return good, scores[: len(good)]
-
-
-# ---------- LLM answering ----------
-def format_context(chunks: List[Dict]) -> str:
-    out = []
-    for i, ch in enumerate(chunks, 1):
-        out.append(f"[Igice {i} | Page {ch.get('page','?')}] {ch['text']}")
-    return "\n\n".join(out)
-
-def ask_llm(client: OpenAI, context: str, question: str) -> str:
-    system = (
-        "Uri umufasha uvuga Kinyarwanda. Subiza ikibazo ukoresheje **amabwire aboneka gusa** mu CONTEXT. "
-        f"NIBA CONTEXT idafite igisubizo, subiza gusa uti: '{FALLBACK}'. "
-        "Irinde gukabya cyangwa guhanga ibisubizo bidashingiye ku nyandiko."
-    )
-    messages = [
-        {"role": "system", "content": system},
-        {"role": "user", "content": f"CONTEXT:\n{context}\n\nIKIBAZO:\n{question}"},
-    ]
-    resp = client.chat.completions.create(
-        model=CHAT_MODEL,
-        messages=messages,
-        temperature=0.2,
-    )
-    return resp.choices[0].message.content.strip()
-
-
-# ---------- Main ----------
-def ensure_index_loaded(path: str):
-    if not os.path.exists(path):
-        raise SystemExit(f"FAISS index not found at {path}. Run build_index.py first.")
-    return faiss.read_index(path)
-
-def main():
+@lru_cache()
+def get_client() -> OpenAI:
     load_dotenv()
-
-    # Use explicit API key if available for robustness on Windows
     api_key = os.getenv("OPENAI_API_KEY")
-    client = OpenAI(api_key=api_key) if api_key else OpenAI()
+    return OpenAI(api_key=api_key) if api_key else OpenAI()
 
-    index = ensure_index_loaded(FAISS_PATH)
-    meta_rows = load_meta(META_PATH)
-    synonyms = load_synonyms(SYN_PATH)
+def _file_exists(path: str) -> bool:
+    return bool(path) and os.path.exists(path)
 
-    if len(sys.argv) > 1:
-        question = " ".join(sys.argv[1:]).strip()
-        if not question:
-            print(FALLBACK); return
-        chunks, _ = retrieve(client, index, meta_rows, question, synonyms)
-        if not chunks:
-            print(FALLBACK); return
-        context = format_context(chunks)
-        answer = ask_llm(client, context, question)
-        print(answer)
-    else:
-        print("Andika ikibazo cyawe (Ctrl+C gusohoka):")
-        while True:
-            try:
-                question = input(">> ").strip()
-            except (EOFError, KeyboardInterrupt):
-                print("\nMurakoze!")
-                break
-            if not question:
-                print(FALLBACK); continue
-            chunks, _ = retrieve(client, index, meta_rows, question, synonyms)
-            if not chunks:
-                print(FALLBACK); continue
-            context = format_context(chunks)
-            answer = ask_llm(client, context, question)
-            print(answer)
+@lru_cache()
+def load_index_and_meta() -> Tuple[faiss.Index, list]:
+    index = None
+    meta_rows = []
+    if _file_exists(FAISS_PATH) and _file_exists(META_PATH):
+        index = faiss.read_index(FAISS_PATH)
+        with open(META_PATH, "r", encoding="utf-8") as f:
+            meta_rows = [json.loads(line) for line in f]
+    return index, meta_rows
 
-if __name__ == "__main__":
-    main()
+@lru_cache()
+def load_synonyms() -> dict:
+    if _file_exists(SYN_PATH):
+        try:
+            with open(SYN_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+# ---------- Embeddings / Search ----------
+
+def embed_texts(texts: List[str]) -> List[List[float]]:
+    client = get_client()
+    out = client.embeddings.create(model=EMBED_MODEL, input=texts)
+    return [d.embedding for d in out.data]
+
+def search_index(query_vec: List[float], index: faiss.Index, k: int) -> Tuple[np.ndarray, np.ndarray]:
+    arr = np.array([query_vec], dtype="float32")
+    D, I = index.search(arr, k)
+    return D[0], I[0]
+
+# ---------- Prompting ----------
+
+def format_context(meta_rows: List[dict], idxs: np.ndarray, limit_chars: int = 4000) -> str:
+    parts = []
+    for i in idxs:
+        if 0 <= int(i) < len(meta_rows):
+            m = meta_rows[int(i)]
+            # support various meta schemas
+            text = m.get("text") or m.get("chunk") or m.get("content") or ""
+            if text:
+                parts.append(text)
+    context = "\n\n---\n\n".join(parts)
+    return context[:limit_chars]
+
+def ask_llm(question: str, context: str = "") -> str:
+    client = get_client()
+    system = (
+        "You are a helpful assistant. Use the provided context if it is relevant. "
+        "If the context is empty or irrelevant, answer from your general knowledge. "
+        "If the answer is truly unknown, say you don't know."
+    )
+    user = f"Context:\n{context}\n\nQuestion: {question}"
+    try:
+        resp = client.chat.completions.create(
+            model=CHAT_MODEL,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            temperature=0.2,
+        )
+        return (resp.choices[0].message.content or "").strip()
+    except Exception as e:
+        return f"{FALLBACK} ({e})"
+
+# ---------- Public API used by FastAPI ----------
+
+def get_response(question: str) -> str:
+    q = (question or "").strip()
+    if not q:
+        return FALLBACK
+
+    index, meta_rows = load_index_and_meta()
+
+    # If index is missing, just answer directly.
+    if not index or not meta_rows:
+        return ask_llm(q, context="")
+
+    # (Optional) expand with synonyms
+    syns = load_synonyms()
+    expansions = []
+    for word, alts in syns.items():
+        if word.lower() in q.lower():
+            expansions.extend(alts)
+    expanded_q = q if not expansions else (q + " " + " ".join(expansions))
+
+    # Embed, search, and build context
+    q_vec = embed_texts([expanded_q])[0]
+    k = min(max(int(TOP_K), 1), len(meta_rows)) if isinstance(TOP_K, int) else min(5, len(meta_rows))
+    D, I = search_index(q_vec, index, k)
+
+    # Filter by threshold if provided; note FAISS L2 distance: smaller = closer
+    # If SCORE_THRESHOLD is a similarity threshold in [0..1], you may convert distances to similarities.
+    # Here we simply keep all top-k; adjust if you rely on a real thresholding scheme.
+    context = format_context(meta_rows, I)
+
+    return ask_llm(q, context=context)
