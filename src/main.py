@@ -1,7 +1,6 @@
+# src/main.py
 from fastapi import FastAPI
-from .chatbot import get_response
-
-
+from .chat import get_response  # <-- change here
 
 app = FastAPI()
 
@@ -17,6 +16,3 @@ def chat(query: str):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=1000)
-
-
-    
