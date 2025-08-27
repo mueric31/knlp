@@ -1,6 +1,6 @@
 # src/main.py
 from fastapi import FastAPI
-from .chat import get_response  # <-- change here
+from .chat import get_response  # <-- this must exist in src/chat.py
 
 app = FastAPI()
 
@@ -10,8 +10,7 @@ def read_root():
 
 @app.get("/chat")
 def chat(query: str):
-    response = get_response(query)
-    return {"response": response}
+    return {"response": get_response(query)}
 
 if __name__ == "__main__":
     import uvicorn
