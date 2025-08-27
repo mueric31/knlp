@@ -5,3 +5,4 @@ python-dotenv
 tiktoken
 tqdm
 uvicorn[standard]
+fastapi
