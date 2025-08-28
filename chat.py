@@ -5,27 +5,13 @@ import numpy as np
 from typing import List, Dict
 from dotenv import load_dotenv
 from openai import OpenAI
+from config import (
+    FAISS_PATH, META_PATH, SYN_PATH,
+    EMBED_MODEL, CHAT_MODEL,
+    TOP_K, SCORE_THRESHOLD
+)
 
-# --- Robust import of config (same folder OR parent folder) ---
-try:
-    from config import (
-        FAISS_PATH, META_PATH, SYN_PATH,
-        EMBED_MODEL, CHAT_MODEL,
-        TOP_K, SCORE_THRESHOLD,
-    )
-except ImportError:
-    from pathlib import Path
-    parent = Path(__file__).resolve().parent.parent
-    if str(parent) not in sys.path:
-        sys.path.insert(0, str(parent))
-    from config import (
-        FAISS_PATH, META_PATH, SYN_PATH,
-        EMBED_MODEL, CHAT_MODEL,
-        TOP_K, SCORE_THRESHOLD,
-    )
-
-# Strict fallback phrase (as requested)
-FALLBACK = "nta makuru nari nabona"
+FALLBACK = "ntamakuru ndagira kuri iyi ngingo"
 
 
 # ---------- I/O helpers ----------
@@ -33,21 +19,16 @@ def load_meta(meta_path: str) -> List[Dict]:
     rows = []
     with open(meta_path, "r", encoding="utf-8") as f:
         for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                rows.append(json.loads(line))
-            except json.JSONDecodeError:
-                continue
+            rows.append(json.loads(line))
     return rows
 
 def load_synonyms(path: str) -> Dict[str, List[str]]:
     try:
         with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f) or {}
+            data = json.load(f)
+            # ensure values are lists of strings
             clean = {}
-            for k, v in data.items():
+            for k, v in (data or {}).items():
                 if isinstance(v, list):
                     clean[str(k)] = [str(x) for x in v]
             return clean
@@ -58,12 +39,17 @@ def load_synonyms(path: str) -> Dict[str, List[str]]:
 # ---------- Query processing ----------
 def _clean_kiny_query(q: str) -> str:
     """
-    Normalize common Kinyarwanda fillers to improve retrieval.
+    Normalize common Kinyarwanda question fillers to improve retrieval.
+    Examples: "ese", "none se", "mbese", "ni iki"/"niki"
     """
     ql = q.lower().strip()
     fillers = [
-        r"^ese\s+", r"^none\s+se\s+", r"^none\s+",
-        r"^mbese\s+", r"^ni\s+iki\s+", r"^niki\s+",
+        r"^ese\s+",
+        r"^none\s+se\s+",
+        r"^none\s+",
+        r"^mbese\s+",
+        r"^ni\s+iki\s+",
+        r"^niki\s+",
     ]
     for pat in fillers:
         ql = re.sub(pat, "", ql)
@@ -72,39 +58,40 @@ def _clean_kiny_query(q: str) -> str:
 def expand_query_with_synonyms(q: str, syn: Dict[str, List[str]]) -> str:
     """
     Expand query using synonyms:
-    - If a key appears in the query, add its synonyms
-    - If any synonym appears, add the key
+    - If a key appears in the query, add all its synonyms
+    - If any synonym appears in the query, add the key as well
     """
     if not syn:
         return q
+
     q_low = q.lower()
     additions = set()
+
     for key, candidates in syn.items():
         key_l = key.lower()
+        # if key is in query => add its synonyms
         if key_l in q_low:
             for c in candidates:
                 c = c.lower().strip()
                 if c:
                     additions.add(c)
+        # if any synonym is in query => add the key
         for c in candidates:
             c_l = c.lower().strip()
             if c_l and c_l in q_low:
                 additions.add(key_l)
-    return q if not additions else (q + " " + " ".join(sorted(additions)))
+
+    if additions:
+        return q + " | " + " ".join(sorted(additions))
+    return q
 
 
 # ---------- Embedding & retrieval ----------
 def embed_query(client: OpenAI, text: str) -> np.ndarray:
     emb = client.embeddings.create(model=EMBED_MODEL, input=[text]).data[0].embedding
     x = np.array(emb, dtype="float32")
-    # Normalize query; index may be L2/IP — we will gate by lexical match anyway.
     faiss.normalize_L2(x.reshape(1, -1))
     return x
-
-def _keyword_overlap_score(text: str, vocab: set) -> int:
-    t = text.lower()
-    # simple count of term occurrences (robust for Kinyarwanda)
-    return sum(t.count(term) for term in vocab)
 
 def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[str]], topn: int = 5):
     """
@@ -113,7 +100,7 @@ def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[s
     q = _clean_kiny_query(query).lower()
     tokens = [t for t in re.split(r"[^\w’'’]+", q) if len(t) > 2]
 
-    # consider synonyms for keys present in query, and vice versa
+    # consider synonyms for keys present in query
     extra = set()
     for key, vals in (syn or {}).items():
         key_l = key.lower()
@@ -122,6 +109,7 @@ def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[s
                 v = str(v).lower().strip()
                 if v and len(v) > 2:
                     extra.add(v)
+        # also if any synonym appears, include the key
         for v in vals:
             v_l = str(v).lower().strip()
             if v_l and v_l in q and len(v_l) > 2:
@@ -133,76 +121,63 @@ def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[s
 
     scored = []
     for row in meta_rows:
-        text = str(row.get("text", ""))
-        score = _keyword_overlap_score(text, vocab)
+        text = str(row.get("text", "")).lower()
+        score = sum(text.count(term) for term in vocab)
         if score > 0:
             scored.append((score, row))
     scored.sort(key=lambda x: x[0], reverse=True)
     return [r for _, r in scored[:topn]]
 
 def retrieve(client: OpenAI, index, meta_rows: List[Dict], question: str, syn: Dict[str, List[str]]):
-    """
-    Vector search + lexical gating to guarantee 'book-only' answers.
-    If nothing relevant is found, return [] so caller prints FALLBACK.
-    """
     base_q = _clean_kiny_query(question)
     qx = expand_query_with_synonyms(base_q, syn)
     qvec = embed_query(client, qx)
 
-    # Vector search (TOP_K from config)
-    D, I = index.search(qvec.reshape(1, -1), max(1, int(TOP_K)))
-    D = D[0].tolist(); I = I[0].tolist()
+    scores, idxs = index.search(qvec.reshape(1, -1), TOP_K)
+    scores = scores[0].tolist()
+    idxs = idxs[0].tolist()
 
-    # Candidate chunks from vector search
-    vec_chunks = [meta_rows[i] for i in I if 0 <= i < len(meta_rows)]
+    pairs = []
+    for score, i in zip(scores, idxs):
+        if i == -1:
+            continue
+        pairs.append((score, meta_rows[i]))
 
-    # Lexical relevance gate: ensure chunks actually mention terms from the question
-    vocab = set([t for t in re.split(r"[^\w’'’]+", base_q.lower()) if len(t) > 2])
-    good = [ch for ch in vec_chunks if _keyword_overlap_score(ch.get("text", ""), vocab) > 0]
+    # Filter by threshold
+    good = [m for (s, m) in pairs if s >= SCORE_THRESHOLD]
 
+    # Fallback: add up to 3 keyword-matched chunks if nothing passed threshold
     if not good:
-        # Fallback: try keyword-based candidates
         kw = _keyword_candidates(meta_rows, question, syn, topn=5)
         if kw:
             good = kw[:3]
 
-    # Final guarantee: if still nothing, return []
-    return good
+    return good, scores[: len(good)]
 
 
 # ---------- LLM answering ----------
 def format_context(chunks: List[Dict]) -> str:
     out = []
     for i, ch in enumerate(chunks, 1):
-        page = ch.get("page", "?")
-        text = ch.get("text", "").strip()
-        if not text:
-            continue
-        out.append(f"[Igice {i} | Page {page}]\n{text}")
-    return "\n\n---\n\n".join(out).strip()
+        out.append(f"[Igice {i} | Page {ch.get('page','?')}] {ch['text']}")
+    return "\n\n".join(out)
 
 def ask_llm(client: OpenAI, context: str, question: str) -> str:
     system = (
-        "Uri umufasha uvuga Kinyarwanda.\n"
-        "Subiza ikibazo ukoresheje **amabwire aboneka gusa** mu CONTEXT iri hepfo.\n"
-        f"NIBA CONTEXT idafite igisubizo, subiza gusa uti: '{FALLBACK}'.\n"
-        "Ntugire ibyo wihangira cyangwa wongeraho ibitagaragara muri CONTEXT."
+        "Uri umufasha uvuga Kinyarwanda. Subiza ikibazo ukoresheje **amabwire aboneka gusa** mu CONTEXT. "
+        f"NIBA CONTEXT idafite igisubizo, subiza gusa uti: '{FALLBACK}'. "
+        "Irinde gukabya cyangwa guhanga ibisubizo bidashingiye ku nyandiko."
     )
-    user = f"CONTEXT:\n{context}\n\nIKIBAZO:\n{question}\n\nSUBIZA MU NTERURO NKEYA:"
-
-    try:
-        resp = client.chat.completions.create(
-            model=CHAT_MODEL,
-            messages=[
-                {"role": "system", "content": system},
-                {"role": "user", "content": user},
-            ],
-            temperature=0.0,
-        )
-        txt = (resp.choices[0].message.content or "").strip()
-        return txt if txt else FALLBACK
-    except Exception:
-        return FALLBACK
+    messages = [
+        {"role": "system", "content": system},
+        {"role": "user", "content": f"CONTEXT:\n{context}\n\nIKIBAZO:\n{question}"},
+    ]
+    resp = client.chat.completions.create(
+        model=CHAT_MODEL,
+        messages=messages,
+        temperature=0.2,
+    )
+    return resp.choices[0].message.content.strip()
 
 
 # ---------- Main ----------
@@ -213,6 +188,8 @@ def ensure_index_loaded(path: str):
 
 def main():
     load_dotenv()
+
+    # Use explicit API key if available for robustness on Windows
     api_key = os.getenv("OPENAI_API_KEY")
     client = OpenAI(api_key=api_key) if api_key else OpenAI()
 
@@ -224,12 +201,10 @@ def main():
         question = " ".join(sys.argv[1:]).strip()
         if not question:
             print(FALLBACK); return
-        chunks = retrieve(client, index, meta_rows, question, synonyms)
+        chunks, _ = retrieve(client, index, meta_rows, question, synonyms)
         if not chunks:
             print(FALLBACK); return
         context = format_context(chunks)
-        if not context:
-            print(FALLBACK); return
         answer = ask_llm(client, context, question)
         print(answer)
     else:
@@ -242,12 +217,10 @@ def main():
                 break
             if not question:
                 print(FALLBACK); continue
-            chunks = retrieve(client, index, meta_rows, question, synonyms)
+            chunks, _ = retrieve(client, index, meta_rows, question, synonyms)
             if not chunks:
                 print(FALLBACK); continue
             context = format_context(chunks)
-            if not context:
-                print(FALLBACK); continue
             answer = ask_llm(client, context, question)
             print(answer)
 

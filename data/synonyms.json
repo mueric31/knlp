@@ -528,9 +528,435 @@
     "umumaro wa kalisiyumu mugihe utwite",
     "akamaro ka kalisiyumu ku mugore utwite"
 
+  ],
+
+
+
+  
+  "kwitegura kubyara": [
+    "gutegura kubyara",
+    "birth preparedness",
+    "kwitegura kujya kubyara",
+    "ibikoresho uzitwaza",
+    "uzaguherekeza",
+    "uburyo uzagerayo",
+    "gutoranya ingendo ku munsi wo kubyara",
+    "gushyira ibintu ku murongo mbere yo kubyara",
+    "ni iki umugore yakora mugihe yitegura kubyara",
+    "ni iyi myiteguro ku mugore ugiye kubyara",
+    "umugore yakwitegura ate kubyara",
+    "imyiteguro y'ingenzi mugihe umugore yitegura kubyara"
+  ],
+  "ni ryari wamenya ko ugomba kwihutira kujya kwa muganga kubyarirayo": [
+    "igihe cyo kujya kwa muganga kubyara",
+    "ni ryari ugomba kujya kubyara",
+    "when to go to hospital in labor",
+    "signes de travail aller à l’hôpital",
+    "jya kwa muganga vuba ku ibise",
+    "umunsi w’itariki uteganyirijwe kubyara",
+    "gutangira ibise ryari njya kwa muganga",
+    "ni iki cyambwira ko ngomba kujya kwa muganga kubyara"
+    
+  ],
+  "ibyo wamenya ku bise by’umugore ugiye kubyara": [
+    "ibimenyetso by'ibise",
+    "labor signs",
+    "contractions",
+    "kwihaga kw’inda",
+    "kwifora",
+    "gusohoka ururenda",
+    "kuva nk’amazi",
+    "kuribwa umugongo mu bise",
+    "isesemi no kuruka mu bise",
+    "guhitwa mu gihe cy’ibise",
+    "ibise bimera gute",
+    "nibiki biranga ibise"
+  ],
+  "akamaro ko kubyarira kwa muganga": [
+    "ibyiza byo kubyarira kwa muganga",
+    "benefits of facility delivery",
+    "accoucher à l’hôpital",
+    "umutekano w’umubyeyi n’umwana",
+    "kwirinda ingorane zo kubyara",
+    "ubufasha bw’abaganga mu kubyara",
+    "kuki ari ngombwa kubyarira kwa muganga",
+    "umumaro wo kubyarira kwa muganga",
+    "kuki ngomba kubyarira kwa muganga",
+    "ningombwa kubyarira kwa muganga"
+  ],
+  "kwita ku ruhinja rukimara kuvuka": [
+    "kwita ku ruhinja ako kanya",
+    "immediate newborn care",
+    "skin-to-skin",
+    "gushyira umwana mu gituza",
+    "konsa mu isaha ya mbere",
+    "gufubika neza umwana",
+    "gushyushya uruhinja nyuma yo kuvuka",
+    "nakora iki maze kubyara",
+    "umubyeyi yakora iki amaze kubyara",
+    "ni iki nakorera uruhinja rukimara kuvuka"
+  ],
+  "ese biremewe koza umwana ukivuka": [
+    "koza uruhinja akivuka",
+    "first bath newborn",
+    "premier bain du nouveau-né",
+    "gutegereza mbere yo kumwuhagira",
+    "bathe baby after 24-48h",
+    "ese umwana uvutse namwoza",
+    "ese birakwiriye koza uruhinja rukivuka"
+  ],
+  "ni ryari watangira koza uruhinja": [
+    "igihe cyo koza uruhinja",
+    "quand laver le bébé",
+    "when to bathe a newborn",
+    "gutangira kumwuhagira ryari",
+    "tegereza umunsi umwe cyangwa ibiri",
+    "igihe watangiriraho koza uruhinja",
+    "igihe watangiriraho koza uruhinja"
+  ],
+  "impamvu ari ngombwa gusuzuma kugenzura buri kintu ku mwana ukivuka": [
+    "isuzumwa ry’uruhinja akivuka",
+    "newborn examination",
+    "postnatal check baby",
+    "kureba ibimenyetso by’indwara kuruhinja rukivuka",
+    "gusuzuma mbere yo gusohoka kwa muganga",
+    "kuki ari mbwonga gukora isuzuma uruhinja rukivuka",
+    "ni irihe suzuma wakorea umwana uvutse",
+    "ni ibiki ugomba kugenzura mugihe uruhinja ruvutse"
+  ],
+  "ubumuga bukomeye cyangwa bworoshye uruhinja rushobora kuvukana": [
+    "ubumuga umwana ashobora kuvukana",
+    "birth defects",
+    "anomalies congénitales",
+    "ibikomere byo kuvuka",
+    "injuries at birth",
+    "ni ubuhe bumuga umwana ashobora kuvukana"
+  ],
+  "ibibazo uruhinja rukivuka rushobora kugira": [
+    "newborn problems",
+    "guhumeka nabi uruhinja",
+    "cyanosis iminwa yijimye",
+    "gutungurwa no kudahumeka neza",
+    "kwitinda gutangira guhumeka",
+    "complications of newborn"
+  ],
+  "impinja zikeneye kurushaho gukurikiranwa": [
+    "preterm babies",
+    "abana bavutse igihe kitageze",
+    "low birth weight",
+    "high risk newborns",
+    "follow-up ya hafi",
+    "abana ba ba nyina bafite diyabeti",
+    "ubwandu mu gihembwe cya gatatu"
+  ],
+  "inshuro umubyeyi n’uruhinja bisuzumisha nyuma yo kubyara": [
+    "postnatal schedule",
+    "PNC day 0 day 3 day 42",
+    "visites postnatales",
+    "gusuzumwa mbere yo gutaha",
+    "gusuzumwa ku munsi wa 3",
+    "gusubira ku munsi wa 42",
+    "inshuro ugomba kwisuzumisha nyuma yo kubyara",
+    "wakwisuzumisha incuro zingahe nyuma yo kubyara"
+
+  ],
+  "akamaro ko kwisuzumisha nyuma yo kubyara": [
+    "benefits of postnatal care",
+    "importance of PNC",
+    "gukumira ibibazo hakiri kare",
+    "gukurikiranwa kwa muganga nyuma yo kubyara",
+        "ese ningombwa kwisuzumisha nyuma yo kubyara",
+    "kwisuzumisha nyuma yo kubyara",
+    "ibyiza byo kwisuzumisha nyuma yo kubyara"
+  ],
+  "icyo wakora uruhinja rukimara kuvuka": [
+    "skin-to-skin care",
+    "kubika ubushyuhe",
+    "konsa kare",
+    "guhana guru no gufubika",
+    "immediate care newborn",
+    "ndabyaye nkore iki",
+    "umubyeyi arabyaye mukorere iki",
+    "uruhinja ruravutse twakora iki",
+    "umwana aravutse",
+    "nakorea iki umwana uvutse",
+    "turabyaye dukore iki",
+    "tubyaye uruhinja twakora iki"
+  ],
+  "ibyo umubyeyi wabyaye agomba kuzirikana": [
+    "postpartum self-care",
+    "kuruhuka bihagije",
+    "indyo yuzuye",
+    "konsa kenshi",
+    "kwirinda umunaniro mwinshi",
+    "umubyeyi wabyaye yazirikana iki",
+    "ni iki umugore wabyaye akeneye"
+  ],
+  "igihe cyiza cyo gukurikiza umwana": [
+    "birth spacing",
+    "interpregnancy interval",
+    "ibyiza byo gutegereza imyaka ibiri",
+    "kwirinda gutwita vuba",
+    "family planning benefits",
+    "niryari nakurikiza umwana",
+    "igihe kiza cyo gukurikiza umwana"
+  ],
+  "gukomeza kwita ku bana bato cyangwa impinja": [
+    "routine infant care",
+    "immunization schedule",
+    "growth monitoring",
+    "kujya kwa muganga buri kwezi",
+    "kwita ku isuku n’imirire y’umwana",
+    "twakora iki ngo twite ku mpinja",
+    "umubyeyi yakora iki ngo yite ku bana bato"
+  ],
+  "ibibazo umubyeyi ashobora kugira nyuma yo kubyara": [
+    "postpartum danger signs",
+    "lochia itari ibisanzwe",
+    "preeclampsia nyuma yo kubyara",
+    "kubura umwuka no kuribwa mu gatuza",
+    "fever chills abdominal pain",
+    "umubiri usohora impumuro mbi",
+    "ibibazo umubyeyi ashobora kugira nyuma yo kubyara"
+
+  ],
+  "uburyo bwo guterura uruhinja": [
+    "how to hold a newborn",
+    "support head and neck",
+    "guterura neza umwana muto",
+    "handling baby safely",
+    "uko naterura uruhinja",
+    "nshaka kumenya uko bafata uruhinja",
+    "nigute umubyeyi yaterura uruhinja",
+    "nigute umuntu yafata uruhinja",
+    "ni ubuhe buryo bwiza bwo guterura"
+  ],
+  "uburyo bwo guhoza umwana": [
+    "soothing techniques",
+    "calming a crying baby",
+    "kuririmbira no kumuzunguza gahoro",
+    "kugenda na we hanze",
+    "imyitozo yo guhumeka ku mubyeyi",
+    "uko twahoza umwana",
+    "uko umubyeyi yahoza umwana",
+    "umwana wanjye ari kurira cyane nkore iki",
+    "wamfasha iki ko nshaka kumenya uko nahoza umwana",
+    "uko twahoza abana",
+    "umwana ari kurira cyane nakora iki"
+  ],
+  "uko wafasha umwana gusura": [
+    "burping baby",
+    "aider bébé à roter",
+    "gusura nyuma yo kurya",
+    "kumuterura ku rutugu",
+    "kanda buhorobuhoro ku nda",
+    "umwana arasuze",
+    "ese gusura ni bibi ku mwana",
+    "akamaro ko gusura"
+  ],
+  "ibyo wakora kugira ngo uruhinja rusinzire neza": [
+    "safe sleep for babies",
+    "sleep hygiene infant",
+    "aryame ivure (on back)",
+    "gukuraho ibiringiti byinshi",
+    "kwirinda guhanuka ku buriri",
+    "uko wasinziriza uruhinja",
+    "ibyo wakora ngo uruhinja rusinzire neza"
+  ],
+  "igihe kuryamana n’umwana bitemewe": [
+    "risks of bed-sharing",
+    "co-sleeping contraindications",
+    "ntukaryamane n’umwana niba unaniwe cyane",
+    "inyoga ibiyobyabwenge co-sleeping risk",
+    "umwana wavutse adashyitse co-sleeping",
+    "ese nibyiza ko umubyeyi ararana n'uruhinja",
+    "ese biremewe kurarana n'uruhinja",
+    "byagenda bite umubyeyi araranye n'uruhinja"
+  ],
+  "ibyo wamenya ku ndwara yo kujojoba": [
+    "obstetric fistula",
+    "fistule obstétricale",
+    "kujojoba ku mugore",
+    "ingaruka zo gutinda ku bise",
+    "kwirinda kujojoba kubyarira kwa muganga",
+    "indwara yo kujojoba",
+    "kujojoba ni iki",
+    "kujojoba biterwa n'iki"
+  ],
+  "ubufasha bw’uwaherekeje umubyeyi kubyara": [
+    "birth companion support",
+    "role of partner during labor",
+    "kumuba hafi no kumukanda umugongo",
+    "kumugezaho ibyo akeneye",
+    "gutangaza ibyo akeneye ku baganga",
+    "nakora iki ko nzaherekeza umubyeyi kubyara",
+    "naherekeje umuntu kubyara",
+    "ni ibiki namenya mugihe naherekeje umugore kubyara"
+  ],
+  "ibimenyetso mpuruza bishobora kugaragara ku ruhinja rukivuka": [
+    "newborn danger signs",
+    "guhumeka insigane",
+    "iminwa yijimye",
+    "umwana urira gake agahondobera",
+    "umuhondo kare (<24h)",
+    "kugira umuriro cyangwa gukonja",
+    "urureri rutukura",
+    "ni ibihe bimenyetso nabona ku ruhinja nkagira amakenga",
+    "ibimenyetso mpuruza bigaragara ku ruhinja"
+  ],
+  "igihe wabyawe ubazwe": [
+    "post cesarean care",
+    "soins après césarienne",
+    "gukora isuku ku bikomere",
+    "kurya indyo ikungahaye ku butare",
+    "gukomeza kunywa amazi",
+    "kwirinda constipation"
+  ],
+  "impamvu umugore wabyaye akeneye kuruhuka": [
+    "importance of rest postpartum",
+    "kuruhuka neza igihe umubyeyi yabyaye",
+    "gusinzira igihe umwana asinziriye",
+    "gusaba ubufasha mu mirimo yo mu rugo",
+    "kuki umugore wabyaye akeneye kuruhuka",
+    "ese umugore wabyaye agomba gukora imirimo ivunanye",
+    "imirimo ivunanye ku mugore wabyaye"
+  ],
+  "impinduka mu myitwarire": [
+    "baby blues",
+    "postpartum depression",
+    "agahinda gakabije nyuma yo kubyara",
+    "guhangayika nyuma yo kubyara",
+    "umugore wanjye asigaye ahangayika cyane nyuma yo kubyara",
+    "nyuma yo kubyara nsigaye mpangayika cyane kuki"
+   
+
+  ],
+  "kuboneza urubyaro": [
+    "family planning",
+    "contraception postpartum",
+    "gushyira intera hagati y’abana",
+    "gutegereza byibura amezi 12",
+    "kwihitamo uburyo bwo kuboneza urubyaro",
+    "ese nigute naboneza urubyaro nyuma yo kubyara",
+    "ese ningombwa kuboneza urubyaro nyuma yo kubyara"
+  ],
+  "komatana k’umubyeyi n’uruhinja": [
+    "bonding and attachment",
+    "skin-to-skin prolonged",
+    "gushyira umwana ku gituza kenshi",
+    "gukina no kuvugisha umwana",
+    "kwitaho ibimenyetso bye"
+  ],
+  "imbindo z’umwana – pampegisi": [
+    "diaper frequency",
+    "pampers",
+    "imbindo inshuro ku munsi",
+    "poo/urine counts by day",
+    "guhindura imbindo kabiri ku munsi kuva ku munsi wa 6",
+    "niryari ngomba guhindurira umwana imbindo",
+    "ese ni ngombwa ko umwana ahindurirwa imbindo"
+  ],
+  "ibyo wamenya ku mwanda umwana yituma": [
+    "meconium",
+    "stool color newborn",
+    "iroza mu ntangiriro",
+    "ibara ry’umwanda ryahinduka",
+    "yellow seedy stools"
+  ],
+  "uruhu rw’uruhinja": [
+    "newborn skin rash",
+    "peeling skin",
+    "erythema toxicum",
+    "heat rash",
+    "amavuta ku ruhu rw’umwana",
+    "uruhu rw'umwana ruba rumeze gute",
+    "umubiri w'uruhija"
+  ],
+  "urureri uko wafata urureri": [
+    "umbilical cord care",
+    "navel care",
+    "ntacyo usiga ku rureri",
+    "rureke ruzahugute",
+    "reba ko rudatukura cyangwa ngo ruvemo amaraso",
+    "urureri",
+    "uko wafata urureri",
+    "ibyo wakwitondera ku rureri"
+  ],
+  "ibyo ugomba kuzirikana ku mpinja zavutse igihe kitageze": [
+    "preterm care",
+    "low birth weight care",
+    "keep baby warm",
+    "signs of hypothermia infant",
+    "kangaroo method for small babies",
+    "nakora iki mu gihe uruhinja ruvutse rudashyitse",
+    "usuhinja ruvutse mbere y'igihe"
+  ],
+  "uburyo bwiza bwo gufata uruhinja": [
+    "kangaroo mother care",
+    "KMC",
+    "skin-to-skin method",
+    "gufatira mu gituza umwana muto",
+    "gushyushya umwana mu gituza",
+    "uko nafata uruhinja"
+  ],
+  "uko wakwita ku mwana muto": [
+    "basic newborn care tasks",
+    "gukingiza umwana",
+    "gusukura ibigoma n’ibikoresho",
+    "gusiga amavuta aho bikenewe",
+    "kugenzura urureri",
+    "kujya kwa muganga vuba igihe umwna arwaye",
+    "nigute nakwita ku mwna muto",
+    "nagaragaza nte ko nitaye ku mwana muto"
+  ],
+  "kuki abana bato bakunda kurwaragurika": [
+    "infant vulnerability to illness",
+    "ubudahangarwa butarakomera",
+    "indwara zisanzwe zirembye abana",
+    "kwihutira kuvuzwa umwana",
+    "kuki abana bakunda kurwara",
+    "mfite umwana ukunda kurwaragurika"
+    
+  ],
+  "gusinziriza uruhinja": [
+    "sleep patterns in newborns",
+    "routine y’igihe cyo gusinzira",
+    "kugira gahunda yo kumwuhagira no konsa nijoro",
+    "kwigisha gusinzira gahoro gahoro",
+    "uko nasinziriza uruhinja"
+  ],
+  "ese nibyiza ko uruhinja rurarana n’ababyeyi barwo": [
+    "room-sharing vs bed-sharing",
+    "aryame mu kamoyize mu cyumba cy’ababyeyi",
+    "ntukaryame ku buriri bumwe n’umwana",
+    "safe separate sleeping surface",
+    "ese nibyiza ko uruhinja rurarana nababyeyi"
+  ],
+  "impamvu zituma abana bakunda kurira": [
+    "reasons for infant crying",
+    "ashonje afite ubushyuhe cyangwa yanduje imbindo",
+    "akeneye kwitabwaho no guhozwa",
+    "umuyaga cyangwa kubangamirwa",
+    "ganiriza muganga niba bikomeje",
+    "kuki abana bakunda kurira",
+    "mfite umwana ukunda kwiriza",
+    "umwana wiriza",
+    "nkore iki ko umwana arira cyane",
+    "umubyeyi yakorera iki umwana uri kurira cyane",
+    "uyu mwana ari kurira",
+    "nigute nakwitwara mugihe umwana ari kurira",
+    "ni iki umubyeyi yakora mugihe umwana ari kurira"
+  ],
+  "indwara y’umuhondo ku ruhinja": [
+    "neonatal jaundice",
+    "signs of jaundice",
+    "umuhondo mu maso n’uruhu",
+    "kujya kwa muganga vuba",
+    "avoid overheating dress lightly",
+    "indwara y'umuhondo ni iki",
+    "umuhondo uterwa n'iki",
+    "nabwirwa n'iki ko umwana afite indwara y'umuhondo"
   ]
-
-
 
 
 }
