@@ -5,22 +5,30 @@ import numpy as np
 from typing import List, Dict
 from dotenv import load_dotenv
 from openai import OpenAI
+
+# 👉 Ongeraho parent dir kugira ngo 'config.py' iboneke uri muri src
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+# 👉 Noneho ukoreshe absolute import (nta relative '..')
 from config import (
     FAISS_PATH, META_PATH, SYN_PATH,
     EMBED_MODEL, CHAT_MODEL,
-    TOP_K, SCORE_THRESHOLD
+    TOP_K, SCORE_THRESHOLD,
 )
 
 FALLBACK = "ntamakuru ndagira kuri iyi ngingo"
 
+# --------------- I/O helpers ---------------
 
-# ---------- I/O helpers ----------
 def load_meta(meta_path: str) -> List[Dict]:
     rows = []
     with open(meta_path, "r", encoding="utf-8") as f:
         for line in f:
             rows.append(json.loads(line))
     return rows
+
 
 def load_synonyms(path: str) -> Dict[str, List[str]]:
     try:
@@ -36,7 +44,8 @@ def load_synonyms(path: str) -> Dict[str, List[str]]:
         return {}
 
 
-# ---------- Query processing ----------
+# --------------- Query processing ---------------
+
 def _clean_kiny_query(q: str) -> str:
     """
     Normalize common Kinyarwanda question fillers to improve retrieval.
@@ -54,6 +63,7 @@ def _clean_kiny_query(q: str) -> str:
     for pat in fillers:
         ql = re.sub(pat, "", ql)
     return re.sub(r"\s+", " ", ql).strip()
+
 
 def expand_query_with_synonyms(q: str, syn: Dict[str, List[str]]) -> str:
     """
@@ -86,12 +96,14 @@ def expand_query_with_synonyms(q: str, syn: Dict[str, List[str]]) -> str:
     return q
 
 
-# ---------- Embedding & retrieval ----------
+# --------------- Embedding & retrieval ---------------
+
 def embed_query(client: OpenAI, text: str) -> np.ndarray:
     emb = client.embeddings.create(model=EMBED_MODEL, input=[text]).data[0].embedding
     x = np.array(emb, dtype="float32")
     faiss.normalize_L2(x.reshape(1, -1))
     return x
+
 
 def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[str]], topn: int = 5):
     """
@@ -128,6 +140,7 @@ def _keyword_candidates(meta_rows: List[Dict], query: str, syn: Dict[str, List[s
     scored.sort(key=lambda x: x[0], reverse=True)
     return [r for _, r in scored[:topn]]
 
+
 def retrieve(client: OpenAI, index, meta_rows: List[Dict], question: str, syn: Dict[str, List[str]]):
     base_q = _clean_kiny_query(question)
     qx = expand_query_with_synonyms(base_q, syn)
@@ -155,12 +168,14 @@ def retrieve(client: OpenAI, index, meta_rows: List[Dict], question: str, syn: D
     return good, scores[: len(good)]
 
 
-# ---------- LLM answering ----------
+# --------------- LLM answering ---------------
+
 def format_context(chunks: List[Dict]) -> str:
     out = []
     for i, ch in enumerate(chunks, 1):
         out.append(f"[Igice {i} | Page {ch.get('page','?')}] {ch['text']}")
     return "\n\n".join(out)
+
 
 def ask_llm(client: OpenAI, context: str, question: str) -> str:
     system = (
@@ -180,32 +195,60 @@ def ask_llm(client: OpenAI, context: str, question: str) -> str:
     return resp.choices[0].message.content.strip()
 
 
-# ---------- Main ----------
+# --------------- Init & public API ---------------
+
+_INDEX = None
+_META_ROWS = None
+_SYNONYMS = None
+_CLIENT = None
+
+
 def ensure_index_loaded(path: str):
     if not os.path.exists(path):
         raise SystemExit(f"FAISS index not found at {path}. Run build_index.py first.")
     return faiss.read_index(path)
 
+
+def _init_once():
+    """Lazy init: twigereho rimwe gusa."""
+    global _INDEX, _META_ROWS, _SYNONYMS, _CLIENT
+
+    if _CLIENT is None:
+        load_dotenv()
+        api_key = os.getenv("OPENAI_API_KEY")
+        _CLIENT = OpenAI(api_key=api_key) if api_key else OpenAI()
+
+    if _INDEX is None:
+        _INDEX = ensure_index_loaded(FAISS_PATH)
+    if _META_ROWS is None:
+        _META_ROWS = load_meta(META_PATH)
+    if _SYNONYMS is None:
+        _SYNONYMS = load_synonyms(SYN_PATH)
+
+
+def get_response(question: str) -> str:
+    _init_once()
+    chunks, _ = retrieve(_CLIENT, _INDEX, _META_ROWS, question, _SYNONYMS)
+    if not chunks:
+        return FALLBACK
+    context = format_context(chunks)
+    return ask_llm(_CLIENT, context, question)
+
+
+# --------------- CLI main ---------------
+
 def main():
-    load_dotenv()
-
-    # Use explicit API key if available for robustness on Windows
-    api_key = os.getenv("OPENAI_API_KEY")
-    client = OpenAI(api_key=api_key) if api_key else OpenAI()
-
-    index = ensure_index_loaded(FAISS_PATH)
-    meta_rows = load_meta(META_PATH)
-    synonyms = load_synonyms(SYN_PATH)
+    _init_once()
 
     if len(sys.argv) > 1:
         question = " ".join(sys.argv[1:]).strip()
         if not question:
             print(FALLBACK); return
-        chunks, _ = retrieve(client, index, meta_rows, question, synonyms)
+        chunks, _ = retrieve(_CLIENT, _INDEX, _META_ROWS, question, _SYNONYMS)
         if not chunks:
             print(FALLBACK); return
         context = format_context(chunks)
-        answer = ask_llm(client, context, question)
+        answer = ask_llm(_CLIENT, context, question)
         print(answer)
     else:
         print("Andika ikibazo cyawe (Ctrl+C gusohoka):")
@@ -217,12 +260,13 @@ def main():
                 break
             if not question:
                 print(FALLBACK); continue
-            chunks, _ = retrieve(client, index, meta_rows, question, synonyms)
+            chunks, _ = retrieve(_CLIENT, _INDEX, _META_ROWS, question, _SYNONYMS)
             if not chunks:
                 print(FALLBACK); continue
             context = format_context(chunks)
-            answer = ask_llm(client, context, question)
+            answer = ask_llm(_CLIENT, context, question)
             print(answer)
+
 
 if __name__ == "__main__":
     main()
