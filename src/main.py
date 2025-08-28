@@ -7,7 +7,7 @@ app = FastAPI()
 def read_root():
     return {"message": "Welcome to the Chatbot API"}
 
-@app.get("/chat")
+@app.get("/cha")
 def chat(query: str):
     return {"response": get_response(query)}
 
@@ -16,7 +16,7 @@ from pydantic import BaseModel
 class ChatIn(BaseModel):
     query: str
 
-@app.post("/chat")
+@app.post("/cha")
 def chat_post(body: ChatIn):
     return {"response": get_response(body.query)}
 
