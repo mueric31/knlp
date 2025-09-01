@@ -1798,6 +1798,311 @@
     "isuku mu rugo iwacu",
     "inyungu zo kugira urugo rusukuye",
     "akamaro ko kuba mu rugo hasukuye"
+  ],
+    "gutangira konsa": [
+    "gutangira guha amashereka",
+    "exclusive breastfeeding start",
+    "début de l’allaitement maternel",
+    "ni ryari natangira konsa",
+    "ibyo wazirikana mugihe utangiye konsa",
+    "konsa umwana"
+  ],
+  "ibyo ababyeyi bakora igihe bashaka konsa": [
+    "ibikwiye mbere no mu gihe cyo konsa",
+    "early and exclusive breastfeeding actions",
+    "actions pour l’allaitement précoce et exclusif",
+    "ibyo ababyeyi bazirikana mu gihe bashaka konsa",
+    "ibyo ababyeyi bonsa bakwitaho",
+    "ibyo ababyeyi bonsa bakora "
+  ],
+  " kumenya ko umwana yijuse": [
+    "ibimenyetso by'uko umwana yijuse amashereka",
+    "signs baby is satisfied",
+    "signes que le bébé est rassasié",
+    "ibimenyetso by'uko umwana yahaze konka",
+    "nabwirwa n'iki ko umwana yijuse amashereka",
+    "ni iki cyambwira niba umwana yahaze ibere"
+  ],
+  "umumaro wo konsa umwana": [
+    "inyungu z’amashereka gusa",
+    "benefits of exclusive breastfeeding",
+    "avantages de l’allaitement exclusif",
+    "kuki tugomba konsa umwana",
+    "akamaro ko konsa umwana",
+    "ese ningombwa ko nonsa umwana",
+    "ingaruka zo kutonsa umwana",
+    "konsa umwana bifite akahe kamaro"
+  ],
+  " umuhondo ni iki": [
+    "colostrum",
+    "first milk benefits",
+    "colostrum et ses bienfaits",
+    "amashereka y'umuhondo",
+    "amashereka y'umuhondo asobanura iki",
+    "amashereka y'umuhondo amaze iki",
+    "ni iki twamenya ku mashereka y'umuhondo",
+    "akamaro k'amashereka y'umuhondo ku mwana"
+  ],
+  " ni ryari ugomba konsa": [
+    "amasaha n'ubwisanzwe bwo konsa",
+    "breastfeeding frequency and on-demand",
+    "fréquence et allaitement à la demande",
+    "wamenya ute ko ugomba konsa",
+    "icyakubwira ko ugomba konsa umwana"
+  ],
+  "uko umugabo yafasha mu gihe cyo konsa": [
+    "uruhare rw’umugabo mu konsa",
+    "partner support for breastfeeding",
+    "rôle du partenaire dans l’allaitement",
+    "icyo umugabo yakorera umugore we wonsa",
+    "uko umugabo yafasha umugore wonsa",
+    "uruhare rw'umugabo mugihe umugore we yonsa"
+  ],
+  " ibimenyetso by’uko umwana ashaka konka": [
+    "ibimenyetso by’inzara z’uruhinja",
+    "early hunger cues",
+    "signes de faim précoces",
+    "icyakubwira ko umwana ashaka konka",
+    "wamenya ute ko umwana ashaka ibere",
+    "ni ibihe bimenyetso byakwereka ko umwana ashaka konka"
+  ],
+  "uko wakwonsa/kuyakuya umwana arimo konka": [
+    "gukuyakuya no gusabana mu konsa",
+    "soothing and bonding while breastfeeding",
+    "apaiser et créer du lien pendant l’allaitement",
+    "uko wafata umwana urimo kumwonsa",
+    "uko wakonsa neza"
+  ],
+  " ibyiza byo konsa gusa mu mezi 6": [
+    "amashereka yonyine kugeza ku mezi 6",
+    "EBF to 6 months benefits",
+    "bienfaits de l’AME jusqu’à 6 mois",
+    "kuki ari byiza konsa umwana amashereka yonyine mu mezi 6",
+    "akamaro k'amashereka yonyine mu mezi atandatu",
+    "konsa umwana ntakindi umuhaye",
+    "ntiwemerewe guha umwana iki kintu mbere y'amezi atandatu",
+    "akamaro ko konsa umwana ntakindi umuhaye mbere y'amezi atandatu"
+  ],
+  " konsa mu buryo bwisanzuye": [
+    "positioning n’imoko ifashwe neza",
+    "comfortable latch and positioning",
+    "bonne prise du sein et positions confortables",
+    "uko wakonsa umwana mu buryo bwisanzuye",
+    "uko wakonsa umwana neza"
+  ],
+  "uburyo bwo gukikira umwana arimo konka": [
+    "imyanya yo konsa",
+    "breastfeeding positions (cradle, football, side-lying)",
+    "positions d’allaitement (madone, ballon, côté)",
+    "gukikira neza umwana uri konska",
+    "uko nakikira neza umwana wonka",
+    "gukikira umwana wonka bikorwa bite",
+    "icyo wamenya ku buryo bwo gukikira umwana wonka"
+  ],
+  "gusabana no kwiyegereza umwana mu konsa": [
+    "skin-to-skin n’egerezwa ryo ku ibere",
+    "attachment and skin-to-skin",
+    "attachement et peau-à-peau",
+    "ibyakwereka ko umwana yegereye ibere neza",
+    "ibimenyetso bikwereka ko umwana yegereye ibere"
+  ],
+  " ibimenyetso ko akurura neza amashereka": [
+    "latch nziza n’ukumira",
+    "effective latch and swallowing",
+    "bonne succion et déglutition",
+    "uburyo wamenya ko umwana ari gukurura amashereka neza",
+    "wabwirwa n'iki ko umwana atamiye ibere neza"
+  ],
+  "ikibazo cyo kudatamira neza ibere": [
+    "guhindura position no gushaka ubufasha",
+    "poor latch troubleshooting",
+    "résoudre une mauvaise prise du sein",
+    "umwana udatamira neza ibere",
+    "umwana ufite ingorane mu konka"
+  ],
+  "imbogamizi mu gihe cyo konsa": [
+    "imoko ibabara/amabere arwaye",
+    "nipple pain, mastitis challenges",
+    "douleur du mamelon, mastite",
+    "ese wakonsa mu gihe urwaye",
+    "nakora iki ko ndwaye kandi nkaba nonsa",
+    "ese ndeke konsa ko ndwaye",
+    "umubyeyi yakora iki mu gihe arwaye kandi yonsa"
+  ],
+  "kwikama amashereka": [
+    "expressing breast milk",
+    "manual expression/storage",
+    "expression et conservation du lait",
+    "uburyo bwo kwikama amashereka",
+    "amashereka yabikwa gute"
+  ],
+  "guhesha umwana amashereka agakombe": [
+    "cup feeding",
+    "alternative to bottle",
+    "alimentation à la tasse",
+    "uko nahesha amashereka umwana mu gakombe",
+    "ibyo namenya mu gukoresha agakombe mpa umwana amashereka"
+  ],
+  "konsa mu bihe bitoroshye": [
+    "konsa umwana cyangwa umubyeyi arwaye",
+    "breastfeeding during illness",
+    "allaitement en cas de maladie",
+    "konsa mugihe ndwaye",
+    "konsa mugihe utameze neza",
+    "ese birakwiriye ko nsa kandi ndwaye",
+    "konsa mu gihe umwana arwaye"
+  ],
+  " konsa igihe urwaye": [
+    "gukomeza konsa cyangwa kwikama",
+    "continue BF or express when sick",
+    "poursuivre l’allaitement ou tirer le lait",
+     "konsa mugihe ndwaye",
+    "konsa mugihe utameze neza",
+    "ese birakwiriye ko nsa kandi ndwaye"
+  ],
+  "guha abana imfashabere": [
+    "gutangira complementary feeding",
+    "introducing complementary foods at 6 months",
+    "alimentation complémentaire dès 6 mois",
+    "imfashabere",
+    "uko twaha abana imfashabere",
+    "sobanukirwa imfashabere",
+    "imfashabere ni iki",
+    "nsobanurira ibigize imfashabere"
+    
+  ],
+  "kuki imfashabere ikenewe uko akura": [
+    "inshuro, ingano, kuba ifashe, itandukaniro",
+    "meal frequency, amount, texture, diversity",
+    "fréquence, quantité, texture, diversité",
+    "kuki umwana uri gukura akeneye imfashabere",
+    "akamaro k'imfashabere",
+    "umumaro w'imfashabere"
+    
+  ],
+  "uko twaha umwana imfashabere inyuranye": [
+    "igikoma gifashe n’ibiryo byoroshye",
+    "varied nutrient-dense first foods",
+    "aliments variés et denses en nutriments"
+  ],
+  "gutangira kugaburira imfashabere": [
+    "ibiryo byoroshye byo gutangiriraho",
+    "starter foods and drinks guidance",
+    "aliments de démarrage et boissons adaptées",
+    "uko waha umwana imfashabere",
+    "uburyo wategura imfashabere",
+    "nigute naha umwana imfashabere"
+  ],
+  "indyo yuzuye ku mwana w’umwaka 1": [
+    "plate model y’umwana 12m+",
+    "balanced plate for 1-year-old",
+    "assiette équilibrée pour 1 an",
+    "ni ibiki naha umwana ufite umwalka umwe",
+    "kugaburira umwana ufite umwaka umwe",
+    "umwana ufite umwaka 1 yarya iki",
+    "ibyo umwana ufite umwaka 1 yagombye gufata",
+    "ibiryo bigenewe umwana ufite umwaka umwe",
+    "umwna ufite umwaka umwe namugaburira iki",
+    "amafunguro agenewe umwana ufite umwaka umwe",
+    "ibyo kurya ku mwana ufite umwaka 1",
+    "uko wagaburira umwana ufite umwaka 1"
+
+  ],
+  " kubura ubutare (fer) ku bana <2": [
+    "anemia prevention",
+    "iron + vitamin C foods",
+    "prévention de l’anémie (fer + vitamine C)",
+    "kubura ubutare",
+    "ubutare bumaze iki",
+    "ingaruka zo kubura ubutare",
+    "ibyago byo kubura ubutare ku mwana"
+  ],
+  "imbogamizi mu kugaburira umwana": [
+    "umwana utaryohereza",
+    "picky eating strategies",
+    "stratégies contre l’alimentation difficile",
+    "ibibazo mu kugaburia umwana",
+    "umwana udashaka kurya",
+    "umwana wanga ibiryo",
+    "umwana utishimira ibiryo",
+    "umwana w'umunebwe mu kurya"
+  ],
+  "indyo yuzuye ku bana bigiye hejuru": [
+    "inshuro 5 ku munsi, indyo itandukanye",
+    "5 meals/day diverse diet",
+    "5 repas/jour, régime varié",
+    "ibiryo bigenewe abana bigiye hejuru",
+    "ibyo kurya bigenewe abana bakuru",
+    "amafunguro agenewe abana bigiye hejuru"
+  ],
+  " amafunguro y’abana 2–6": [
+    "3 by’ingenzi + 2 byoroheje",
+    "meals and healthy snacks 2–6y",
+    "repas et collations saines 2–6 ans",
+    "ibiryo wagaburira umwana kuva ku myaka 2 kugeza kuri 6",
+      "amafunguro wagaburira umwana kuva ku myaka 2 kugeza kuri 6",
+        "ibiribwa wagaburira umwana kuva ku myaka 2 kugeza kuri 6",
+          "ibyo nagaburira umwana wanjye kuva ku myaka 2 kugeza kuri 6",
+          "kugaburira a umwana kuva ku myaka 2 kugeza kuri 6",
+          "ni ibiki umwana ufite kuva ku myaka 2 kugeza kuri 6 yafata",
+          " ni ibiki umwana ufite kuva ku myaka 2 kugeza kuri 6 yarya",
+         "ni ibiki umwana ufite kuva ku myaka 2 kugeza kuri 6 yagaburirwa"
+
+  ],
+  " kangahe barya (2–6)": [
+    "gupanga gahunda y’amafunguro",
+    "daily meal schedule for 2–6y",
+    "planning des repas quotidiens 2–6 ans",
+       "ibiryo bigenewe abana bigiye hejuru kuva ku myaka 2 kugeza kuri 6",
+    "ibyo kurya bigenewe abana bakuru kuva ku myaka 2 kugeza kuri 6",
+    "amafunguro agenewe abana bigiye hejuru kuva ku myaka 2 kugeza kuri 6",
+    "kugaburira bana bigiye hejuru y'imyaka 2"
+    
+
+  ],
+  " gusabana n’umwana urimo kumugaburira": [
+    "responsive feeding",
+    "eye contact, patience, safety",
+    "alimentation réactive et sécurisée",
+    "uko nasabana n'umwana kandi ndi kumugaburira",
+    "uko umubyeyi yasabana n'umwana urimo kugaburira",
+    "gusabana n'umwana uri guha ibiryo"
+  ],
+  "imirire y’ababyeyi bonsa": [
+    "diet ya mubyeyi wonsa",
+    "nutrition/hydration for lactation",
+    "nutrition et hydratation de la mère allaitante",
+    "ibyo ababyeyi bonsa bagomba gufata",
+    "amafunguro y'umugore wonsa",
+    "ibiryo umugore wonsa akeneye",
+    " ibiribwa umugore wonsa ashobora kurya",
+    "ibiryo bigenewe umugore wonsa",
+    "ni ibihe biryo umugore wonsa agomba kurya"
+  ],
+  " incuro umugore wonsa agomba kurya": [
+    "inyongera y’amafunguro ku munsi",
+    "extra meals while breastfeeding",
+    "repas supplémentaires pendant l’allaitement",
+    "incuro umugore wonsa agomba kurya",
+    "umugore wonsa yagombye kurya kangahe"
+  ],
+  "ibiribwa bikungahaye ku butare (fer)": [
+    "iron-rich foods for moms",
+    "amagi, inyama, ibishyimbo, epinari",
+    "aliments riches en fer (viande, œufs, légumineuses)",
+    "ibiryo birimo ubutare",
+    "amafunguro twasangamo ubutare",
+    "ibiribwa bikungahaye ku butare",
+    "ibyo kurya bikungahaye ku butare"
+  ],
+  "ibiribwa bikungahaye kuri vitamine C": [
+    "vitamin C boosters",
+    "icunga, ipapayi, indimu, imboga zitukura",
+    "aliments riches en vitamine C (agrumes, papaye, légumes)",
+      "ibiryo birimo ubutare",
+    "amafunguro twasangamo vitamine C ",
+    "ibiribwa bikungahaye kuri vitamine C ",
+    "ibyo kurya bikungahaye kuri vitamine C "
   ]
 
 
