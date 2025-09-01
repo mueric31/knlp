@@ -2125,7 +2125,128 @@
     "amafunguro twasangamo vitamine C ",
     "ibiribwa bikungahaye kuri vitamine C ",
     "ibyo kurya bikungahaye kuri vitamine C "
+  ],
+    "13.1 ubutabazi bw’ibanze ku ruhinja/umwana ufite umuriro": [
+    "ibyo gukora ku mwana ufite umuriro",
+    "first aid for fever in infants/children",
+    "premiers secours en cas de fièvre (nourrisson/enfant)"
+  ],
+  "13.2 gupima ubushyuhe bw’umwana": [
+    "ukoresha igipimo cy’umuriro",
+    "taking a child's temperature",
+    "mesure de la température de l’enfant"
+  ],
+  "13.3 gufasha umwana ufite umuriro mwinshi": [
+    "gukemura umuriro munini mu rugo",
+    "home care for high fever",
+    "soins à domicile pour forte fièvre"
+  ],
+  "13.4 ubutabazi ku kuruka no guhitwa (impiswi)": [
+    "kwita ku mwana uruka/afite impiswi",
+    "first aid for vomiting and diarrhea",
+    "premiers secours: vomissements et diarrhée"
+  ],
+  "13.5 kwirinda no gutabara mu kunigwa": [
+    "kunigwa n’ikintu (guhagarika umwuka)",
+    "choking prevention and response",
+    "prévention et prise en charge de l’étouffement"
+  ],
+  "13.6 gutabara uruhinja (<1y) rwanizwe n’ikintu": [
+    "inkoni mu mugongo no gukanda mu gituza",
+    "infant choking first aid (back blows/chest thrusts)",
+    "dégagement des voies aériennes: nourrisson"
+  ],
+  "13.7 gutabara umwana (≥1y) wanizwe n’ikintu": [
+    "inkoni mu mugongo no kanda mu gituza",
+    "child choking first aid",
+    "désobstruction des voies aériennes: enfant"
+  ],
+  "13.8 ibyo kwirinda iyo umwana anizwe": [
+    "ntukamuhe amazi/ibiryo",
+    "what not to do during choking",
+    "à ne pas faire en cas d’étouffement"
+  ],
+  "13.9 ikintu mu mazuru cyangwa mu matwi": [
+    "kwihutira kwa muganga",
+    "foreign body in nose/ear (seek care)",
+    "corps étranger nez/oreille (consulter)"
+  ],
+  "13.10 umwana umize ikintu cyamugwa nabi": [
+    "uburozi/ibimera/imiti—ibyo gukora",
+    "ingestion of harmful substances",
+    "ingestion de substances nocives"
+  ],
+  "13.11 ubutabazi ku mwana ukomeretse/ava amaraso": [
+    "guhagarika kuva no kurinda ubundi bukomere",
+    "first aid for bleeding and wounds",
+    "premiers secours: saignements et plaies"
+  ],
+  "13.12 igikomere kidakabije": [
+    "guhanagura no gupfuka igisebe",
+    "minor wound care",
+    "soins d’une petite plaie"
+  ],
+  "13.13 kuva amaraso cyane": [
+    "guhambira no kujyana kwa muganga",
+    "severe bleeding control",
+    "contrôle d’une hémorragie"
+  ],
+  "13.14 kuva imyuna (amaraso mu mazuru)": [
+    "gufata ku zuru iminota 10",
+    "nosebleed first aid",
+    "épistaxis: gestes de premiers secours"
+  ],
+  "13.15 kurumwa n’inzoka": [
+    "kwirinda no kwihutira kwa muganga",
+    "snakebite basics",
+    "morsure de serpent: premiers gestes"
+  ],
+  "13.16 uko ufasha umwana urumwe n’inzoka": [
+    "koza igikomere no gukuraho ibimufashe",
+    "first aid for snakebite",
+    "premiers soins après morsure de serpent"
+  ],
+  "13.17 kurumwa n’inyamaswa": [
+    "koza, gupfuka no gushaka ubufasha",
+    "animal bites first aid",
+    "morsures d’animaux: premiers secours"
+  ],
+  "13.18 ubutabazi ku mwana uhiye": [
+    "gukonjesha no gupfuka ubushye",
+    "burns first aid (cool cover care)",
+    "brûlures: refroidir et couvrir"
+  ],
+  "13.19 gukomeretsa umutwe (contusion légère)": [
+    "gukonjesha no kugenzura ibimenyetso",
+    "minor head injury care",
+    "traumatisme crânien léger: conduite"
+  ],
+  "13.20 kuvunika/igufwa ryakomeretse": [
+    "guhagarika kuva no gufatiriza",
+    "sprain/fracture first aid (immobilize)",
+    "entorse/fracture: immobilisation"
+  ],
+  "13.21 ikintu mu jisho / irungu ry’amaso": [
+    "kureremba amazi no gupfuka wihuta kwa muganga",
+    "eye injury/irritant first aid",
+    "lésion oculaire: rinçage et protection"
+  ],
+  "13.22 igicuri/kuzungera (seizure-like episode)": [
+    "gukuraho ibyago no kumurekera kurangiza",
+    "first aid during a seizure",
+    "crise convulsive: gestes de secours"
+  ],
+  "13.23 wataye ubwenge ariko ahumeka": [
+    "kwemeza umwuka no position latérale",
+    "recovery position for breathing child",
+    "position latérale de sécurité (PLS) enfant"
+  ],
+  "13.24 agasanduku k’ibikoresho by’ubutabazi": [
+    "first aid kit y’ingo",
+    "home first aid kit essentials",
+    "trousse de premiers secours familiale"
   ]
+
 
 
 }
