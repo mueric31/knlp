@@ -1428,6 +1428,376 @@
     "uburyo abana bafite ubumuga bakinamo",
     "ese abana bafite ubumuga bakina nabandi",
     "gukina n'abafite ubumuga"
+  ],
+  " kugira isuku": [
+    "isuku ku mubiri n'aho dutuye",
+    "kwita ku isuku y'ingo n'imibereho",
+    "personal and household hygiene",
+    "hygiène corporelle et du ménage",
+    "uko twagira isuku",
+    "umumaro w'isuku",
+    "kurwanya umwanda"
+  ],
+  "ingaruka zo kutagira isuku no kutituma mu musarane": [
+    "ingaruka z'umwanda n'uko utwanduza",
+    "impiswi, macinya, tifoyide, kolera",
+    "effects of poor hygiene and open defecation",
+    "conséquences du manque d’hygiène et défécation à l’air libre",
+    "kuki ari ngombwa kwituma mu musarane",
+    "ingaruka zo kutagira isuku",
+    "ingaruka zo kugira umwanda",
+    "ibibazo bitwrwa n'umwanda",
+    "ibibazo umwanda ushobora kudutera"
+  ],
+  " uko umwanda ukwirakwira": [
+    "kwandura binyuze mu mazi, intoki, isazi n'ibidukikije",
+    "fecal-oral transmission routes",
+    "voies de transmission fécale-orale",
+    "igituma umwanda ukwirakwira"
+  ],
+  " gukaraba intoki": [
+    "isuku y'intoki",
+    "handwashing with soap",
+    "lavage des mains au savon",
+    "kwirinda COVID-19 binyuze mu gukaraba",
+    "akamaro ko gukaraba intoki",
+    "ibyiza byo gukaraba intoki",
+    "kuki tugomba gukaraba intoki",
+    "gukaraba intoki n'amazi meza"
+  ],
+  "ibihe by’ingenzi byo gukaraba intoki": [
+    "gukaraba mbere yo kurya/no guteka",
+    "gukaraba nyuma yo kuva ku musarane",
+    "critical times for handwashing",
+    "moments clés pour le lavage des mains",
+    "ni ryari tugomba gukaraba intoki",
+    "nihehe dukeneye gukaraba intoki",
+    "ni muyihe mimerere dukeneye gukaraba intoki",
+    "ni mubihe bikorwa gukara intoki bikenewemo"
+  ],
+  "1gukaraba intoki kurinda COVID-19": [
+    "gukaraba nyuma yo kwitsamura/gukorora",
+    "gukaraba nyuma yo kuva mu ruhurirane",
+    "hand hygiene for COVID-19",
+    "hygiène des mains contre la COVID-19",
+    "ni ryari dukeney gukaraba intoki twirinda covid"
+    
+  ],
+  " uburyo buboneye bwo gukaraba intoki": [
+    "intambwe zo gukaraba intoki neza",
+    "20-60 seconds handwash steps",
+    "étapes du lavage des mains (20–60 s)",
+    "uko umuntu yakaraba intoki neza",
+    "gukaraba intoki neza bisobanura iki",
+    "gukaraba intoki neza bisobanura iki",
+    "uko twakaraba intoki neza"
+  ],
+  " impamvu gukaraba intoki ari ngombwa": [
+    "kwica udukoko dutera indwara",
+    " impiswi n'inzoka zo mu nda",
+    "why handwashing matters",
+    "importance du lavage des mains",
+    "akamaro ko gukaraba intoki",
+    "umumaro wo gukaraba intoki",
+    "kuki gukaraba intoki ari ibyingenzi",
+    "kuki dukenera gukaraba intoki"
+  ],
+  "gukarabya abana intoki": [
+    "gufasha impinja n’inshuke gukaraba",
+    "child handwashing support",
+    "aider les enfants à se laver les mains",
+    "uko nakarabya abana intoki",
+    "uko abana bakaraba intoki"
+  ],
+  "10.10 gusobanurira abana impamvu yo gukaraba": [
+    "kwigisha isuku y'intoki mu mikino",
+    "teaching kids about germs",
+    "expliquer les microbes aux enfants",
+    "uko twakwigisha abana gukaraba intoki",
+    "gutoza abana gukaraba intoki",
+    "uko twatoza abana gukaraba intoki",
+    "uko watoza umwana wawe gukaraba intoki"
+  ],
+  "urukarabiro/kandagira ukarabe": [
+    "gushyiraho handwashing station",
+    "tippy tap",
+    "point d’eau pour lavage des mains",
+    "kandagira ukarabe n'iki",
+    "kandagira ukarabe yakoreshwa he",
+    "nihehe twashira kandagira ukarabe",
+    "gutegura urukarabiro"
+  ],
+  "kunywa amazi asukuye no gutegurana amafunguro isuku": [
+    "boil and safe",
+    "safe food handling",
+    "eau potable et hygiène alimentaire",
+    "kubika ibiryo neza",
+    "uko wanywa amazi meza",
+    "uko wategura amafunguro neza"
+  ],
+  "isuku y’ivomero/ahovomerwa": [
+    "kurinda amasoko y’amazi",
+    "protect water sources",
+    "protéger les points d’eau",
+    "kugenzura ibikoresho byo kuvoma",
+    "ahantu tuvomera hagombye kuba hameze gute",
+    "uko twatunganya ahantu tuvomera",
+    "isuku irakenewe ahantu tuvomera",
+    "isuku kw' ivomo"
+  ],
+  " amazi yo kunywa asukuye": [
+    "guteka amazi, kuyayungurura, kuyasukura",
+    "safe drinking water treatment",
+    "traitement de l’eau de boisson",
+    "uko twategura amazi yo kunywa meza",
+    "kuki tugomba kunywa amazi atetse"
+  ],
+  "gukoresha siro/P&G gusukura amazi": [
+    "water chlorination/flocculation",
+    "chemical water treatment steps",
+    "traitement chimique de l’eau (chlorination/P&G)",
+    "uko wakoresha umuti wica udukoko mu mazi",
+    "uko wakoresha siro",
+    "uburyo bwo gukoresha siro",
+    "menya uko watunganya amazi ukoresheje siro"
+  ],
+  "guha amazi abana": [
+    "amazi ku bana barengeje amezi 6",
+    "safe water for infants over 6 months",
+    "eau sûre pour enfants >6 mois",
+    "ese abana bahabwa amazi yo kunywa",
+    "ni ryari twatangira guha abana amazi"
+  ],
+  "gutegurana isuku amafunguro": [
+    "food hygiene in the kitchen",
+    "cross-contamination prevention",
+    "hygiène alimentaire et cuisine sûre",
+    "koza imboga/imbuto neza",
+    "uko twategura amafunguro sukuye",
+    "gutegurana isuku amafunguro bisobanura iki",
+    "uko twategura amafunguro afite isuku",
+    "uko twategurana ibiryo isuku",
+    "ibyo tugomba gukora mu gutegura amafunguro",
+    "isuku irakenewe mu gutegura amafunguro"
+  ],
+  "agatanda ko kumutsa amasahane": [
+    "dish rack hygiene",
+    "kubika ibiryo n'ibikoresho bisukuye",
+    "égouttoir propre",
+    "agatanda ko kumutsa ni iki",
+    "kuki dukeneye kumutsa amasahani twogeje",
+    "akamaro ko kumutsa amasahani twogeje"
+  ],
+  "kwituma hanze/ku gasozi": [
+    "open defecation",
+    "guhagarika kwanduza amazi",
+    "défécation à l’air libre",
+    "kuki ari bibi kwituma ku gasozi",
+    "ingaruka zo kutituma mu musarane",
+    "ibibi byo kwituma mu gasozi",
+    "si byiza kwituma mu bihuru",
+    ""
+  ],
+  "kugira umusarane": [
+    "household latrine requirement",
+    "latrine proximity rules (≥30m kuva ku ivomero)",
+    "obligation d’une latrine familiale",
+    "ese ni ngombwa kugira umusarane",
+    "akamaro ko kugira umusarane",
+    "tugomba kugira umusarane"
+  ],
+  " uko umusarane ugomba kuba umeze": [
+    "umwobo, ibitinze, inkuta n’isakaro",
+    "latrine standards (pit, slab, superstructure)",
+    "normes de latrine (fosse, dalle, superstructure)",
+    "umusarane mwiza uba umeze gute",
+    "uko twakubaka umusarane",
+    "ibiranga umusarane mwiza"
+  ],
+  "isuku y’umusarane": [
+    "gusukura no gupfundikira umusarane",
+    "kurwanya isazi n’umwuka mubi",
+    "latrine cleaning and maintenance",
+    "entretien et hygiène des latrines",
+    "kuki tugomba kugirira isuku umusarane",
+    "umusarane ufite isuku uba umeze gute",
+    "gusukura umusarane",
+    "umusarane ufite isuku"
+  ],
+  "uko abana bakoresha umusarane": [
+    "toilet training for kids",
+    "umutekano w’abana ku musarane",
+    "apprentissage de la latrine chez l’enfant",
+    "gukoresha umusarane ku bana",
+    "uko abana bakwigishwa gukoresha umusarane",
+    "uko natoza umwana wanjye kwituma mu musarane",
+    "gutoza umwana kwituma mu musarane"
+  ],
+  " gusukura imbuga y’urugo n’aharukikije": [
+    "compound cleaning",
+    "vector control (isazi, imibu, ibinyenzi, imbeba)",
+    "propreté de la cour et environnement",
+    "uko twasukura mu rugo",
+    "gusukura imbuga",
+    "urugo rukeye"
+  ],
+  "gucukura ingarane (pit compost/landfill)": [
+    "ingarane y’imyanda ibora",
+    "compost pit / household landfill",
+    "fosse à déchets compostables",
+    "ingarani ni iki",
+    "ikimoteri",
+    "ingarani iba imeze gute"
+  ],
+  "10.26 uko bacukura ingarane": [
+    "ahantu hemewe, intera na bipimo",
+    "site selection and dimensions",
+    "implantation et dimensions de la fosse",
+    "uko wacukura ingarani",
+    "kubaka ingarani",
+    "uko wakubaka ingarani",
+    "uko twakubaka ingarani"
+  ],
+  "kurinda abana hafi y’ingarane": [
+    "gushiraho uruzitiro",
+    "child safety around pits",
+    "sécuriser la fosse pour les enfants",
+    "kurinda abana kuba bagwa mu ngarani",
+    "uko twakwirinda ko abana bagwa mu ngarani",
+    "umutekano ku ngarani"
+  ],
+  "kubana n’amatungo": [
+    "gushyira ibiraro kure y’urugo",
+    "no animals sleeping indoors",
+    "séparer bétail et habitat",
+    "gusukura ibiraro buri munsi",
+    "ese biremewe kurarana n'amatungo",
+    "ingaruka zo kurarana n'amatungo",
+    "si byiza kuba hamwe n'amatungo",
+    "ingaruka zo kubana n'amatungo"
+  ],
+  "kujugunya umwanda w’umwana ahabugenewe": [
+    "child feces into latrine",
+    "safe disposal of child stool",
+    "élimination sûre des selles d’enfant",
+    "kuki tutagomba kujugunya umwanda w'abana ahabonetse",
+    "impamvu tugomba kwirinda ko amabyi y'abana aba ari ahantu hose",
+    "mu gihe umwana yitumye wakora iki",
+    "ntibikwiriye ko umwana yituma ahabonetse aho ari ho hose "
+  ],
+  "ukura mu nzira ibyakomeretsa abana": [
+    "home injury prevention",
+    "household child safety",
+    "prévention des accidents domestiques",
+    "uko twarinda abana gukomereka",
+    "uko twashyira ibintu ku murongo mu rugo hirindwa icyakomeretsa umwana",
+    "umutekano wo murugo",
+    "ibyo umubyeyi agomba kwitaho kugira ngo abana badakomereka mu rugo"
+  ],
+  "umumaro w’isuku yo ku mubiri": [
+    "personal hygiene benefits",
+    "hygiène corporelle et santé",
+    "kwiyuhagira, koza amenyo, guca inzara",
+    "kuki tugomba koga",
+    "kuki ari ngombwa kugira isuku",
+    "akamaro k'isuku",
+    "umumaro w'isuku"
+    
+  ],
+  "kwiyuhagira/kuhagira umwana (uruhinja rukivuka)": [
+    "sponge bath for newborn",
+    "bain à l’éponge nouveau-né",
+    "kwirinda kwanduza umukondo",
+    "uko twakoza uruhinja",
+    "uko twakoza uruhinja",
+    "ibyo tugomba kwitondera mugihe woza uruhinja",
+    "uko nakoza umwana wanjye"
+  ],
+  " guhanagura uruhinja": [
+    "umuhango wo guhanagura mu byiciro",
+    "newborn cleaning steps",
+    "nettoyage étape-par-étape du nourrisson",
+    "uko nahanagura uruhinja",
+    "guhanagura neza uruhinja",
+    "uburyo bwiza bwo guhanagura uruhinja"
+  ],
+  " kuhagira impinja mu ibase": [
+    "infant tub bathing (akazuyazi)",
+    "bain pour nourrisson (eau tiède)",
+    "kwirinda kumusiga wenyine mu mazi",
+    "kuhagirira impinja mu ibase",
+    "ibyo wakwitondera mugihe uri kuhagira uruhinja"
+  ],
+  " kuhagira impinja (ibikoresho n’imyitwarire)": [
+    "gant, ikigoma, imyenda isukuye",
+    "infant bath safety and supplies",
+    "matériel et sécurité du bain du bébé",
+    "ibikoresho bikenewe mu kuhagira impinja"
+  ],
+  " kuhagira abana bamaze gukura": [
+    "child tub level and safety",
+    "bain des enfants plus grands",
+    "kubanza kumena amazi nyuma yo kurangiza koga",
+    "uko twakoza abana bakuru",
+    "uko twakuhagira abana bamaze kuba bakuru",
+    "kuhagira abana bakuru"
+  ],
+  " isuku yo mu kanwa": [
+    "oral hygiene for infants and toddlers",
+    "koza amenyo neza no guhindura uburoso",
+    "hygiène bucco-dentaire des enfants",
+    "uko twagirira isuku amenyo",
+    "uko watoza abana kwi borosa",
+"gutoza bana kugira isuku yo mukanwa",
+"uko natoza umwana wanjye kumenya kwigirira isuku yo mu kanwa"
+    
+  ],
+  "koza amenyo": [
+    "toothbrushing routine",
+    "brossage des dents",
+    "koza kabiri ku munsi, kwirinda isukari",
+    "uko twakoza amenyo",
+    "gusukura maenyo",
+    "uburyo bwiza bwo gusukura mu kanwa"
+  ],
+  "ibimenyetso by’uko umwana yitegura kwituma/kwihagarika": [
+    "potty training signs",
+    "ibimenyetso 8 byo kwitoza po",
+    "signes d’apprentissage de la propreté",
+    "wamenya ute ko umwana ashaka kwituma",
+    "wamenya ute ko umwana ashaka kunyara",
+    "ibyakubwira ko umwana asha ka kwihagarika",
+    "ibimenyetso biranga umwana ushaka kwituma"
+  ],
+  " kwita ku isuku y’ibiribwa n’amazi yo kunywa": [
+    "food-and-water hygiene",
+    "safe preparation and reheating",
+    "hygiène des aliments et de l’eau",
+    "uko twakwita ku isuku y'ibiribwa n'ibinyobwa",
+    "kugirira isuku ibiryo n'ibyo kunywa",
+    "kugirira isuku ibiribwa",
+    "kugirira isuku amazi yo kunywa"
+  ],
+  " umusarane (kwituma mu musarane)": [
+    "importance of latrine use",
+    "preventing diarrhea and worms",
+    "utilisation des latrines et prévention des diarrhées",
+    "ibyiza byo kwituma mu musarane",
+    "umumaro wo kwituma mu musarane",
+    "akamaro ko kwituma mu musarane",
+    "kuki tugomnba kwituma mu musarane"
+  ],
+  " gusukura imbuga y’urugo n’aho dutuye": [
+    "compound sanitation & vector control",
+    "maintaining clean surroundings",
+    "propreté de la cour et lutte anti-vectorielle",
+    "impamvu aho dutuye hagomba kurangwa n'isuku",
+    "isuku aho dutuye",
+    "uko twagirira isuku aho dutuye",
+    "isuku aho tuba",
+    "isuku mu rugo iwacu",
+    "inyungu zo kugira urugo rusukuye",
+    "akamaro ko kuba mu rugo hasukuye"
   ]
 
 
