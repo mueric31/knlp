@@ -1831,7 +1831,12 @@
     "akamaro ko konsa umwana",
     "ese ningombwa ko nonsa umwana",
     "ingaruka zo kutonsa umwana",
-    "konsa umwana bifite akahe kamaro"
+    "konsa umwana bifite akahe kamaro",
+    " umumaro wo konsa",
+    "umumaro wo konsa umwana",
+    "kuki umwana agomba konka",
+    "ese ni ngombwa ko umubyeyi yonsa umwana",
+    "konka bimarira iki umwana"
   ],
   " umuhondo ni iki": [
     "colostrum",
@@ -1841,14 +1846,18 @@
     "amashereka y'umuhondo asobanura iki",
     "amashereka y'umuhondo amaze iki",
     "ni iki twamenya ku mashereka y'umuhondo",
-    "akamaro k'amashereka y'umuhondo ku mwana"
+    "akamaro k'amashereka y'umuhondo ku mwana",
+    " umuhondo ni iki",
+    "icyo wamenya ku mashereka y'umuhondo",
+    " kuki umwana akeneye amashereka y'umuhondo"
   ],
   " ni ryari ugomba konsa": [
     "amasaha n'ubwisanzwe bwo konsa",
     "breastfeeding frequency and on-demand",
     "fréquence et allaitement à la demande",
     "wamenya ute ko ugomba konsa",
-    "icyakubwira ko ugomba konsa umwana"
+    "icyakubwira ko ugomba konsa umwana",
+    " ni rayri umugore agomba konsa"
   ],
   "uko umugabo yafasha mu gihe cyo konsa": [
     "uruhare rw’umugabo mu konsa",
@@ -1856,7 +1865,9 @@
     "rôle du partenaire dans l’allaitement",
     "icyo umugabo yakorera umugore we wonsa",
     "uko umugabo yafasha umugore wonsa",
-    "uruhare rw'umugabo mugihe umugore we yonsa"
+    "uruhare rw'umugabo mugihe umugore we yonsa",
+    "umugabo yafasha ate umugore we ufite uruhinja"
+
   ],
   " ibimenyetso by’uko umwana ashaka konka": [
     "ibimenyetso by’inzara z’uruhinja",
@@ -1866,12 +1877,13 @@
     "wamenya ute ko umwana ashaka ibere",
     "ni ibihe bimenyetso byakwereka ko umwana ashaka konka"
   ],
-  "uko wakwonsa/kuyakuya umwana arimo konka": [
+  "uko wakonsa/kuyakuya umwana arimo konka": [
     "gukuyakuya no gusabana mu konsa",
     "soothing and bonding while breastfeeding",
     "apaiser et créer du lien pendant l’allaitement",
     "uko wafata umwana urimo kumwonsa",
-    "uko wakonsa neza"
+    "uko wakonsa neza",
+    "uko wakuyakuya umwana wonka"
   ],
   " ibyiza byo konsa gusa mu mezi 6": [
     "amashereka yonyine kugeza ku mezi 6",
@@ -1881,14 +1893,16 @@
     "akamaro k'amashereka yonyine mu mezi atandatu",
     "konsa umwana ntakindi umuhaye",
     "ntiwemerewe guha umwana iki kintu mbere y'amezi atandatu",
-    "akamaro ko konsa umwana ntakindi umuhaye mbere y'amezi atandatu"
+    "akamaro ko konsa umwana ntakindi umuhaye mbere y'amezi atandatu",
+    "konsa gusa mu mezi 6 kuki"
   ],
   " konsa mu buryo bwisanzuye": [
     "positioning n’imoko ifashwe neza",
     "comfortable latch and positioning",
     "bonne prise du sein et positions confortables",
     "uko wakonsa umwana mu buryo bwisanzuye",
-    "uko wakonsa umwana neza"
+    "uko wakonsa umwana neza",
+    "wakonsa ute umwana mu buryo bwisanzuye"
   ],
   "uburyo bwo gukikira umwana arimo konka": [
     "imyanya yo konsa",
@@ -1897,28 +1911,32 @@
     "gukikira neza umwana uri konska",
     "uko nakikira neza umwana wonka",
     "gukikira umwana wonka bikorwa bite",
-    "icyo wamenya ku buryo bwo gukikira umwana wonka"
+    "icyo wamenya ku buryo bwo gukikira umwana wonka",
+    "uko nakikira umwana urimo konka"
   ],
   "gusabana no kwiyegereza umwana mu konsa": [
     "skin-to-skin n’egerezwa ryo ku ibere",
     "attachment and skin-to-skin",
     "attachement et peau-à-peau",
     "ibyakwereka ko umwana yegereye ibere neza",
-    "ibimenyetso bikwereka ko umwana yegereye ibere"
+    "ibimenyetso bikwereka ko umwana yegereye ibere",
+    "uko nakwiyegereza umwana ndimo konsa"
   ],
   " ibimenyetso ko akurura neza amashereka": [
     "latch nziza n’ukumira",
     "effective latch and swallowing",
     "bonne succion et déglutition",
     "uburyo wamenya ko umwana ari gukurura amashereka neza",
-    "wabwirwa n'iki ko umwana atamiye ibere neza"
+    "wabwirwa n'iki ko umwana atamiye ibere neza",
+    "wabwirwa niki ko umwana ari gukurura ibere neza"
   ],
   "ikibazo cyo kudatamira neza ibere": [
     "guhindura position no gushaka ubufasha",
     "poor latch troubleshooting",
     "résoudre une mauvaise prise du sein",
     "umwana udatamira neza ibere",
-    "umwana ufite ingorane mu konka"
+    "umwana ufite ingorane mu konka",
+    "umwana utarimo konka"
   ],
   "imbogamizi mu gihe cyo konsa": [
     "imoko ibabara/amabere arwaye",
@@ -1951,6 +1969,7 @@
     "konsa mugihe utameze neza",
     "ese birakwiriye ko nsa kandi ndwaye",
     "konsa mu gihe umwana arwaye"
+    
   ],
   " konsa igihe urwaye": [
     "gukomeza konsa cyangwa kwikama",
@@ -1958,7 +1977,8 @@
     "poursuivre l’allaitement ou tirer le lait",
      "konsa mugihe ndwaye",
     "konsa mugihe utameze neza",
-    "ese birakwiriye ko nsa kandi ndwaye"
+    "ese birakwiriye ko nsa kandi ndwaye",
+    " ese ko umwana wanjye arwaye mwonse cg mbyihorere"
   ],
   "guha abana imfashabere": [
     "gutangira complementary feeding",
@@ -1971,7 +1991,7 @@
     "nsobanurira ibigize imfashabere"
     
   ],
-  "kuki imfashabere ikenewe uko akura": [
+  "Kuki umwana akeneye imfashabere uko akura": [
     "inshuro, ingano, kuba ifashe, itandukaniro",
     "meal frequency, amount, texture, diversity",
     "fréquence, quantité, texture, diversité",
@@ -1983,7 +2003,8 @@
   "uko twaha umwana imfashabere inyuranye": [
     "igikoma gifashe n’ibiryo byoroshye",
     "varied nutrient-dense first foods",
-    "aliments variés et denses en nutriments"
+    "aliments variés et denses en nutriments",
+    "uko twaha umwana imfashabere"
   ],
   "gutangira kugaburira imfashabere": [
     "ibiryo byoroshye byo gutangiriraho",
@@ -2005,7 +2026,8 @@
     "umwna ufite umwaka umwe namugaburira iki",
     "amafunguro agenewe umwana ufite umwaka umwe",
     "ibyo kurya ku mwana ufite umwaka 1",
-    "uko wagaburira umwana ufite umwaka 1"
+    "uko wagaburira umwana ufite umwaka 1",
+    " indyo y'uzuye umwana agomba gufata"
 
   ],
   " kubura ubutare (fer) ku bana <2": [
@@ -2035,7 +2057,7 @@
     "ibyo kurya bigenewe abana bakuru",
     "amafunguro agenewe abana bigiye hejuru"
   ],
-  " amafunguro y’abana 2–6": [
+  " amafunguro y’abana bafite imyaka kuva kuri 2 kugeza kuri 6": [
     "3 by’ingenzi + 2 byoroheje",
     "meals and healthy snacks 2–6y",
     "repas et collations saines 2–6 ans",
@@ -2049,7 +2071,7 @@
          "ni ibiki umwana ufite kuva ku myaka 2 kugeza kuri 6 yagaburirwa"
 
   ],
-  " kangahe barya (2–6)": [
+  "abana kuva ku myaka 2 kugera kuri 6 Barya kangahe ku munsi?": [
     "gupanga gahunda y’amafunguro",
     "daily meal schedule for 2–6y",
     "planning des repas quotidiens 2–6 ans",
