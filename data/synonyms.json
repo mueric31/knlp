@@ -2126,125 +2126,237 @@
     "ibiribwa bikungahaye kuri vitamine C ",
     "ibyo kurya bikungahaye kuri vitamine C "
   ],
-    "13.1 ubutabazi bw’ibanze ku ruhinja/umwana ufite umuriro": [
+    "Ibimenyetso bigaragaza ko uruhinja rufite umuriro": [
     "ibyo gukora ku mwana ufite umuriro",
     "first aid for fever in infants/children",
-    "premiers secours en cas de fièvre (nourrisson/enfant)"
+    "premiers secours en cas de fièvre (nourrisson/enfant)",
+    "namenya nte ko umwana afite umuriro",
+    "nibiki bigaragaza ko umwana ari guhinda umuriro",
+    "nabwirwa niki ko umwana wanjye afite umuriro mwinshi"
   ],
-  "13.2 gupima ubushyuhe bw’umwana": [
+  "gupima ubushyuhe bw’umwana": [
     "ukoresha igipimo cy’umuriro",
     "taking a child's temperature",
-    "mesure de la température de l’enfant"
+    "mesure de la température de l’enfant",
+    "uko napima ubushyuhe bw'umwana",
+    "nigute bakoresha icyuma gipima ubushyuhe",
+    "uko wapima ubushyuhe umwana afite"
   ],
-  "13.3 gufasha umwana ufite umuriro mwinshi": [
+  "gufasha umwana ufite umuriro mwinshi": [
     "gukemura umuriro munini mu rugo",
     "home care for high fever",
-    "soins à domicile pour forte fièvre"
+    "soins à domicile pour forte fièvre",
+    "nakorera iki umwana ufite umuriro mwinshi",
+    "umwana ari guhinda umuriro mukorere iki",
+    "nakora iki mugihe umwana wanjye afite umuriro"
   ],
-  "13.4 ubutabazi ku kuruka no guhitwa (impiswi)": [
+  "Ubutabazi bw’ibanze buhabwa umwana urimo kuruka no guhitwa": [
     "kwita ku mwana uruka/afite impiswi",
     "first aid for vomiting and diarrhea",
-    "premiers secours: vomissements et diarrhée"
+    "premiers secours: vomissements et diarrhée",
+    "umwana wanjye ari guhitwa",
+    "umwana wanjye ari kuruka cyane",
+    "ubufasha ku mwana ufite impiswi",
+    "umwana wanjye ari kuruka cyane",
+    "ibyo twakorera umwana wafashwe n'impiswi",
+    "umwana wnjye ari kuruka cyane nakora iki"
   ],
-  "13.5 kwirinda no gutabara mu kunigwa": [
+  "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana muto unizwe n’ikintu": [
     "kunigwa n’ikintu (guhagarika umwuka)",
     "choking prevention and response",
-    "prévention et prise en charge de l’étouffement"
+    "prévention et prise en charge de l’étouffement",
+    "umwana wanjye ibiryo biramunize",
+    "umwana anizwe n'ikintu",
+    "umwana wanjye inyama iramunize",
+    "ibiryo binize umwana wanjye",
+    "nakora iki mugihe umwana anizwe n'ikintu",
+    "ikintu cyanize umwana wanjye"
+  
   ],
-  "13.6 gutabara uruhinja (<1y) rwanizwe n’ikintu": [
-    "inkoni mu mugongo no gukanda mu gituza",
-    "infant choking first aid (back blows/chest thrusts)",
-    "dégagement des voies aériennes: nourrisson"
+
+  "Nigute mwakwirinda ibishobora kuniga umwana akabura umwuka?": [
+ "nigute nakwirinda ko ibintu biniga umwana",
+ "uko twarinda abana ibintu byabaniga",
+ "kurinda bana ibintu byabaniga"
+
+ 
   ],
-  "13.7 gutabara umwana (≥1y) wanizwe n’ikintu": [
-    "inkoni mu mugongo no kanda mu gituza",
-    "child choking first aid",
-    "désobstruction des voies aériennes: enfant"
-  ],
-  "13.8 ibyo kwirinda iyo umwana anizwe": [
-    "ntukamuhe amazi/ibiryo",
-    "what not to do during choking",
-    "à ne pas faire en cas d’étouffement"
-  ],
-  "13.9 ikintu mu mazuru cyangwa mu matwi": [
+  "Icyo wakora mugihe umwana yisesetsemo ikintu mu matwi cyangwa mu mazuru": [
     "kwihutira kwa muganga",
     "foreign body in nose/ear (seek care)",
-    "corps étranger nez/oreille (consulter)"
+    "corps étranger nez/oreille (consulter)",
+    "umwana yashyize ibintu mu mazuru",
+    "umwana ashyize ibiti mu matwi",
+    "umwana ashyize ibintu muzuru",
+    "umwana yacometse ibintu mu zuru",
+    "nakora iki ko hari ikintu cyagiye mu gutwi k'umwana",
+    "ikintu cyagiye mu matwi",
+    "umwana yisesetse ikintu mu mazuru",
+    "umwana yisesetse ikintu mu matwi"
   ],
-  "13.10 umwana umize ikintu cyamugwa nabi": [
+  "umwana umize ikintu cyamugwa nabi": [
     "uburozi/ibimera/imiti—ibyo gukora",
     "ingestion of harmful substances",
-    "ingestion de substances nocives"
+    "ingestion de substances nocives",
+    "umwana wanjye amize ibini",
+    "umwana amize isabune",
+    "umwana wanjye anyweye umuti utari uwe",
+    "umwana wanjye amize isabune"
   ],
-  "13.11 ubutabazi ku mwana ukomeretse/ava amaraso": [
+  "Ibyo ugomba kwirinda mu gihe umwana yanizwe n’ikintu":[
+"ni ibiki bitemewe mu gihe umwana yanizwe n'ikintu",
+"ese biremewe guha amazi umwana unizwe n'ikintu",
+"ni ibiki utagomba gukorera umwana wanizwe n'ikintu"
+  ],
+  "Ubutabazi bw’ibanze bukorwa ku ruhinja cyangwa umwana urimo kuva amaraso": [
     "guhagarika kuva no kurinda ubundi bukomere",
     "first aid for bleeding and wounds",
-    "premiers secours: saignements et plaies"
+    "premiers secours: saignements et plaies",
+    "umwana arakomeretse cyane",
+    "umwana wanjye akoze impanuka ikomeye"
+    
   ],
-  "13.12 igikomere kidakabije": [
+  "Igihe umwana afite igikomere kidakabije": [
     "guhanagura no gupfuka igisebe",
     "minor wound care",
-    "soins d’une petite plaie"
+    "soins d’une petite plaie",
+    "umwana arakomeretse byoroheje",
+    "umwana arasitaye ava amaraso",
+    "umwana wanjye agize igisebe"
   ],
-  "13.13 kuva amaraso cyane": [
+  "Ubutabazi bw’ibanze buhabwa umwana urimo kuva amaraso cyane": [
     "guhambira no kujyana kwa muganga",
     "severe bleeding control",
-    "contrôle d’une hémorragie"
+    "contrôle d’une hémorragie",
+    "nakora iki ko umwana ari kuvirirana cyane",
+    "umwana wanjye ari kuva amaraso cyane",
+    "amaraso mesnhi ari kuva ku mwana muto",
+    "nafasha ne umwana uri kuva cyane",
+    "icyo wakora mugihe umwana akomeretse kandi akaba ari kuva cyane"
   ],
-  "13.14 kuva imyuna (amaraso mu mazuru)": [
+  "Uko warinda bana kurumwa n’inzoka":[
+"uko abana bakwirinda kurumwa n'inzoka",
+"ibyo umubyeyi yasobanurira umwana ku nzoka",
+"uko mwakwirinda kurumwa n'inzoka"
+  ],
+  " kuva imyuna": [
     "gufata ku zuru iminota 10",
     "nosebleed first aid",
-    "épistaxis: gestes de premiers secours"
+    "épistaxis: gestes de premiers secours",
+    "umwana wanjye arakanutse",
+    "umwana uri kuva imyuna",
+    "kuva imyuna",
+    "umwana wanjye yakanutse",
+    "nakorera iki umwana uri kuva imyuna",
+    "nafasha nte umwana uri kuva imyuna",
+    "gukanuka",
+    "wakorera iki umwana uri gukanuka"
   ],
-  "13.15 kurumwa n’inzoka": [
-    "kwirinda no kwihutira kwa muganga",
-    "snakebite basics",
-    "morsure de serpent: premiers gestes"
-  ],
-  "13.16 uko ufasha umwana urumwe n’inzoka": [
+
+  "Ubutabazi bw’ibanze buhahabwa umwana urumwe n’inzoka": [
     "koza igikomere no gukuraho ibimufashe",
     "first aid for snakebite",
-    "premiers soins après morsure de serpent"
+    "premiers soins après morsure de serpent",
+    "umwana wanjye inzoka iramuciriye",
+    "umwana wanjye arumwe n'inzoka",
+    "inzoka yariye umwana wanjye",
+    "inzoka yaciriye umwana",
+    "twafasha dute umwana warumwe n'inzoka",
+    "ibyo wakorera umwana warumwe n'inzoka"
   ],
   "13.17 kurumwa n’inyamaswa": [
     "koza, gupfuka no gushaka ubufasha",
     "animal bites first aid",
-    "morsures d’animaux: premiers secours"
+    "morsures d’animaux: premiers secours",
+    "umwana warumwe n'igikoko",
+    "umwana wanjye igikoko kiramuriye",
+    "umwana wanjye inyamanswa iramurumye",
+    "wafasha ute umwana warumwe n'inyamanswa"
   ],
-  "13.18 ubutabazi ku mwana uhiye": [
+  "Ubutabazi bw’ibanze ku mwana uhiye": [
     "gukonjesha no gupfuka ubushye",
     "burns first aid (cool cover care)",
-    "brûlures: refroidir et couvrir"
+    "brûlures: refroidir et couvrir",
+    "umwana wanjye ko ahiye nakora iki",
+    "umwana wanjye igikoma kiramutwitse",
+    "amazi y'ubugari atwitse umwana",
+    "umwana wanjye aguye mu isosi arashya",
+    "nabigenza nte ko umwana wanjye yahiye",
+    "umwana uhiye yakorerwa iki",
+    "umwana wanjye afite ubushye",
+    "amakara yokeje umwana wanjye",
+    "ko umwana wanjye ahiye nakora iki",
+    "ubushye",
+    "wahangana ute n'ubushye",
+    "umwana wanjye arahiye ",
+    "umwana uhiye",
+    "amavuta yokeje umwana",
+    "amavuta atwitse umwana",
+    " icyo nakorera umwana wahiye",
+    " umwana wanjye aguye mu mavuta"
   ],
-  "13.19 gukomeretsa umutwe (contusion légère)": [
-    "gukonjesha no kugenzura ibimenyetso",
-    "minor head injury care",
-    "traumatisme crânien léger: conduite"
-  ],
-  "13.20 kuvunika/igufwa ryakomeretse": [
+
+  "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana wakomeretse ku mutwe": [
     "guhagarika kuva no gufatiriza",
     "sprain/fracture first aid (immobilize)",
-    "entorse/fracture: immobilisation"
+    "entorse/fracture: immobilisation",
+    "umwana awanjye akomeretse nkore iki",
+    "umwana wanjye yakomeretse mugahanga nakora iki",
+    "ibyp wakorera umwana wakomeretse umutwe",
+    "ngize ibyago umwana wanjye akomeretse umutwe"
   ],
-  "13.21 ikintu mu jisho / irungu ry’amaso": [
+  "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana wakomeretse mu jisho Utuntu duto cyangwa ibintu bisukika bishobora gutarukira mu jisho ry’umwana bigatuma atamererwa neza.": [
     "kureremba amazi no gupfuka wihuta kwa muganga",
     "eye injury/irritant first aid",
-    "lésion oculaire: rinçage et protection"
+    "lésion oculaire: rinçage et protection",
+    "imiyenzi imugiye mu maso",
+    "uko natokora umwana",
+    "umwana yishyize ibintu mujisho",
+    "umwana wanjye ikintu kiramutokoje",
+    "umwana wanjye aratokojwe",
+    " umwana wanjye yacometse ibintu mu matwi",
+    "umwana ashyize ibintu biryana mu maso",
+    "umwana ashyize urusenda mu maso",
+    "mugihe hari ibintu bimenetse mu jisho ry'umwana wanjye"
   ],
-  "13.22 igicuri/kuzungera (seizure-like episode)": [
+  "umwana ufashwe n'igicuri": [
     "gukuraho ibyago no kumurekera kurangiza",
     "first aid during a seizure",
-    "crise convulsive: gestes de secours"
+    "crise convulsive: gestes de secours",
+    "kurwara igicuri",
+    "umwana ufashwe n'igicuri",
+    "umwana wanjye agize igicuri nakora iki",
+    "icyo wakora mu gihe umwana afashwe n'igicuri",
+    "gufatwa n'igicuri",
+    "ibimenyetso bigaragaza ko umwana wawe arwaye igicuri",
+    "kurwara igicuri",
+    "umwana wacu yikubise hasi kubera igicuri",
+    "umwana ufatwa n'igicuri yakwitabwaho gute",
+    "inama ku mwana ukunda gufatwa n'igicuri",
+    "inama twagira umubyeyi ufite umwana urwara igicuri",
+    "nakora iki mugihe umwana wanjye afite igicuri",
+    "umwana ufite igicuri",
+    "wakora iki umwana wawe arwaye igicuri",
+    "umwana wanjye agize igicuri nakora iki"
   ],
-  "13.23 wataye ubwenge ariko ahumeka": [
+  "Ubutabazi bw’ibanze buhabwa uruhinja cyangwa umwana wataye ubwenge ariko ahumeka": [
     "kwemeza umwuka no position latérale",
     "recovery position for breathing child",
-    "position latérale de sécurité (PLS) enfant"
+    "position latérale de sécurité (PLS) enfant",
+    "uruhinja rwanjye rwataye ubwenge",
+    "ngize ibyago umwana wanjye ndabona yataye ubwenge",
+    "nakora iki mugihe umwana asa n'ubuze ubwenge",
+    "mpuye n'ikibazo umwana wanjye yataye ubwenge"
   ],
-  "13.24 agasanduku k’ibikoresho by’ubutabazi": [
+  "agasanduku k’ibikoresho by’ubutabazi": [
     "first aid kit y’ingo",
     "home first aid kit essentials",
-    "trousse de premiers secours familiale"
+    "trousse de premiers secours familiale",
+    "agasanduku k'ubutabazi ni iki",
+    "ibyo wamenya ku gasanduku k'ubutabazi",
+    "agasanduku k'ubutabazi kamaze iki",
+    "agasanduku k'ubutabazi",
+    "ibikubiye mu gasanduku k'ubutabazi"
   ]
 
 
